@@ -1,1707 +1,0 @@
-2025-8-1 11:27:15-log: Cannot access game frame or container.
-2025-8-1 11:27:17-debug: asset-db:require-engine-code (1936ms)
-2025-8-1 11:27:17-log: [bullet]:bullet wasm lib loaded.
-2025-8-1 11:27:17-log: meshopt wasm decoder initialized
-2025-8-1 11:27:17-log: [box2d]:box2d wasm lib loaded.
-2025-8-1 11:27:17-log: Cocos Creator v3.8.6
-2025-8-1 11:27:17-log: Using legacy pipeline
-2025-8-1 11:27:17-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:31.55MB, end 79.79MB, increase: 48.24MB
-2025-8-1 11:27:17-log: Forward render pipeline initialized.
-2025-8-1 11:27:20-debug: [Assets Memory track]: asset-db-plugin-register: builder start:84.02MB, end 269.85MB, increase: 185.83MB
-2025-8-1 11:27:20-debug: [Assets Memory track]: asset-db-plugin-register: project start:80.50MB, end 270.86MB, increase: 190.36MB
-2025-8-1 11:27:20-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:79.81MB, end 270.90MB, increase: 191.09MB
-2025-8-1 11:27:17-debug: [Assets Memory track]: asset-db-plugin-register: programming start:80.65MB, end 83.99MB, increase: 3.34MB
-2025-8-1 11:27:20-debug: asset-db:worker-init: initPlugin (3647ms)
-2025-8-1 11:27:20-debug: [Assets Memory track]: asset-db:worker-init start:31.53MB, end 271.01MB, increase: 239.47MB
-2025-8-1 11:27:20-debug: Run asset db hook engine-extends:beforePreStart success!
-2025-8-1 11:27:20-debug: Run asset db hook programming:beforePreStart success!
-2025-8-1 11:27:20-debug: Run asset db hook engine-extends:beforePreStart ...
-2025-8-1 11:27:20-debug: Run asset db hook programming:beforePreStart ...
-2025-8-1 11:27:21-debug: asset-db:worker-init (5943ms)
-2025-8-1 11:27:21-debug: asset-db-hook-programming-beforePreStart (133ms)
-2025-8-1 11:27:21-debug: asset-db-hook-engine-extends-beforePreStart (133ms)
-2025-8-1 11:27:21-debug: Run asset db hook programming:afterPreStart ...
-2025-8-1 11:27:21-debug: Preimport db internal success
-2025-8-1 11:27:21-debug: Preimport db assets success
-2025-8-1 11:27:21-debug: starting packer-driver...
-2025-8-1 11:27:21-debug: initialize scripting environment...
-2025-8-1 11:27:21-debug: [[Executor]] prepare before lock
-2025-8-1 11:27:21-debug: Set detail map pack:///resolution-detail-map.json: {}
-2025-8-1 11:27:21-debug: Run asset db hook programming:afterPreStart success!
-2025-8-1 11:27:21-debug: Run asset db hook engine-extends:afterPreStart success!
-2025-8-1 11:27:21-debug: [Assets Memory track]: asset-db:worker-init: preStart start:271.02MB, end 272.31MB, increase: 1.28MB
-2025-8-1 11:27:21-debug: Start up the 'internal' database...
-2025-8-1 11:27:21-debug: Run asset db hook engine-extends:afterPreStart ...
-2025-8-1 11:27:21-debug: [[Executor]] prepare after unlock
-2025-8-1 11:27:22-debug: asset-db-hook-programming-afterPreStart (1244ms)
-2025-8-1 11:27:22-debug: asset-db:worker-effect-data-processing (631ms)
-2025-8-1 11:27:22-debug: asset-db-hook-engine-extends-afterPreStart (632ms)
-2025-8-1 11:27:22-debug: Start up the 'assets' database...
-2025-8-1 11:27:22-debug: asset-db:worker-startup-database[internal] (1579ms)
-2025-8-1 11:27:22-debug: lazy register asset handler *
-2025-8-1 11:27:22-debug: lazy register asset handler json
-2025-8-1 11:27:22-debug: lazy register asset handler directory
-2025-8-1 11:27:22-debug: lazy register asset handler spine-data
-2025-8-1 11:27:22-debug: lazy register asset handler dragonbones
-2025-8-1 11:27:22-debug: lazy register asset handler dragonbones-atlas
-2025-8-1 11:27:22-debug: lazy register asset handler text
-2025-8-1 11:27:22-debug: lazy register asset handler terrain
-2025-8-1 11:27:22-debug: lazy register asset handler javascript
-2025-8-1 11:27:22-debug: lazy register asset handler typescript
-2025-8-1 11:27:22-debug: lazy register asset handler scene
-2025-8-1 11:27:22-debug: lazy register asset handler prefab
-2025-8-1 11:27:22-debug: lazy register asset handler sprite-frame
-2025-8-1 11:27:22-debug: lazy register asset handler tiled-map
-2025-8-1 11:27:22-debug: lazy register asset handler sign-image
-2025-8-1 11:27:22-debug: lazy register asset handler image
-2025-8-1 11:27:22-debug: lazy register asset handler buffer
-2025-8-1 11:27:22-debug: lazy register asset handler alpha-image
-2025-8-1 11:27:22-debug: lazy register asset handler texture-cube
-2025-8-1 11:27:22-debug: lazy register asset handler erp-texture-cube
-2025-8-1 11:27:22-debug: lazy register asset handler texture
-2025-8-1 11:27:22-debug: lazy register asset handler render-texture
-2025-8-1 11:27:22-debug: lazy register asset handler rt-sprite-frame
-2025-8-1 11:27:22-debug: lazy register asset handler gltf
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-mesh
-2025-8-1 11:27:22-debug: lazy register asset handler texture-cube-face
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-material
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-animation
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-skeleton
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-embeded-image
-2025-8-1 11:27:22-debug: lazy register asset handler fbx
-2025-8-1 11:27:22-debug: lazy register asset handler gltf-scene
-2025-8-1 11:27:22-debug: lazy register asset handler physics-material
-2025-8-1 11:27:22-debug: lazy register asset handler effect-header
-2025-8-1 11:27:22-debug: lazy register asset handler effect
-2025-8-1 11:27:22-debug: lazy register asset handler material
-2025-8-1 11:27:22-debug: lazy register asset handler audio-clip
-2025-8-1 11:27:22-debug: lazy register asset handler animation-clip
-2025-8-1 11:27:22-debug: lazy register asset handler animation-graph
-2025-8-1 11:27:22-debug: lazy register asset handler animation-graph-variant
-2025-8-1 11:27:22-debug: lazy register asset handler ttf-font
-2025-8-1 11:27:22-debug: lazy register asset handler animation-mask
-2025-8-1 11:27:22-debug: lazy register asset handler sprite-atlas
-2025-8-1 11:27:22-debug: lazy register asset handler bitmap-font
-2025-8-1 11:27:22-debug: lazy register asset handler particle
-2025-8-1 11:27:22-debug: lazy register asset handler auto-atlas
-2025-8-1 11:27:22-debug: lazy register asset handler label-atlas
-2025-8-1 11:27:22-debug: lazy register asset handler render-pipeline
-2025-8-1 11:27:22-debug: lazy register asset handler render-flow
-2025-8-1 11:27:22-debug: lazy register asset handler render-stage
-2025-8-1 11:27:22-debug: lazy register asset handler instantiation-material
-2025-8-1 11:27:22-debug: lazy register asset handler instantiation-mesh
-2025-8-1 11:27:22-debug: lazy register asset handler instantiation-skeleton
-2025-8-1 11:27:22-debug: lazy register asset handler instantiation-animation
-2025-8-1 11:27:22-debug: lazy register asset handler video-clip
-2025-8-1 11:27:22-debug: asset-db:worker-startup-database[assets] (1451ms)
-2025-8-1 11:27:22-debug: fix the bug of updateDefaultUserData
-2025-8-1 11:27:22-debug: asset-db:start-database (1668ms)
-2025-8-1 11:27:22-debug: asset-db:ready (12762ms)
-2025-8-1 11:27:22-debug: init worker message success
-2025-8-1 11:27:22-debug: programming:execute-script (2ms)
-2025-8-1 11:27:23-debug: [Build Memory track]: builder:worker-init start:187.30MB, end 201.10MB, increase: 13.80MB
-2025-8-1 11:27:23-debug: builder:worker-init (938ms)
-2025-8-1 11:27:54-debug: refresh db internal success
-2025-8-1 11:27:54-debug: refresh db assets success
-2025-8-1 11:27:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:27:54-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:27:54-debug: asset-db:refresh-all-database (164ms)
-2025-8-1 11:27:54-debug: asset-db:worker-effect-data-processing (-4ms)
-2025-8-1 11:27:54-debug: asset-db-hook-engine-extends-afterRefresh (-4ms)
-2025-8-1 11:28:54-debug: refresh db internal success
-2025-8-1 11:28:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:28:54-debug: refresh db assets success
-2025-8-1 11:28:54-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:28:54-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 11:28:54-debug: asset-db:refresh-all-database (160ms)
-2025-8-1 11:28:54-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 11:29:57-debug: refresh db internal success
-2025-8-1 11:29:57-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:29:57-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:29:57-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:29:57-debug: refresh db assets success
-2025-8-1 11:29:57-debug: asset-db:refresh-all-database (208ms)
-2025-8-1 11:29:57-debug: asset-db:worker-effect-data-processing (-2ms)
-2025-8-1 11:29:57-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
-2025-8-1 11:29:57-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scene...
-2025-8-1 11:29:57-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:29:57-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:29:57-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:33:06-debug: refresh db internal success
-2025-8-1 11:33:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:33:06-debug: refresh db assets success
-2025-8-1 11:33:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:33:06-debug: asset-db:refresh-all-database (166ms)
-2025-8-1 11:33:06-debug: asset-db:worker-effect-data-processing (-2ms)
-2025-8-1 11:33:06-debug: asset-db-hook-engine-extends-afterRefresh (-2ms)
-2025-8-1 11:47:37-debug: refresh db internal success
-2025-8-1 11:47:37-debug: refresh db assets success
-2025-8-1 11:47:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:47:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:47:37-debug: asset-db:refresh-all-database (88ms)
-2025-8-1 11:47:37-debug: asset-db:worker-effect-data-processing (-2ms)
-2025-8-1 11:47:37-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
-2025-8-1 11:48:13-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scene...
-2025-8-1 11:48:13-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:48:13-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:48:13-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:50:45-debug: refresh db internal success
-2025-8-1 11:50:45-debug: refresh db assets success
-2025-8-1 11:50:45-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:50:45-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:50:45-debug: asset-db:refresh-all-database (88ms)
-2025-8-1 11:50:45-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 11:50:45-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:50:57-debug: refresh db internal success
-2025-8-1 11:50:57-debug: refresh db assets success
-2025-8-1 11:50:57-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:50:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:50:58-debug: asset-db:refresh-all-database (89ms)
-2025-8-1 11:50:58-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 11:50:58-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:52:35-debug: refresh db internal success
-2025-8-1 11:52:35-debug: refresh db assets success
-2025-8-1 11:52:35-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:52:35-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:52:35-debug: asset-db:refresh-all-database (78ms)
-2025-8-1 11:52:35-debug: asset-db:worker-effect-data-processing (-4ms)
-2025-8-1 11:52:35-debug: asset-db-hook-engine-extends-afterRefresh (-3ms)
-2025-8-1 11:53:23-debug: start rename asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene...
-2025-8-1 11:53:23-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scene...
-2025-8-1 11:53:23-debug: %cDestroy%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scenebackground: #ffb8b8; color: #000;color: #000;
-2025-8-1 11:53:23-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:53:23-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene...
-2025-8-1 11:53:23-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:53:23-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:53:23-debug: rename asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\startMenu.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene success
-2025-8-1 11:53:23-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:53:29-debug: start rename asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene...
-2025-8-1 11:53:29-debug: %cDestroy%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scenebackground: #ffb8b8; color: #000;color: #000;
-2025-8-1 11:53:29-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scene...
-2025-8-1 11:53:29-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:53:29-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene...
-2025-8-1 11:53:29-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:53:29-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 11:53:29-debug: rename asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\main.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene success
-2025-8-1 11:53:29-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 11:53:52-debug: refresh db internal success
-2025-8-1 11:53:52-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:53:52-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:53:52-debug: refresh db assets success
-2025-8-1 11:53:52-debug: asset-db:refresh-all-database (93ms)
-2025-8-1 11:53:52-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 11:53:52-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:54:02-debug: refresh db internal success
-2025-8-1 11:54:02-debug: refresh db assets success
-2025-8-1 11:54:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:54:02-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:54:02-debug: asset-db:refresh-all-database (107ms)
-2025-8-1 11:54:02-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 11:54:02-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:54:03-debug: refresh db internal success
-2025-8-1 11:54:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:54:03-debug: refresh db assets success
-2025-8-1 11:54:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:54:03-debug: asset-db:refresh-all-database (96ms)
-2025-8-1 11:54:03-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 11:54:03-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 11:54:10-debug: refresh db internal success
-2025-8-1 11:54:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:54:10-debug: refresh db assets success
-2025-8-1 11:54:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:54:10-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 11:54:10-debug: asset-db:refresh-all-database (100ms)
-2025-8-1 11:54:10-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:54:15-debug: refresh db internal success
-2025-8-1 11:54:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:54:15-debug: refresh db assets success
-2025-8-1 11:54:15-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:54:15-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 11:54:15-debug: asset-db:refresh-all-database (86ms)
-2025-8-1 11:54:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 11:54:40-debug: refresh db internal success
-2025-8-1 11:54:40-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:54:40-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:54:40-debug: refresh db assets success
-2025-8-1 11:54:40-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 11:54:40-debug: asset-db:refresh-all-database (85ms)
-2025-8-1 11:54:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 11:55:06-debug: refresh db internal success
-2025-8-1 11:55:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:55:06-debug: refresh db assets success
-2025-8-1 11:55:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:55:06-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 11:55:06-debug: asset-db:refresh-all-database (81ms)
-2025-8-1 11:55:06-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 11:56:59-debug: refresh db internal success
-2025-8-1 11:56:59-debug: refresh db assets success
-2025-8-1 11:56:59-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:56:59-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:56:59-debug: asset-db:refresh-all-database (70ms)
-2025-8-1 11:58:07-debug: refresh db internal success
-2025-8-1 11:58:07-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 11:58:07-debug: refresh db assets success
-2025-8-1 11:58:07-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 11:58:07-debug: asset-db:refresh-all-database (81ms)
-2025-8-1 12:00:36-debug: refresh db internal success
-2025-8-1 12:00:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:00:36-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:00:36-debug: refresh db assets success
-2025-8-1 12:00:36-debug: asset-db:refresh-all-database (123ms)
-2025-8-1 12:00:36-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:00:36-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:01:11-debug: refresh db internal success
-2025-8-1 12:01:11-debug: refresh db assets success
-2025-8-1 12:01:11-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:01:11-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:01:11-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:01:11-debug: asset-db:refresh-all-database (90ms)
-2025-8-1 12:01:11-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 12:01:14-debug: refresh db internal success
-2025-8-1 12:01:14-debug: refresh db assets success
-2025-8-1 12:01:14-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:01:14-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:01:14-debug: asset-db:refresh-all-database (91ms)
-2025-8-1 12:01:14-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:01:14-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:03:13-debug: refresh db internal success
-2025-8-1 12:03:13-debug: refresh db assets success
-2025-8-1 12:03:13-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:03:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:03:13-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:03:13-debug: asset-db:refresh-all-database (98ms)
-2025-8-1 12:03:13-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:04:58-debug: refresh db internal success
-2025-8-1 12:04:58-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:04:58-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:04:58-debug: refresh db assets success
-2025-8-1 12:04:58-debug: asset-db:refresh-all-database (79ms)
-2025-8-1 12:04:58-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:04:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:05:41-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:05:41-debug: asset-db:reimport-assetc4df31f5-e8a8-4b9c-b494-b63a386e40ee (8ms)
-2025-8-1 12:06:24-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scene...
-2025-8-1 12:06:24-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scene...
-2025-8-1 12:06:24-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:06:24-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 12:06:24-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes...
-2025-8-1 12:06:24-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 12:06:24-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:06:24-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scene success
-2025-8-1 12:06:28-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene...
-2025-8-1 12:06:28-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene...
-2025-8-1 12:06:28-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:06:28-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes...
-2025-8-1 12:06:28-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 12:06:28-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:06:28-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Main.scene success
-2025-8-1 12:06:28-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 12:06:38-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene...
-2025-8-1 12:06:38-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene...
-2025-8-1 12:06:38-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:06:38-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 12:06:38-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes...
-2025-8-1 12:06:38-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 12:06:38-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu-.scene -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scene success
-2025-8-1 12:06:38-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:07:05-debug: refresh db internal success
-2025-8-1 12:07:05-debug: refresh db assets success
-2025-8-1 12:07:05-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:07:05-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:07:05-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:07:05-debug: asset-db:refresh-all-database (91ms)
-2025-8-1 12:07:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:08:17-debug: refresh db internal success
-2025-8-1 12:08:17-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:08:17-debug: refresh db assets success
-2025-8-1 12:08:17-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:08:17-debug: asset-db:worker-effect-data-processing (-1ms)
-2025-8-1 12:08:17-debug: asset-db:refresh-all-database (74ms)
-2025-8-1 12:08:17-debug: asset-db-hook-engine-extends-afterRefresh (-1ms)
-2025-8-1 12:09:11-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts...
-2025-8-1 12:09:11-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:09:11-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 12:09:31-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.ts...
-2025-8-1 12:09:31-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:09:31-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 12:09:31-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:14:55-debug: refresh db internal success
-2025-8-1 12:14:55-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:14:55-debug: refresh db assets success
-2025-8-1 12:14:55-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:14:55-debug: asset-db:refresh-all-database (89ms)
-2025-8-1 12:14:55-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:14:55-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:17:06-debug: Query all assets info in project
-2025-8-1 12:17:06-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:17:06-debug: Skip compress image, progress: 0%
-2025-8-1 12:17:06-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:17:06-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:17:06-debug:   Number of other assets: 309
-2025-8-1 12:17:06-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:17:06-debug:   Number of all scenes: 2
-2025-8-1 12:17:06-debug:   Number of all scripts: 7
-2025-8-1 12:17:06-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:203.77MB, end 203.49MB, increase: -283.86KB
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:203.52MB, end 203.60MB, increase: 84.34KB
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2025-8-1 12:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:203.64MB, end 203.66MB, increase: 28.89KB
-2025-8-1 12:17:06-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:17:06-log: run build task 填充脚本数据到 settings.json success in √, progress: 13%
-2025-8-1 12:17:06-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:17:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:203.69MB, end 203.71MB, increase: 16.79KB
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
-2025-8-1 12:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:203.74MB, end 203.88MB, increase: 140.95KB
-2025-8-1 12:17:06-debug: Query all assets info in project
-2025-8-1 12:17:06-debug: Query all assets info in project
-2025-8-1 12:17:06-debug: Skip compress image, progress: 0%
-2025-8-1 12:17:06-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:17:06-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:17:06-debug: Skip compress image, progress: 0%
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:17:06-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:17:06-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:17:06-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:17:06-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:17:06-debug:   Number of all scripts: 7
-2025-8-1 12:17:06-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:17:06-debug:   Number of other assets: 309
-2025-8-1 12:17:06-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:17:06-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:17:06-debug:   Number of all scenes: 2
-2025-8-1 12:17:06-debug:   Number of all scenes: 2
-2025-8-1 12:17:06-debug:   Number of other assets: 309
-2025-8-1 12:17:06-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:17:06-debug:   Number of all scripts: 7
-2025-8-1 12:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:204.18MB, end 204.33MB, increase: 152.54KB
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in 10 ms√, progress: 5%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ---- (10ms)
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in √, progress: 5%
-2025-8-1 12:17:06-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:204.36MB, end 204.37MB, increase: 17.52KB
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:17:06-debug: [Build Memory track]: 查询 Asset Bundle start:204.40MB, end 203.80MB, increase: -615.16KB
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:17:06-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-log: run build task 查询 Asset Bundle success in √, progress: 10%
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2025-8-1 12:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:203.89MB, end 203.92MB, increase: 32.52KB
-2025-8-1 12:17:06-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2025-8-1 12:17:06-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:17:06-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:17:06-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:17:06-debug: // ---- build task 填充脚本数据到 settings.json ---- (3ms)
-2025-8-1 12:17:06-log: run build task 填充脚本数据到 settings.json success in 3 ms√, progress: 13%
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:17:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:203.99MB, end 204.02MB, increase: 32.90KB
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2025-8-1 12:17:06-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2025-8-1 12:17:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:17:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:204.10MB, end 204.27MB, increase: 173.13KB
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 15%
-2025-8-1 12:17:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2025-8-1 12:17:06-log: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 15%
-2025-8-1 12:22:06-debug: refresh db internal success
-2025-8-1 12:22:06-debug: refresh db assets success
-2025-8-1 12:22:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:22:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:22:06-debug: asset-db:refresh-all-database (86ms)
-2025-8-1 12:22:06-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:22:06-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 12:22:37-debug: refresh db internal success
-2025-8-1 12:22:37-debug: refresh db assets success
-2025-8-1 12:22:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:22:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:22:37-debug: asset-db:refresh-all-database (80ms)
-2025-8-1 12:22:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:23:00-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
-2025-8-1 12:31:23-debug: refresh db internal success
-2025-8-1 12:31:23-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:31:23-debug: refresh db assets success
-2025-8-1 12:31:23-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:31:23-debug: asset-db:refresh-all-database (86ms)
-2025-8-1 12:31:23-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:31:23-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:31:25-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
-2025-8-1 12:32:01-debug: refresh db internal success
-2025-8-1 12:32:01-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:32:01-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:32:01-debug: refresh db assets success
-2025-8-1 12:32:01-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:32:01-debug: asset-db:refresh-all-database (92ms)
-2025-8-1 12:32:01-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:32:01-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 12:32:24-debug: refresh db internal success
-2025-8-1 12:32:24-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:32:24-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:32:24-debug: refresh db assets success
-2025-8-1 12:32:24-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:32:24-debug: asset-db:refresh-all-database (90ms)
-2025-8-1 12:32:24-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:32:24-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:33:18-debug: refresh db internal success
-2025-8-1 12:33:18-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:33:18-debug: refresh db assets success
-2025-8-1 12:33:18-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:33:18-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:33:18-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:33:18-debug: asset-db:refresh-all-database (91ms)
-2025-8-1 12:33:18-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:34:48-debug: refresh db internal success
-2025-8-1 12:34:48-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:34:48-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:34:48-debug: refresh db assets success
-2025-8-1 12:34:48-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:34:48-debug: asset-db:refresh-all-database (93ms)
-2025-8-1 12:34:48-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:34:48-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:35:25-debug: refresh db internal success
-2025-8-1 12:35:25-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:35:25-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:35:25-debug: refresh db assets success
-2025-8-1 12:35:25-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:35:25-debug: asset-db:refresh-all-database (92ms)
-2025-8-1 12:35:25-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:35:25-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:35:32-debug: refresh db internal success
-2025-8-1 12:35:32-debug: refresh db assets success
-2025-8-1 12:35:32-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:35:32-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:35:32-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:35:32-debug: asset-db:refresh-all-database (98ms)
-2025-8-1 12:35:32-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:38:13-debug: refresh db internal success
-2025-8-1 12:38:13-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:38:13-debug: refresh db assets success
-2025-8-1 12:38:13-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:38:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:38:13-debug: asset-db:refresh-all-database (85ms)
-2025-8-1 12:38:13-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:38:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:38:16-debug: Query all assets info in project
-2025-8-1 12:38:16-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:38:16-debug: Skip compress image, progress: 0%
-2025-8-1 12:38:16-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:38:16-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:38:16-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:38:16-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:38:16-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:38:16-debug:   Number of all scenes: 2
-2025-8-1 12:38:16-debug:   Number of other assets: 309
-2025-8-1 12:38:16-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:38:16-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:38:16-debug:   Number of all scripts: 7
-2025-8-1 12:38:16-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
-2025-8-1 12:38:16-debug: [Build Memory track]: 查询 Asset Bundle start:214.97MB, end 214.56MB, increase: -425.21KB
-2025-8-1 12:38:16-log: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
-2025-8-1 12:38:16-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:38:16-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:38:16-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:38:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:38:16-log: run build task 查询 Asset Bundle success in 2 ms√, progress: 10%
-2025-8-1 12:38:16-debug: // ---- build task 查询 Asset Bundle ---- (2ms)
-2025-8-1 12:38:16-debug: [Build Memory track]: 查询 Asset Bundle start:214.59MB, end 214.67MB, increase: 83.86KB
-2025-8-1 12:38:16-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.70MB, end 214.72MB, increase: 17.73KB
-2025-8-1 12:38:16-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:38:16-log: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2025-8-1 12:38:16-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:38:16-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:38:16-debug: [Build Memory track]: 填充脚本数据到 settings.json start:214.75MB, end 214.78MB, increase: 27.74KB
-2025-8-1 12:38:16-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2025-8-1 12:38:16-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2025-8-1 12:38:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:38:16-log: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
-2025-8-1 12:38:16-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.81MB, end 214.93MB, increase: 130.99KB
-2025-8-1 12:38:16-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
-2025-8-1 12:38:42-debug: refresh db internal success
-2025-8-1 12:38:42-debug: refresh db assets success
-2025-8-1 12:38:42-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:38:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:38:42-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:38:42-debug: asset-db:refresh-all-database (129ms)
-2025-8-1 12:38:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:38:47-debug: refresh db internal success
-2025-8-1 12:38:47-debug: refresh db assets success
-2025-8-1 12:38:47-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:38:47-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:38:47-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:38:47-debug: asset-db:refresh-all-database (75ms)
-2025-8-1 12:38:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:39:09-debug: refresh db internal success
-2025-8-1 12:39:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:39:09-debug: refresh db assets success
-2025-8-1 12:39:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:39:09-debug: asset-db:refresh-all-database (85ms)
-2025-8-1 12:39:09-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:39:09-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:39:10-debug: refresh db internal success
-2025-8-1 12:39:10-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:39:10-debug: refresh db assets success
-2025-8-1 12:39:10-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:39:10-debug: asset-db:refresh-all-database (73ms)
-2025-8-1 12:39:10-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:39:10-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:39:42-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\StartMenu.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:39:42-debug: asset-db:reimport-assetc4df31f5-e8a8-4b9c-b494-b63a386e40ee (6ms)
-2025-8-1 12:39:44-debug: Query all assets info in project
-2025-8-1 12:39:44-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:39:44-debug: Skip compress image, progress: 0%
-2025-8-1 12:39:44-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:39:44-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:39:44-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:39:44-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:39:44-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:39:44-debug:   Number of all scripts: 7
-2025-8-1 12:39:44-debug:   Number of other assets: 309
-2025-8-1 12:39:44-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:39:44-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:39:44-debug:   Number of all scenes: 2
-2025-8-1 12:39:44-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
-2025-8-1 12:39:44-log: run build task 查询 Asset Bundle success in 5 ms√, progress: 5%
-2025-8-1 12:39:44-debug: [Build Memory track]: 查询 Asset Bundle start:199.55MB, end 200.11MB, increase: 580.68KB
-2025-8-1 12:39:44-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:39:44-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:39:44-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2025-8-1 12:39:44-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:39:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:39:44-debug: [Build Memory track]: 查询 Asset Bundle start:200.14MB, end 200.23MB, increase: 90.16KB
-2025-8-1 12:39:44-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
-2025-8-1 12:39:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2025-8-1 12:39:44-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:200.26MB, end 198.81MB, increase: -1487.39KB
-2025-8-1 12:39:44-log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
-2025-8-1 12:39:44-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:39:44-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:39:44-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2025-8-1 12:39:44-debug: [Build Memory track]: 填充脚本数据到 settings.json start:198.85MB, end 198.88MB, increase: 28.20KB
-2025-8-1 12:39:44-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:39:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:39:44-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2025-8-1 12:39:44-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
-2025-8-1 12:39:44-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:198.92MB, end 199.05MB, increase: 134.60KB
-2025-8-1 12:39:44-log: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
-2025-8-1 12:39:55-debug: Query all assets info in project
-2025-8-1 12:39:55-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:39:55-debug: Skip compress image, progress: 0%
-2025-8-1 12:39:55-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:39:55-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:39:55-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:39:55-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:39:55-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:39:55-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:39:55-debug:   Number of all scripts: 7
-2025-8-1 12:39:55-debug:   Number of all scenes: 2
-2025-8-1 12:39:55-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:39:55-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2025-8-1 12:39:55-log: run build task 查询 Asset Bundle success in 8 ms√, progress: 5%
-2025-8-1 12:39:55-debug: [Build Memory track]: 查询 Asset Bundle start:199.22MB, end 198.91MB, increase: -316.38KB
-2025-8-1 12:39:55-debug:   Number of other assets: 309
-2025-8-1 12:39:55-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:39:55-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:39:55-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
-2025-8-1 12:39:55-debug: [Build Memory track]: 查询 Asset Bundle start:198.94MB, end 199.02MB, increase: 82.58KB
-2025-8-1 12:39:55-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
-2025-8-1 12:39:55-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:39:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:39:56-log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
-2025-8-1 12:39:56-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:199.05MB, end 199.08MB, increase: 27.93KB
-2025-8-1 12:39:56-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:39:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2025-8-1 12:39:56-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:39:56-debug: // ---- build task 填充脚本数据到 settings.json ---- (3ms)
-2025-8-1 12:39:56-debug: [Build Memory track]: 填充脚本数据到 settings.json start:199.11MB, end 199.14MB, increase: 28.34KB
-2025-8-1 12:39:56-log: run build task 填充脚本数据到 settings.json success in 3 ms√, progress: 13%
-2025-8-1 12:39:56-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:39:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:39:56-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
-2025-8-1 12:39:56-log: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
-2025-8-1 12:39:56-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:199.17MB, end 199.31MB, increase: 138.79KB
-2025-8-1 12:42:34-debug: refresh db internal success
-2025-8-1 12:42:34-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:42:34-debug: refresh db assets success
-2025-8-1 12:42:34-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:42:34-debug: asset-db:refresh-all-database (154ms)
-2025-8-1 12:42:34-debug: asset-db:worker-effect-data-processing (3ms)
-2025-8-1 12:42:34-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 12:42:44-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Rank.scene...
-2025-8-1 12:42:44-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Rank.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:42:44-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 12:42:44-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:43:02-debug: refresh db internal success
-2025-8-1 12:43:02-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:43:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:43:02-debug: refresh db assets success
-2025-8-1 12:43:02-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:43:02-debug: asset-db:refresh-all-database (151ms)
-2025-8-1 12:43:02-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 12:43:02-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:44:19-debug: refresh db internal success
-2025-8-1 12:44:19-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:44:19-debug: refresh db assets success
-2025-8-1 12:44:19-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:44:19-debug: asset-db:refresh-all-database (141ms)
-2025-8-1 12:44:19-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 12:44:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:44:45-debug: refresh db internal success
-2025-8-1 12:44:45-debug: refresh db assets success
-2025-8-1 12:44:45-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:44:45-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:44:45-debug: asset-db:refresh-all-database (150ms)
-2025-8-1 12:45:40-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI...
-2025-8-1 12:45:40-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UIbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:45:40-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 12:45:40-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:45:43-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.ts -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI\StartMenu.ts...
-2025-8-1 12:45:43-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI\StartMenu.ts...
-2025-8-1 12:45:43-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:45:43-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts...
-2025-8-1 12:45:43-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI success
-2025-8-1 12:45:43-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UIbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:45:43-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.ts -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI\StartMenu.ts success
-2025-8-1 12:45:43-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 12:45:43-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:46:20-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools...
-2025-8-1 12:46:20-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Toolsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:46:20-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 12:46:20-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:09-debug: refresh db internal success
-2025-8-1 12:58:09-debug: %cDestroy%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Rank.scenebackground: #ffb8b8; color: #000;color: #000;
-2025-8-1 12:58:09-debug: %cDestroy%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UIbackground: #ffb8b8; color: #000;color: #000;
-2025-8-1 12:58:09-debug: %cDestroy%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\UI\StartMenu.tsbackground: #ffb8b8; color: #000;color: #000;
-2025-8-1 12:58:09-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:09-error: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools.meta is not exist! will use cache meta.
-2025-8-1 12:58:09-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:09-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:09-debug: refresh db assets success
-2025-8-1 12:58:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:58:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:58:10-debug: asset-db:worker-effect-data-processing (127ms)
-2025-8-1 12:58:10-debug: asset-db:refresh-all-database (327ms)
-2025-8-1 12:58:10-debug: asset-db-hook-engine-extends-afterRefresh (128ms)
-2025-8-1 12:58:13-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
-2025-8-1 12:58:21-debug: refresh db internal success
-2025-8-1 12:58:21-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:21-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:58:21-debug: refresh db assets success
-2025-8-1 12:58:21-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:58:21-debug: asset-db:refresh-all-database (175ms)
-2025-8-1 12:58:21-debug: asset-db:worker-effect-data-processing (-1ms)
-2025-8-1 12:58:53-debug: refresh db internal success
-2025-8-1 12:58:53-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:58:53-debug: refresh db assets success
-2025-8-1 12:58:53-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:58:53-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:58:53-debug: asset-db:refresh-all-database (132ms)
-2025-8-1 12:58:53-debug: asset-db:worker-effect-data-processing (-1ms)
-2025-8-1 12:58:53-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 12:59:10-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Rank.scene...
-2025-8-1 12:59:10-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes\Rank.scenebackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:59:10-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenes success
-2025-8-1 12:59:10-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scenesbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:59:26-debug: refresh db internal success
-2025-8-1 12:59:26-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 12:59:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:59:26-debug: refresh db assets success
-2025-8-1 12:59:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:59:26-debug: asset-db:refresh-all-database (169ms)
-2025-8-1 12:59:26-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:59:26-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 12:59:28-debug: Query all assets info in project
-2025-8-1 12:59:28-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:59:28-debug: Skip compress image, progress: 0%
-2025-8-1 12:59:28-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:59:28-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:59:28-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:59:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:59:28-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:59:28-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:59:28-debug:   Number of all scenes: 3
-2025-8-1 12:59:28-debug:   Number of all scripts: 7
-2025-8-1 12:59:28-debug:   Number of other assets: 309
-2025-8-1 12:59:28-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
-2025-8-1 12:59:28-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:59:28-log: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
-2025-8-1 12:59:28-debug: [Build Memory track]: 查询 Asset Bundle start:207.92MB, end 207.60MB, increase: -322.15KB
-2025-8-1 12:59:28-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:59:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:59:28-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2025-8-1 12:59:28-debug: [Build Memory track]: 查询 Asset Bundle start:207.63MB, end 207.71MB, increase: 82.57KB
-2025-8-1 12:59:28-log: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
-2025-8-1 12:59:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:59:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:59:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2025-8-1 12:59:28-log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
-2025-8-1 12:59:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.74MB, end 207.77MB, increase: 26.90KB
-2025-8-1 12:59:28-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:59:28-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:59:28-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2025-8-1 12:59:28-log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2025-8-1 12:59:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:59:28-debug: [Build Memory track]: 填充脚本数据到 settings.json start:207.80MB, end 207.83MB, increase: 28.34KB
-2025-8-1 12:59:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:59:28-log: run build task 整理部分构建选项内数据到 settings.json success in 11 ms√, progress: 15%
-2025-8-1 12:59:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.86MB, end 207.99MB, increase: 129.81KB
-2025-8-1 12:59:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
-2025-8-1 12:59:50-debug: Query all assets info in project
-2025-8-1 12:59:50-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 12:59:50-debug: Skip compress image, progress: 0%
-2025-8-1 12:59:50-debug: Init all bundles start..., progress: 0%
-2025-8-1 12:59:50-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 12:59:50-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 12:59:50-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:59:50-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 12:59:50-debug:   Number of all scripts: 7
-2025-8-1 12:59:50-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 12:59:50-debug:   Number of other assets: 309
-2025-8-1 12:59:50-debug:   Number of all scenes: 3
-2025-8-1 12:59:50-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 12:59:50-debug: // ---- build task 查询 Asset Bundle ---- (10ms)
-2025-8-1 12:59:50-debug: [Build Memory track]: 查询 Asset Bundle start:208.22MB, end 207.83MB, increase: -397.02KB
-2025-8-1 12:59:50-log: run build task 查询 Asset Bundle success in 10 ms√, progress: 5%
-2025-8-1 12:59:50-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 12:59:50-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 12:59:50-debug: // ---- build task 查询 Asset Bundle ---- (5ms)
-2025-8-1 12:59:50-log: run build task 查询 Asset Bundle success in 5 ms√, progress: 10%
-2025-8-1 12:59:50-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 12:59:50-debug: [Build Memory track]: 查询 Asset Bundle start:207.87MB, end 207.95MB, increase: 81.80KB
-2025-8-1 12:59:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:59:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
-2025-8-1 12:59:50-log: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 12%
-2025-8-1 12:59:50-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 12:59:50-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.98MB, end 208.00MB, increase: 27.89KB
-2025-8-1 12:59:50-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 12:59:50-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
-2025-8-1 12:59:50-log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
-2025-8-1 12:59:50-debug: [Build Memory track]: 填充脚本数据到 settings.json start:208.03MB, end 208.06MB, increase: 27.52KB
-2025-8-1 12:59:50-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 12:59:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 12:59:50-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (8ms)
-2025-8-1 12:59:50-log: run build task 整理部分构建选项内数据到 settings.json success in 8 ms√, progress: 15%
-2025-8-1 12:59:50-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:208.09MB, end 208.22MB, increase: 129.50KB
-2025-8-1 12:59:59-debug: refresh db internal success
-2025-8-1 12:59:59-debug: refresh db assets success
-2025-8-1 12:59:59-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 12:59:59-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 12:59:59-debug: asset-db:refresh-all-database (179ms)
-2025-8-1 12:59:59-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 12:59:59-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 13:01:08-debug: refresh db internal success
-2025-8-1 13:01:08-debug: refresh db assets success
-2025-8-1 13:01:08-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:01:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:01:08-debug: asset-db:refresh-all-database (158ms)
-2025-8-1 13:01:08-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 13:01:08-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 13:01:13-debug: refresh db internal success
-2025-8-1 13:01:13-debug: refresh db assets success
-2025-8-1 13:01:13-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:01:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:01:13-debug: asset-db:refresh-all-database (205ms)
-2025-8-1 13:01:13-debug: asset-db-hook-engine-extends-afterRefresh (7ms)
-2025-8-1 13:01:13-debug: asset-db:worker-effect-data-processing (3ms)
-2025-8-1 13:01:18-debug: refresh db internal success
-2025-8-1 13:01:18-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:01:18-debug: refresh db assets success
-2025-8-1 13:01:18-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:01:18-debug: asset-db:refresh-all-database (141ms)
-2025-8-1 13:01:18-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 13:01:18-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 13:01:43-debug: refresh db internal success
-2025-8-1 13:01:43-debug: refresh db assets success
-2025-8-1 13:01:43-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:01:43-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:01:43-debug: asset-db:refresh-all-database (153ms)
-2025-8-1 13:01:43-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 13:01:43-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 13:02:23-debug: refresh db internal success
-2025-8-1 13:02:23-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\StartMenu.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 13:02:23-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:02:23-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:02:23-debug: asset-db:refresh-all-database (243ms)
-2025-8-1 13:02:23-debug: refresh db assets success
-2025-8-1 13:02:23-debug: asset-db:worker-effect-data-processing (-1ms)
-2025-8-1 13:02:28-debug: Query all assets info in project
-2025-8-1 13:02:28-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:02:28-debug: Skip compress image, progress: 0%
-2025-8-1 13:02:28-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:02:28-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:02:28-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:02:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:02:28-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:02:28-debug:   Number of all scripts: 7
-2025-8-1 13:02:28-debug:   Number of other assets: 309
-2025-8-1 13:02:28-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:02:28-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:02:28-debug:   Number of all scenes: 3
-2025-8-1 13:02:28-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2025-8-1 13:02:28-debug: [Build Memory track]: 查询 Asset Bundle start:214.44MB, end 214.20MB, increase: -243.45KB
-2025-8-1 13:02:28-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:02:28-log: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
-2025-8-1 13:02:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:02:28-log: run build task 查询 Asset Bundle success in √, progress: 10%
-2025-8-1 13:02:28-debug: [Build Memory track]: 查询 Asset Bundle start:214.23MB, end 214.31MB, increase: 78.57KB
-2025-8-1 13:02:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:02:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:02:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (-2ms)
-2025-8-1 13:02:28-log: run build task 整理部分构建选项内数据到 settings.json success in -1 h -1 min -1 s√, progress: 12%
-2025-8-1 13:02:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.34MB, end 214.36MB, increase: 27.54KB
-2025-8-1 13:02:28-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:02:28-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:02:28-log: run build task 填充脚本数据到 settings.json success in -1 h -1 min -1 s√, progress: 13%
-2025-8-1 13:02:28-debug: [Build Memory track]: 填充脚本数据到 settings.json start:214.39MB, end 214.42MB, increase: 28.17KB
-2025-8-1 13:02:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:02:28-debug: // ---- build task 填充脚本数据到 settings.json ---- (-3ms)
-2025-8-1 13:02:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:02:28-log: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
-2025-8-1 13:02:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:214.45MB, end 213.85MB, increase: -622.27KB
-2025-8-1 13:02:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
-2025-8-1 13:04:08-debug: refresh db internal success
-2025-8-1 13:04:08-debug: refresh db assets success
-2025-8-1 13:04:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:04:08-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:04:08-debug: asset-db:refresh-all-database (176ms)
-2025-8-1 13:04:08-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 13:04:08-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 13:05:03-debug: refresh db internal success
-2025-8-1 13:05:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:05:03-debug: refresh db assets success
-2025-8-1 13:05:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:05:03-debug: asset-db:refresh-all-database (210ms)
-2025-8-1 13:05:03-debug: asset-db:worker-effect-data-processing (4ms)
-2025-8-1 13:05:03-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2025-8-1 13:05:10-debug: Query all assets info in project
-2025-8-1 13:05:10-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:05:10-debug: Skip compress image, progress: 0%
-2025-8-1 13:05:10-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:05:10-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:05:10-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:05:10-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:05:10-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:05:10-debug:   Number of other assets: 309
-2025-8-1 13:05:10-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:05:10-debug:   Number of all scenes: 3
-2025-8-1 13:05:10-debug:   Number of all scripts: 7
-2025-8-1 13:05:10-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:05:10-log: run build task 查询 Asset Bundle success in 14 ms√, progress: 5%
-2025-8-1 13:05:10-debug: [Build Memory track]: 查询 Asset Bundle start:197.92MB, end 197.71MB, increase: -216.70KB
-2025-8-1 13:05:10-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:05:10-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:05:10-debug: // ---- build task 查询 Asset Bundle ---- (14ms)
-2025-8-1 13:05:10-debug: [Build Memory track]: 查询 Asset Bundle start:197.74MB, end 197.82MB, increase: 82.19KB
-2025-8-1 13:05:10-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:05:10-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
-2025-8-1 13:05:10-log: run build task 查询 Asset Bundle success in 6 ms√, progress: 10%
-2025-8-1 13:05:10-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:05:10-log: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 12%
-2025-8-1 13:05:10-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.85MB, end 197.88MB, increase: 27.57KB
-2025-8-1 13:05:10-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:05:10-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
-2025-8-1 13:05:10-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:05:10-debug: // ---- build task 填充脚本数据到 settings.json ---- (5ms)
-2025-8-1 13:05:10-log: run build task 填充脚本数据到 settings.json success in 5 ms√, progress: 13%
-2025-8-1 13:05:10-debug: [Build Memory track]: 填充脚本数据到 settings.json start:197.91MB, end 197.94MB, increase: 28.73KB
-2025-8-1 13:05:10-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:05:10-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:05:10-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (17ms)
-2025-8-1 13:05:10-log: run build task 整理部分构建选项内数据到 settings.json success in 17 ms√, progress: 15%
-2025-8-1 13:05:10-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.97MB, end 197.33MB, increase: -652.82KB
-2025-8-1 13:05:35-debug: refresh db internal success
-2025-8-1 13:05:35-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:05:35-debug: refresh db assets success
-2025-8-1 13:05:35-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:05:35-debug: asset-db:worker-effect-data-processing (7ms)
-2025-8-1 13:05:35-debug: asset-db:refresh-all-database (253ms)
-2025-8-1 13:05:35-debug: asset-db-hook-engine-extends-afterRefresh (8ms)
-2025-8-1 13:06:30-debug: Start record console... {file(C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\builder\log\web-desktop2025-8-1 13-06.log)}
-2025-8-1 13:06:30-debug: =================================== build Task (web-desktop) Start ================================
-2025-8-1 13:06:30-debug: Start build task, options:{"name":"MD5Game","server":"","engineModulesConfigKey":"defaultConfig","platform":"web-desktop","buildPath":"project://build","debug":false,"buildMode":"normal","mangleProperties":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"on","physics":"inherit-project-setting","physics-2d":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"nativeCodeBundleMode":"both","polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"inlineEnum":true,"useBuiltinServer":false,"md5CacheOptions":{"excludes":[],"includes":[],"replaceOnly":[],"handleTemplateMd5Link":true},"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"c4df31f5-e8a8-4b9c-b494-b63a386e40ee","outputName":"web-desktop","taskName":"web-desktop","scenes":[{"url":"db://assets/scenes/Main.scene","uuid":"1f427bef-9b69-407d-9d05-44d8d7c012a9"},{"url":"db://assets/scenes/StartMenu.scene","uuid":"c4df31f5-e8a8-4b9c-b494-b63a386e40ee"},{"url":"db://assets/scenes/Rank.scene","uuid":"1ad42509-19f1-493c-b533-7b9e573990cc"}],"wasmCompressionMode":false,"packages":{"web-desktop":{"useWebGPU":false,"resolution":{"designWidth":1280,"designHeight":960},"__version__":"1.0.1"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"6f406f","services":[],"__version__":"3.0.9"}},"__version__":"1.3.9","logDest":"project://temp/builder/log/web-desktop2025-8-1 13-06.log"}
-2025-8-1 13:06:30-debug: Build with Cocos Creator 3.8.6
-2025-8-1 13:06:30-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
-2025-8-1 13:06:30-debug: // ---- build task cocos-service：onBeforeBuild ----
-2025-8-1 13:06:30-debug: // ---- build task cocos-service：onBeforeBuild ---- (138ms)
-2025-8-1 13:06:30-debug: cocos-service:(onBeforeBuild) in 138 ms ✓, progress: 2%
-2025-8-1 13:06:30-debug: scene:(onBeforeBuild) start..., progress: 2%
-2025-8-1 13:06:30-debug: // ---- build task scene：onBeforeBuild ----
-2025-8-1 13:06:30-debug: Start lock asset db..., progress: 4%
-2025-8-1 13:06:30-debug: scene:(onBeforeBuild) in 57 ms ✓, progress: 4%
-2025-8-1 13:06:30-debug: // ---- build task scene：onBeforeBuild ---- (57ms)
-2025-8-1 13:06:30-log: Asset DB is paused with build!
-2025-8-1 13:06:30-debug: Query all assets info in project
-2025-8-1 13:06:30-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:06:30-debug: web-desktop:(onAfterInit) start..., progress: 4%
-2025-8-1 13:06:30-debug: // ---- build task web-desktop：onAfterInit ----
-2025-8-1 13:06:30-debug: // ---- build task web-desktop：onAfterInit ---- (67ms)
-2025-8-1 13:06:30-debug: web-desktop:(onAfterInit) in 67 ms ✓, progress: 5%
-2025-8-1 13:06:30-debug: // ---- build task cocos-service：onAfterInit ----
-2025-8-1 13:06:30-debug: cocos-service:(onAfterInit) start..., progress: 5%
-2025-8-1 13:06:30-debug: // ---- build task cocos-service：onAfterInit ---- (83ms)
-2025-8-1 13:06:30-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 7%
-2025-8-1 13:06:30-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 0%
-2025-8-1 13:06:30-debug: cocos-service:(onAfterInit) in 83 ms ✓, progress: 7%
-2025-8-1 13:06:30-debug: Skip compress image, progress: 0%
-2025-8-1 13:06:30-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
-2025-8-1 13:06:30-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (75ms)
-2025-8-1 13:06:30-debug: [adsense-h5g-plugin] remove script success
-2025-8-1 13:06:30-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 75 ms ✓, progress: 7%
-2025-8-1 13:06:30-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 75 ms ✓, progress: 7%
-2025-8-1 13:06:30-debug: Num of bundles: 2..., progress: 7%
-2025-8-1 13:06:30-debug: Init all bundles start..., progress: 7%
-2025-8-1 13:06:30-debug: Init all bundles start..., progress: 7%
-2025-8-1 13:06:30-debug: web-desktop:(onAfterBundleInit) start..., progress: 7%
-2025-8-1 13:06:30-debug: Num of bundles: 2..., progress: 7%
-2025-8-1 13:06:30-debug: web-desktop:(onAfterBundleInit) start..., progress: 7%
-2025-8-1 13:06:30-debug: // ---- build task web-desktop：onAfterBundleInit ----
-2025-8-1 13:06:30-debug: // ---- build task web-desktop：onAfterBundleInit ---- (68ms)
-2025-8-1 13:06:30-debug: 查询 Asset Bundle start, progress: 7%
-2025-8-1 13:06:30-debug: web-desktop:(onAfterBundleInit) in 68 ms ✓, progress: 7%
-2025-8-1 13:06:30-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:06:30-debug: Init bundle root assets start..., progress: 7%
-2025-8-1 13:06:30-debug: Init bundle root assets start..., progress: 13%
-2025-8-1 13:06:30-debug: web-desktop:(onAfterBundleInit) in 68 ms ✓, progress: 13%
-2025-8-1 13:06:30-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:06:30-debug:   Number of all scenes: 3
-2025-8-1 13:06:30-debug:   Number of other assets: 309
-2025-8-1 13:06:30-debug: Init bundle root assets success..., progress: 7%
-2025-8-1 13:06:30-debug: Init bundle root assets success..., progress: 13%
-2025-8-1 13:06:30-debug:   Number of all scripts: 7
-2025-8-1 13:06:30-debug: reload all scripts.
-2025-8-1 13:06:30-log: creating executor ...
-2025-8-1 13:06:30-debug: [[Executor]] reload before lock
-2025-8-1 13:06:31-debug: Set detail map pack:///resolution-detail-map.json: {}
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/rich-text" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/mask" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/graphics" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/affine-transform" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui-skew" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-cannon" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-ammo" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-builtin" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-physx" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-builtin" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-jsb" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/vendor-google" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgpu" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/rich-text" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/graphics" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/mask" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui-skew" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/affine-transform" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-cannon" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-ammo" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-physx" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-builtin" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-jsb" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-builtin" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/vendor-google" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline-post-process" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/cc-fu/legacy-pipeline" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2025-8-1 13:06:31-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\d2\d208b01558c13077e4a9c9f1302dfbf2b2122e40.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\d2\d208b01558c13077e4a9c9f1302dfbf2b2122e40.js is not in module cache!
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\b3\b37de22ab9dff6e9f979ab9e517f60b5b4ae4ba5.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\b3\b37de22ab9dff6e9f979ab9e517f60b5b4ae4ba5.js is not in module cache!
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\36\36278e5c964e5e2f737bca1654894a5a7b2a7063.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\36\36278e5c964e5e2f737bca1654894a5a7b2a7063.js is not in module cache!
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\98\9846cefb9cb6e16313f2e5e80bbb689314385757.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\98\9846cefb9cb6e16313f2e5e80bbb689314385757.js is not in module cache!
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\38\383c24386be9d9de15fc0c17a8951753b54d596a.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\38\383c24386be9d9de15fc0c17a8951753b54d596a.js is not in module cache!
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/38/383c24386be9d9de15fc0c17a8951753b54d596a.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "cce:/internal/x/engine-export-to-editor/cc/editor/populate-internal-constants" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/36/36278e5c964e5e2f737bca1654894a5a7b2a7063.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Register BuiltinPipelinePassBuilder
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/98/9846cefb9cb6e16313f2e5e80bbb689314385757.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Register BuiltinDepthOfFieldPass
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/b3/b37de22ab9dff6e9f979ab9e517f60b5b4ae4ba5.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Register BuiltinPipelineSettings
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/d2/d208b01558c13077e4a9c9f1302dfbf2b2122e40.js" loaded.
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/49/49c387c7d23ec5c771c1bd713cdd20f77551061d.js" loaded.
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\49\49c387c7d23ec5c771c1bd713cdd20f77551061d.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\49\49c387c7d23ec5c771c1bd713cdd20f77551061d.js is not in module cache!
-2025-8-1 13:06:31-debug: [[Executor]] Register DebugViewRuntimeControl
-2025-8-1 13:06:31-debug: [[Executor]] Register StartMenu
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/e0/e0e9a629d06209ab7cca08adfc012f85567048bd.js" loaded.
-2025-8-1 13:06:31-debug: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\e0\e0e9a629d06209ab7cca08adfc012f85567048bd.js resolved to C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\programming\packer-driver\targets\editor\chunks\e0\e0e9a629d06209ab7cca08adfc012f85567048bd.js is not in module cache!
-2025-8-1 13:06:31-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
-2025-8-1 13:06:31-debug: Init bundle share assets start..., progress: 13%
-2025-8-1 13:06:31-debug: Incremental keys: regeneratorRuntime
-2025-8-1 13:06:31-debug: [[Executor]] after unlock
-2025-8-1 13:06:31-debug: Init bundle share assets start..., progress: 7%
-2025-8-1 13:06:31-debug: Init bundle share assets success..., progress: 7%
-2025-8-1 13:06:31-debug: Init bundle share assets success..., progress: 13%
-2025-8-1 13:06:31-debug: handle json group in bundle internal
-2025-8-1 13:06:31-debug: handle json group in bundle internal success
-2025-8-1 13:06:31-debug: init image compress task 0 in bundle internal
-2025-8-1 13:06:31-debug: handle json group in bundle main
-2025-8-1 13:06:31-debug: handle json group in bundle main success
-2025-8-1 13:06:31-debug: init image compress task 0 in bundle main
-2025-8-1 13:06:31-debug: // ---- build task 查询 Asset Bundle ---- (401ms)
-2025-8-1 13:06:31-debug: 查询 Asset Bundle start, progress: 12%
-2025-8-1 13:06:31-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:06:31-debug: [Build Memory track]: 查询 Asset Bundle start:204.14MB, end 205.33MB, increase: 1.19MB
-2025-8-1 13:06:31-log: run build task 查询 Asset Bundle success in 401 ms√, progress: 12%
-2025-8-1 13:06:31-debug: // ---- build task 查询 Asset Bundle ---- (95ms)
-2025-8-1 13:06:31-log: run build task 查询 Asset Bundle success in 95 ms√, progress: 17%
-2025-8-1 13:06:31-debug: [Build Memory track]: 查询 Asset Bundle start:205.37MB, end 205.51MB, increase: 144.04KB
-2025-8-1 13:06:31-debug: 打包脚本 start, progress: 17%
-2025-8-1 13:06:31-debug: // ---- build task 打包脚本 ----
-2025-8-1 13:06:31-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2025-8-1 13:06:32-log: [build-script]enter sub process 23928, C:\ProgramData\cocos\editors\Creator\3.8.6\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\builtin\builder\static\sub-process-index
-2025-8-1 13:06:37-debug: excute-script over with build-script 6519ms
-2025-8-1 13:06:37-debug: Generate systemJs..., progress: 17%
-2025-8-1 13:06:37-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2025-8-1 13:06:43-debug: excute-script over with build-script 5485ms
-2025-8-1 13:06:43-debug: 构建项目脚本 start..., progress: 17%
-2025-8-1 13:06:43-debug: Build script in bundle start, progress: 17%
-2025-8-1 13:06:43-debug: Build script in bundle start, progress: 13%
-2025-8-1 13:06:43-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2025-8-1 13:06:48-debug: excute-script over with build-script 4914ms
-2025-8-1 13:06:48-debug: Copy externalScripts success!
-2025-8-1 13:06:48-debug: Build script in bundle success, progress: 17%
-2025-8-1 13:06:48-debug: Build script in bundle success, progress: 13%
-2025-8-1 13:06:48-debug: 构建项目脚本 in (5049 ms) √, progress: 17%
-2025-8-1 13:06:48-debug: 构建引擎脚本 start..., progress: 17%
-2025-8-1 13:06:48-debug: mangleProperties is enabled, found engine-mangle-config.json, use it
-2025-8-1 13:06:48-debug: mangleProperties is disabled, platform: HTML5
-2025-8-1 13:06:48-warn: Engine cache directory({link(C:\Users\zqd66\AppData\Local\Temp\CocosCreator\3.8.6\builder\engine\a9f712e7ea51c31e4d8ad3c926b626a8)}) exists but has empty content. It's abnormal.
-2025-8-1 13:06:48-debug: Cache is invalid, start build engine with options: {  "incremental": "C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8.watch-files.json",  "engine": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine",  "out": "C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8",  "moduleFormat": "system",  "compress": true,  "nativeCodeBundleMode": "both",  "assetURLFormat": "runtime-resolved",  "sourceMap": false,  "loose": true,  "features": [    "2d",    "affine-transform",    "animation",    "audio",    "base",    "custom-pipeline",    "dragon-bones",    "gfx-webgl",    "gfx-webgl2",    "graphics",    "intersection-2d",    "mask",    "particle-2d",    "physics-2d-box2d",    "profiler",    "rich-text",    "spine-3.8",    "tiled-map",    "tween",    "ui",    "video",    "webview",    "custom-pipeline-builtin-scripts"  ],  "platform": "HTML5",  "flags": {    "DEBUG": false,    "LOAD_BULLET_MANUALLY": false,    "LOAD_SPINE_MANUALLY": false,    "WEBGPU": false  },  "mode": "BUILD",  "metaFile": "C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8.meta\\meta.json",  "wasmCompressionMode": false,  "inlineEnum": true,  "mangleProperties": false,  "mangleConfigJsonMtime": 0}
-2025-8-1 13:06:48-debug: md5String: debug=false,sourceMaps=false,includeModules=["2d","affine-transform","animation","audio","base","custom-pipeline","dragon-bones","gfx-webgl","gfx-webgl2","graphics","intersection-2d","mask","particle-2d","physics-2d-box2d","profiler","rich-text","spine-3.8","tiled-map","tween","ui","video","webview","custom-pipeline-builtin-scripts"],engineVersion="3.8.6",platform="HTML5",split=undefined,nativeCodeBundleMode="both",targets=undefined,entry="C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine",noDeprecatedFeatures=undefined,loose=true,assetURLFormat="runtime-resolved",flags={"DEBUG":false,"LOAD_BULLET_MANUALLY":false,"LOAD_SPINE_MANUALLY":false,"WEBGPU":false},preserveType=undefined,wasmCompressionMode=false,enableNamedRegisterForSystemJSModuleFormat=undefined,mangleProperties=false,inlineEnum=true,
-2025-8-1 13:06:48-log: Run build task(build-engine) in child, see: chrome://inspect/#devices
-2025-8-1 13:06:49-log: [build-engine]enter sub process 9512, C:\ProgramData\cocos\editors\Creator\3.8.6\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\builtin\builder\static\sub-process-index
-2025-8-1 13:06:52-log: [build-engine]start build engine with options: {"engine":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine","out":"C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8","platform":"HTML5","moduleFormat":"system","compress":true,"split":false,"nativeCodeBundleMode":"both","assetURLFormat":"runtime-resolved","noDeprecatedFeatures":false,"sourceMap":false,"features":["2d","affine-transform","animation","audio","base","custom-pipeline","dragon-bones","gfx-webgl","gfx-webgl2","graphics","intersection-2d","mask","particle-2d","physics-2d-box2d","profiler","rich-text","spine-3.8","tiled-map","tween","ui","video","webview","custom-pipeline-builtin-scripts"],"loose":true,"mode":"BUILD","flags":{"DEBUG":false,"LOAD_BULLET_MANUALLY":false,"LOAD_SPINE_MANUALLY":false,"WEBGPU":false},"metaFile":"C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8.meta\\meta.json","mangleProperties":false,"inlineEnum":true,"incremental":"C:\\Users\\zqd66\\AppData\\Local\\Temp\\CocosCreator\\3.8.6\\builder\\engine\\a9f712e7ea51c31e4d8ad3c926b626a8.watch-files.json","wasmCompressionMode":false,"mangleConfigJsonMtime":0}
-2025-8-1 13:06:52-log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = true;export const NATIVE = false;export const ANDROID = false;export const IOS = false;export const MAC = false;export const WINDOWS = false;export const LINUX = false;export const OHOS = false;export const OPEN_HARMONY = false;export const WECHAT = false;tryDefineGlobal('CC_WECHAT', false);export const WECHAT_MINI_PROGRAM = false;export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const TAOBAO = false;export const TAOBAO_MINIGAME = false;export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const MIGU = false;tryDefineGlobal('CC_MIGU', false);export const HONOR = false;tryDefineGlobal('CC_HONOR', false);export const COCOS_RUNTIME = false;tryDefineGlobal('CC_COCOS_RUNTIME', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const EDITOR_NOT_IN_PREVIEW = false;export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = false;tryDefineGlobal('CC_MINIGAME', false);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = true;tryDefineGlobal('CC_SUPPORT_JIT', true);export const JSB = false;tryDefineGlobal('CC_JSB', false);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;export const WEBGPU = false;export const NATIVE_CODE_BUNDLE_MODE = 2;export const WASM_SUBPACKAGE = false;export const CULL_MESHOPT = true;export const LOAD_SPINE_MANUALLY = false;export const LOAD_BOX2D_MANUALLY = false;export const LOAD_BULLET_MANUALLY = false;export const LOAD_PHYSX_MANUALLY = false;export const USE_3D = false;export const USE_UI_SKEW = false;export const USE_XR = false;
-2025-8-1 13:06:52-log: [build-engine]Module source "cc":export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\sorting.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\affine-transform.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\animation.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\audio.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\base.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\custom-pipeline.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\dragon-bones.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\gfx-webgl.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\gfx-webgl2.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\graphics.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\intersection-2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\mask.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\particle-2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\physics-2d-box2d.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\physics-2d-framework.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\profiler.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\rich-text.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\spine.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\tiled-map.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\tween.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\ui.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\video.ts';export * from 'C:\\ProgramData\\cocos\\editors\\Creator\\3.8.6\\resources\\resources\\3d\\engine\\exports\\webview.ts';
-2025-8-1 13:07:13-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
-2025-8-1 13:07:22-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
-2025-8-1 13:07:31-log: [build-engine]Redirect module pal/system-info to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\system-info\web\system-info.ts
-2025-8-1 13:07:35-log: [build-engine]Redirect module internal:native to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\native-binding\impl.ts
-2025-8-1 13:07:36-log: [build-engine]Redirect module pal/audio to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\audio\web\player.ts
-2025-8-1 13:07:37-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\2d\renderer\native-2d.ts to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\2d\renderer\native-2d-empty.ts
-2025-8-1 13:07:37-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\animation\marionette\runtime-exports.ts to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\animation\marionette\index-empty.ts
-2025-8-1 13:07:40-log: [build-engine]Redirect module pal/screen-adapter to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\screen-adapter\web\screen-adapter.ts
-2025-8-1 13:07:41-log: [build-engine]Redirect module pal/env to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\env\web\env.tsRedirect module pal/pacer to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\pacer\pacer-web.ts
-2025-8-1 13:07:44-log: [build-engine]Redirect module pal/input to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\input\web\index.ts
-2025-8-1 13:07:45-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\spine\lib\spine-version.ts to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\spine\lib\spine-version-3.8.ts
-2025-8-1 13:07:46-log: [build-engine]Redirect module pal/minigame to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\minigame\non-minigame.ts
-2025-8-1 13:07:49-log: [build-engine]Redirect module C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\spine\lib\spine-instantiate.ts to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\cocos\spine\lib\spine-instantiate-3.8.ts
-2025-8-1 13:07:50-log: [build-engine]Redirect module pal/wasm to C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\pal\wasm\wasm-web.ts
-2025-8-1 13:07:52-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
-2025-8-1 13:07:52-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for C:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
-2025-8-1 13:08:01-log: [build-engine]==== Performance ===={"# BUILD":[64991.8949,1359853296,1501585236],"## initialize":[31031.571600000003,417481628,559218396],"- plugin 6 (node-resolve) - buildStart":[0.18429999999989377,-163104,141755848],"- plugin 8 (commonjs) - buildStart":[0.05040000000008149,3324,141759980],"- plugin 9 (@cocos/typescript) - buildStart":[31031.193700000003,417456104,559216404],"## generate module graph":[29166.318699999996,864335744,1423554728],"- plugin 0 (commonjs--resolver) - resolveId":[34.11989999996149,-1255552,1422010988],"- plugin 1 (@cocos/ccbuild|external-loader) - resolveId":[11.90150000018184,1226716,1421035684],"- plugin 2 (@cocos/ccbuild|module-overrides) - resolveId":[16.127400000026682,1263396,1421042160],"- plugin 3 (virtual) - resolveId":[39.94310000001133,-3359784,1421043940],"- plugin 1 (@cocos/ccbuild|external-loader) - load":[3.9192999999941094,626532,1422029772],"- plugin 2 (@cocos/ccbuild|module-overrides) - load":[8.240899999989779,772532,1422030936],"- plugin 3 (virtual) - load":[2.169399999882444,430744,1422031432],"- plugin 7 (json) - transform":[6.568000000137545,751208,1422036052],"- plugin 8 (commonjs) - transform":[408.74800000004325,20462640,1422037360],"- plugin 10 (babel) - transform":[201.85430000005726,9365632,1422038904],"generate ast":[1684.6458000002021,201469488,1422045132],"- plugin 4 (@cocos/ccbuild|module-query-plugin) - resolveId":[27.534499999957916,-2667368,1421080156],"- plugin 5 (ts-paths) - resolveId":[10.476800000164076,574444,1421154784],"- plugin 9 (@cocos/typescript) - resolveId":[2844.4437000001053,78419444,1421262744],"- plugin 10 (babel) - resolveId":[2.5283000000563334,117288,1421277196],"- plugin 6 (node-resolve) - resolveId":[8.234300000032817,572964,1299470844],"- plugin 6 (node-resolve) - load":[1.9109999999709544,-407204,1422031936],"- plugin 8 (commonjs) - load":[2.4266000000716303,261776,1422033012],"- plugin 9 (@cocos/typescript) - load":[42.65539999992325,8295524,1299498836],"- plugin 10 (babel) - load":[291.79439999999886,9183012,1299499496],"## sort and bind modules":[329.587400000004,15024888,1438579688],"## mark included statements":[4447.919999999998,62475504,1501055224],"treeshaking pass 1":[1481.4079999999958,41602004,1480400264],"treeshaking pass 2":[573.1273000000074,13036960,1493437256],"treeshaking pass 3":[295.40460000000894,2789676,1496226964],"treeshaking pass 4":[270.2306000000099,-5057676,1491169320],"treeshaking pass 5":[198.53770000000077,3891972,1495061324],"treeshaking pass 6":[150.71430000000692,-2132276,1492929080],"treeshaking pass 7":[147.53420000000915,6488280,1499417392],"treeshaking pass 8":[156.2201000000059,-150564,1499266860],"treeshaking pass 9":[381.52670000000217,3064716,1502331608],"treeshaking pass 10":[185.3582000000024,1784792,1504116432],"treeshaking pass 11":[138.38840000001073,-1411832,1502704632],"treeshaking pass 12":[138.42280000000028,-2763432,1499941232],"treeshaking pass 13":[147.19700000000012,-3587088,1496354176],"treeshaking pass 14":[182.0905999999959,4700752,1501054960],"- plugin 8 (commonjs) - buildEnd":[0.010800000003655441,244,1501057908],"- plugin 9 (@cocos/typescript) - buildEnd":[16.045899999997346,526252,1501584192]}====             ====
-2025-8-1 13:08:28-debug: Query all assets info in project
-2025-8-1 13:08:28-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:08:28-debug: Skip compress image, progress: 0%
-2025-8-1 13:08:28-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:08:28-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:08:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:28-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:08:28-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:08:28-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:08:28-debug:   Number of other assets: 309
-2025-8-1 13:08:28-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:08:28-debug:   Number of all scenes: 3
-2025-8-1 13:08:28-debug:   Number of all scripts: 7
-2025-8-1 13:08:28-debug: [Build Memory track]: 查询 Asset Bundle start:196.17MB, end 195.89MB, increase: -291.05KB
-2025-8-1 13:08:28-debug: // ---- build task 查询 Asset Bundle ---- (84ms)
-2025-8-1 13:08:28-log: run build task 查询 Asset Bundle success in 84 ms√, progress: 5%
-2025-8-1 13:08:28-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:28-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:08:28-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
-2025-8-1 13:08:28-log: run build task 查询 Asset Bundle success in 9 ms√, progress: 10%
-2025-8-1 13:08:28-debug: [Build Memory track]: 查询 Asset Bundle start:195.93MB, end 196.04MB, increase: 114.63KB
-2025-8-1 13:08:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:08:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (13ms)
-2025-8-1 13:08:28-log: run build task 整理部分构建选项内数据到 settings.json success in 13 ms√, progress: 12%
-2025-8-1 13:08:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:196.08MB, end 196.12MB, increase: 35.45KB
-2025-8-1 13:08:28-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:08:28-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:08:28-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:08:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:28-log: run build task 填充脚本数据到 settings.json success in 5 ms√, progress: 13%
-2025-8-1 13:08:28-debug: // ---- build task 填充脚本数据到 settings.json ---- (5ms)
-2025-8-1 13:08:28-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:196.24MB, end 195.69MB, increase: -565.20KB
-2025-8-1 13:08:28-debug: [Build Memory track]: 填充脚本数据到 settings.json start:196.16MB, end 196.20MB, increase: 36.37KB
-2025-8-1 13:08:28-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (33ms)
-2025-8-1 13:08:28-log: run build task 整理部分构建选项内数据到 settings.json success in 33 ms√, progress: 15%
-2025-8-1 13:08:38-log: 资源数据库已锁定，资源操作(refresh)将会延迟响应，请稍侯
-2025-8-1 13:08:40-debug: excute-script over with build-engine 111601ms
-2025-8-1 13:08:40-debug: build engine done: output: C:\Users\zqd66\AppData\Local\Temp\CocosCreator\3.8.6\builder\engine\a9f712e7ea51c31e4d8ad3c926b626a8
-2025-8-1 13:08:40-debug: 构建引擎脚本 in (111757 ms) √, progress: 17%
-2025-8-1 13:08:40-debug: Copy plugin script ..., progress: 17%
-2025-8-1 13:08:40-debug: Generate import-map..., progress: 17%
-2025-8-1 13:08:40-debug: // ---- build task 打包脚本 ---- (128964ms)
-2025-8-1 13:08:40-log: run build task 打包脚本 success in 2 min 8 s√, progress: 22%
-2025-8-1 13:08:40-debug: Build Assets start, progress: 22%
-2025-8-1 13:08:40-debug: Build bundles..., progress: 22%
-2025-8-1 13:08:40-debug: Pack Images start, progress: 22%
-2025-8-1 13:08:40-debug: Pack Images start, progress: 13%
-2025-8-1 13:08:40-debug: [Build Memory track]: 打包脚本 start:205.64MB, end 196.42MB, increase: -9431.68KB
-2025-8-1 13:08:40-debug: // ---- build task Build Assets ----
-2025-8-1 13:08:40-debug: Pack Images success, progress: 13%
-2025-8-1 13:08:40-debug: Pack Images success, progress: 22%
-2025-8-1 13:08:40-debug: Compress image start..., progress: 22%
-2025-8-1 13:08:40-debug: builder:pack-auto-atlas-image (80ms)
-2025-8-1 13:08:40-debug: Compress image start..., progress: 13%
-2025-8-1 13:08:40-debug: Num of all image compress task 0, really: 0, configTasks: 0
-2025-8-1 13:08:40-debug: Compress image success..., progress: 22%
-2025-8-1 13:08:40-debug: sort compress task {}
-2025-8-1 13:08:40-debug: Compress image success..., progress: 13%
-2025-8-1 13:08:40-debug: Output asset in bundles start, progress: 22%
-2025-8-1 13:08:40-debug: Handle all json groups in bundle internal
-2025-8-1 13:08:40-debug: handle json group
-2025-8-1 13:08:40-debug: Output asset in bundles start, progress: 13%
-2025-8-1 13:08:40-debug: handle json group
-2025-8-1 13:08:40-debug: Handle all json groups in bundle main
-2025-8-1 13:08:40-debug: No image need to compress
-2025-8-1 13:08:40-debug: Json group(01fe14fde) compile success，json number: 6
-2025-8-1 13:08:40-debug: handle single json
-2025-8-1 13:08:40-debug: handle single json
-2025-8-1 13:08:40-debug: Json group(06585a170) compile success，json number: 6
-2025-8-1 13:08:40-debug: Output asset in bundles success, progress: 22%
-2025-8-1 13:08:40-debug: Output asset in bundles success, progress: 13%
-2025-8-1 13:08:40-debug: compress config of bundle internal...
-2025-8-1 13:08:40-debug: compress config of bundle internal success
-2025-8-1 13:08:40-debug: Output asset in bundles start, progress: 13%
-2025-8-1 13:08:40-debug: compress config of bundle main...
-2025-8-1 13:08:40-debug: output config of bundle internal success
-2025-8-1 13:08:40-debug: output config of bundle internal
-2025-8-1 13:08:40-debug: output config of bundle main
-2025-8-1 13:08:40-debug: Output asset in bundles start, progress: 22%
-2025-8-1 13:08:40-debug: Output asset in bundles success, progress: 22%
-2025-8-1 13:08:40-debug: Output asset in bundles success, progress: 13%
-2025-8-1 13:08:40-debug: compress config of bundle main success
-2025-8-1 13:08:40-debug: output config of bundle main success
-2025-8-1 13:08:40-debug: // ---- build task Build Assets ---- (381ms)
-2025-8-1 13:08:40-log: run build task Build Assets success in 381 ms√, progress: 27%
-2025-8-1 13:08:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:40-debug: [Build Memory track]: Build Assets start:196.46MB, end 197.22MB, increase: 768.73KB
-2025-8-1 13:08:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 27%
-2025-8-1 13:08:40-log: run build task 整理部分构建选项内数据到 settings.json success in 44 ms√, progress: 29%
-2025-8-1 13:08:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.31MB, end 197.38MB, increase: 70.73KB
-2025-8-1 13:08:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (44ms)
-2025-8-1 13:08:40-debug: 填充脚本数据到 settings.json start, progress: 29%
-2025-8-1 13:08:40-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:08:40-debug: [Build Memory track]: 填充脚本数据到 settings.json start:197.42MB, end 197.49MB, increase: 71.88KB
-2025-8-1 13:08:40-debug: // ---- build task 填充脚本数据到 settings.json ---- (41ms)
-2025-8-1 13:08:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 31%
-2025-8-1 13:08:40-log: run build task 填充脚本数据到 settings.json success in 41 ms√, progress: 31%
-2025-8-1 13:08:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (43ms)
-2025-8-1 13:08:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.53MB, end 197.71MB, increase: 185.05KB
-2025-8-1 13:08:40-debug: web-desktop:(onBeforeCompressSettings) start..., progress: 32%
-2025-8-1 13:08:40-log: run build task 整理部分构建选项内数据到 settings.json success in 43 ms√, progress: 32%
-2025-8-1 13:08:40-debug: // ---- build task web-desktop：onBeforeCompressSettings ----
-2025-8-1 13:08:40-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 34%
-2025-8-1 13:08:40-debug: // ---- build task web-desktop：onBeforeCompressSettings ---- (36ms)
-2025-8-1 13:08:40-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
-2025-8-1 13:08:40-debug: web-desktop:(onBeforeCompressSettings) in 36 ms ✓, progress: 34%
-2025-8-1 13:08:41-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (175ms)
-2025-8-1 13:08:41-debug: cocos-service:(onBeforeCompressSettings) in 175 ms ✓, progress: 36%
-2025-8-1 13:08:41-debug: 整理静态模板文件 start, progress: 36%
-2025-8-1 13:08:41-debug: // ---- build task 整理静态模板文件 ----
-2025-8-1 13:08:41-debug: // ---- build task 整理静态模板文件 ---- (234ms)
-2025-8-1 13:08:41-debug: [Build Memory track]: 整理静态模板文件 start:197.24MB, end 200.28MB, increase: 3.03MB
-2025-8-1 13:08:41-log: run build task 整理静态模板文件 success in 234 ms√, progress: 41%
-2025-8-1 13:08:41-debug: cocos-service:(onAfterCompressSettings) start..., progress: 41%
-2025-8-1 13:08:41-debug: // ---- build task cocos-service：onAfterCompressSettings ----
-2025-8-1 13:08:41-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (85ms)
-2025-8-1 13:08:41-debug: cocos-service:(onAfterCompressSettings) in 85 ms ✓, progress: 43%
-2025-8-1 13:08:41-debug: web-desktop:(onBeforeCopyBuildTemplate) start..., progress: 43%
-2025-8-1 13:08:41-debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ----
-2025-8-1 13:08:41-debug: // ---- build task web-desktop：onBeforeCopyBuildTemplate ---- (96ms)
-2025-8-1 13:08:41-debug: web-desktop:(onBeforeCopyBuildTemplate) in 96 ms ✓, progress: 45%
-2025-8-1 13:08:41-debug: 给所有的资源加上 MD5 后缀 start, progress: 45%
-2025-8-1 13:08:41-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
-2025-8-1 13:08:41-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (39ms)
-2025-8-1 13:08:41-log: run build task 给所有的资源加上 MD5 后缀 success in 39 ms√, progress: 55%
-2025-8-1 13:08:41-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:201.87MB, end 201.93MB, increase: 69.16KB
-2025-8-1 13:08:41-debug: cocos-service:(onAfterBuild) start..., progress: 55%
-2025-8-1 13:08:41-debug: // ---- build task cocos-service：onAfterBuild ----
-2025-8-1 13:08:41-debug: cocos-service:(onAfterBuild) in 217 ms ✓, progress: 56%
-2025-8-1 13:08:41-debug: // ---- build task cocos-service：onAfterBuild ---- (217ms)
-2025-8-1 13:08:41-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 56%
-2025-8-1 13:08:41-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
-2025-8-1 13:08:41-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (46ms)
-2025-8-1 13:08:41-debug: adsense-h5g-plugin:(onAfterBuild) in 46 ms ✓, progress: 58%
-2025-8-1 13:08:41-log: Asset DB is resume!
-2025-8-1 13:08:42-debug: builder:build-project-total (131795ms)
-2025-8-1 13:08:42-debug: build success in 131795!
-2025-8-1 13:08:42-debug: ================================ build Task (web-desktop) Finished in (2 min 11 s)ms ================================
-2025-8-1 13:08:42-debug: [Build Memory track]: builder:build-project-total start:203.34MB, end 201.81MB, increase: -1571.36KB
-2025-8-1 13:08:42-debug: Stop record console. {file(C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\temp\builder\log\web-desktop2025-8-1 13-06.log)}
-2025-8-1 13:08:42-debug: refresh db internal success
-2025-8-1 13:08:42-debug: refresh db assets success
-2025-8-1 13:08:42-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:08:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:08:42-debug: asset-db:refresh-all-database (463ms)
-2025-8-1 13:08:42-debug: asset-db:worker-effect-data-processing (9ms)
-2025-8-1 13:08:42-debug: asset-db-hook-engine-extends-afterRefresh (11ms)
-2025-8-1 13:08:47-debug: Query all assets info in project
-2025-8-1 13:08:47-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:08:47-debug: Skip compress image, progress: 0%
-2025-8-1 13:08:47-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:08:47-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:08:47-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:08:47-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:47-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:08:47-debug:   Number of all scripts: 7
-2025-8-1 13:08:47-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:08:47-debug:   Number of other assets: 309
-2025-8-1 13:08:47-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:08:47-debug:   Number of all scenes: 3
-2025-8-1 13:08:47-log: run build task 查询 Asset Bundle success in 15 ms√, progress: 5%
-2025-8-1 13:08:47-debug: // ---- build task 查询 Asset Bundle ---- (15ms)
-2025-8-1 13:08:47-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:08:47-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:47-debug: [Build Memory track]: 查询 Asset Bundle start:201.96MB, end 202.52MB, increase: 572.27KB
-2025-8-1 13:08:47-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2025-8-1 13:08:47-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 10%
-2025-8-1 13:08:47-debug: [Build Memory track]: 查询 Asset Bundle start:202.56MB, end 201.78MB, increase: -792.54KB
-2025-8-1 13:08:47-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:08:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (4ms)
-2025-8-1 13:08:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:47-log: run build task 整理部分构建选项内数据到 settings.json success in 4 ms√, progress: 12%
-2025-8-1 13:08:47-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:201.82MB, end 201.85MB, increase: 32.01KB
-2025-8-1 13:08:47-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:08:47-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:08:47-debug: // ---- build task 填充脚本数据到 settings.json ---- (5ms)
-2025-8-1 13:08:47-debug: [Build Memory track]: 填充脚本数据到 settings.json start:201.89MB, end 201.93MB, increase: 34.25KB
-2025-8-1 13:08:47-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:08:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:47-log: run build task 填充脚本数据到 settings.json success in 5 ms√, progress: 13%
-2025-8-1 13:08:47-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
-2025-8-1 13:08:47-log: run build task 整理部分构建选项内数据到 settings.json success in 11 ms√, progress: 15%
-2025-8-1 13:08:47-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:201.96MB, end 202.11MB, increase: 144.64KB
-2025-8-1 13:08:53-debug: Query all assets info in project
-2025-8-1 13:08:53-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:08:53-debug: Skip compress image, progress: 0%
-2025-8-1 13:08:53-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:08:53-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:08:53-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:08:53-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:08:53-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:53-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:08:53-debug:   Number of other assets: 309
-2025-8-1 13:08:53-debug:   Number of all scripts: 7
-2025-8-1 13:08:53-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:08:53-debug:   Number of all scenes: 3
-2025-8-1 13:08:53-log: run build task 查询 Asset Bundle success in 18 ms√, progress: 5%
-2025-8-1 13:08:53-debug: // ---- build task 查询 Asset Bundle ---- (18ms)
-2025-8-1 13:08:53-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:08:53-debug: [Build Memory track]: 查询 Asset Bundle start:202.52MB, end 202.41MB, increase: -113.07KB
-2025-8-1 13:08:53-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:08:53-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 10%
-2025-8-1 13:08:53-debug: [Build Memory track]: 查询 Asset Bundle start:202.45MB, end 202.55MB, increase: 103.81KB
-2025-8-1 13:08:53-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2025-8-1 13:08:53-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:08:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
-2025-8-1 13:08:53-log: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 12%
-2025-8-1 13:08:53-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:08:53-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:202.59MB, end 201.91MB, increase: -693.77KB
-2025-8-1 13:08:53-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:08:53-debug: [Build Memory track]: 填充脚本数据到 settings.json start:201.95MB, end 201.99MB, increase: 34.40KB
-2025-8-1 13:08:53-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:08:53-log: run build task 填充脚本数据到 settings.json success in 4 ms√, progress: 13%
-2025-8-1 13:08:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:08:53-debug: // ---- build task 填充脚本数据到 settings.json ---- (4ms)
-2025-8-1 13:08:53-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (15ms)
-2025-8-1 13:08:53-log: run build task 整理部分构建选项内数据到 settings.json success in 15 ms√, progress: 15%
-2025-8-1 13:08:53-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:202.02MB, end 202.16MB, increase: 140.48KB
-2025-8-1 13:09:14-debug: refresh db internal success
-2025-8-1 13:09:14-debug: refresh db assets success
-2025-8-1 13:09:14-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:09:14-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:09:14-debug: asset-db:worker-effect-data-processing (4ms)
-2025-8-1 13:09:14-debug: asset-db:refresh-all-database (293ms)
-2025-8-1 13:09:14-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
-2025-8-1 13:09:23-debug: Query all assets info in project
-2025-8-1 13:09:23-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:09:23-debug: Skip compress image, progress: 0%
-2025-8-1 13:09:23-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:09:23-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:09:23-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:09:23-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:09:23-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:09:23-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:09:23-debug:   Number of all scripts: 7
-2025-8-1 13:09:23-debug:   Number of all scenes: 3
-2025-8-1 13:09:23-debug:   Number of other assets: 309
-2025-8-1 13:09:23-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:09:23-debug: // ---- build task 查询 Asset Bundle ---- (16ms)
-2025-8-1 13:09:23-log: run build task 查询 Asset Bundle success in 16 ms√, progress: 5%
-2025-8-1 13:09:23-debug: [Build Memory track]: 查询 Asset Bundle start:203.51MB, end 204.09MB, increase: 590.92KB
-2025-8-1 13:09:23-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:09:23-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:09:23-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
-2025-8-1 13:09:23-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 10%
-2025-8-1 13:09:23-debug: [Build Memory track]: 查询 Asset Bundle start:204.13MB, end 203.47MB, increase: -670.14KB
-2025-8-1 13:09:23-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:09:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:09:23-log: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 12%
-2025-8-1 13:09:23-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:203.51MB, end 203.54MB, increase: 33.88KB
-2025-8-1 13:09:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
-2025-8-1 13:09:23-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:09:23-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:09:23-log: run build task 填充脚本数据到 settings.json success in 3 ms√, progress: 13%
-2025-8-1 13:09:23-debug: [Build Memory track]: 填充脚本数据到 settings.json start:203.58MB, end 203.61MB, increase: 33.93KB
-2025-8-1 13:09:23-debug: // ---- build task 填充脚本数据到 settings.json ---- (3ms)
-2025-8-1 13:09:23-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:09:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:09:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
-2025-8-1 13:09:23-log: run build task 整理部分构建选项内数据到 settings.json success in 11 ms√, progress: 15%
-2025-8-1 13:09:23-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:203.65MB, end 203.79MB, increase: 137.47KB
-2025-8-1 13:10:50-debug: refresh db internal success
-2025-8-1 13:10:50-debug: refresh db assets success
-2025-8-1 13:10:50-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:10:50-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:10:50-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 13:10:50-debug: asset-db:refresh-all-database (304ms)
-2025-8-1 13:10:50-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 13:17:36-debug: refresh db internal success
-2025-8-1 13:17:36-debug: refresh db assets success
-2025-8-1 13:17:36-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 13:17:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 13:17:36-debug: asset-db:refresh-all-database (384ms)
-2025-8-1 13:17:36-debug: asset-db:worker-effect-data-processing (3ms)
-2025-8-1 13:17:36-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2025-8-1 13:18:04-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\UserInitTool.ts...
-2025-8-1 13:18:04-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\UserInitTool.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 13:18:04-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools success
-2025-8-1 13:18:05-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Toolsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 13:18:06-debug: Query all assets info in project
-2025-8-1 13:18:06-debug: Skip compress image, progress: 0%
-2025-8-1 13:18:06-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 13:18:06-debug: Init all bundles start..., progress: 0%
-2025-8-1 13:18:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:18:06-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 13:18:06-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 13:18:06-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 13:18:06-debug:   Number of all scripts: 8
-2025-8-1 13:18:06-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 13:18:06-debug:   Number of all scenes: 3
-2025-8-1 13:18:06-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 13:18:06-debug:   Number of other assets: 309
-2025-8-1 13:18:06-debug: // ---- build task 查询 Asset Bundle ---- (39ms)
-2025-8-1 13:18:06-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 13:18:06-debug: [Build Memory track]: 查询 Asset Bundle start:206.84MB, end 206.54MB, increase: -306.27KB
-2025-8-1 13:18:06-log: run build task 查询 Asset Bundle success in 39 ms√, progress: 5%
-2025-8-1 13:18:06-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 13:18:06-log: run build task 查询 Asset Bundle success in 9 ms√, progress: 10%
-2025-8-1 13:18:06-debug: // ---- build task 查询 Asset Bundle ---- (9ms)
-2025-8-1 13:18:06-debug: [Build Memory track]: 查询 Asset Bundle start:206.58MB, end 206.69MB, increase: 104.63KB
-2025-8-1 13:18:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 13:18:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:18:06-log: run build task 整理部分构建选项内数据到 settings.json success in 11 ms√, progress: 12%
-2025-8-1 13:18:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:206.72MB, end 206.76MB, increase: 33.37KB
-2025-8-1 13:18:06-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 13:18:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
-2025-8-1 13:18:06-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 13:18:06-debug: // ---- build task 填充脚本数据到 settings.json ---- (7ms)
-2025-8-1 13:18:06-debug: [Build Memory track]: 填充脚本数据到 settings.json start:206.80MB, end 206.83MB, increase: 34.98KB
-2025-8-1 13:18:06-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 13:18:06-log: run build task 填充脚本数据到 settings.json success in 7 ms√, progress: 13%
-2025-8-1 13:18:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 13:18:06-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (12ms)
-2025-8-1 13:18:06-log: run build task 整理部分构建选项内数据到 settings.json success in 12 ms√, progress: 15%
-2025-8-1 13:18:06-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:206.87MB, end 207.00MB, increase: 137.31KB
-2025-8-1 13:18:11-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
-2025-8-1 14:02:25-debug: refresh db internal success
-2025-8-1 14:02:25-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\UserInitTool.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:02:25-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:02:25-debug: refresh db assets success
-2025-8-1 14:02:25-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:02:25-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 14:02:25-debug: asset-db:refresh-all-database (198ms)
-2025-8-1 14:02:25-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:02:26-debug: Query all assets info in project
-2025-8-1 14:02:26-debug: Skip compress image, progress: 0%
-2025-8-1 14:02:26-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 14:02:26-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 14:02:26-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 14:02:26-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:02:26-debug: Init all bundles start..., progress: 0%
-2025-8-1 14:02:26-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 14:02:26-debug:   Number of all scenes: 3
-2025-8-1 14:02:26-debug:   Number of other assets: 309
-2025-8-1 14:02:26-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 14:02:26-debug:   Number of all scripts: 8
-2025-8-1 14:02:26-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 14:02:26-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 14:02:26-log: run build task 查询 Asset Bundle success in 20 ms√, progress: 5%
-2025-8-1 14:02:26-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:02:26-debug: [Build Memory track]: 查询 Asset Bundle start:208.64MB, end 208.38MB, increase: -270.14KB
-2025-8-1 14:02:26-debug: // ---- build task 查询 Asset Bundle ---- (20ms)
-2025-8-1 14:02:26-debug: [Build Memory track]: 查询 Asset Bundle start:208.42MB, end 208.52MB, increase: 102.47KB
-2025-8-1 14:02:26-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2025-8-1 14:02:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 14:02:26-log: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
-2025-8-1 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2025-8-1 14:02:26-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2025-8-1 14:02:26-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 14:02:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:208.56MB, end 208.59MB, increase: 34.32KB
-2025-8-1 14:02:26-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 14:02:26-debug: [Build Memory track]: 填充脚本数据到 settings.json start:208.63MB, end 207.91MB, increase: -733.25KB
-2025-8-1 14:02:26-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2025-8-1 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:02:26-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 14:02:26-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2025-8-1 14:02:26-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (9ms)
-2025-8-1 14:02:26-log: run build task 整理部分构建选项内数据到 settings.json success in 9 ms√, progress: 15%
-2025-8-1 14:02:26-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:207.95MB, end 208.08MB, increase: 137.19KB
-2025-8-1 14:02:33-debug: refresh db internal success
-2025-8-1 14:02:33-debug: refresh db assets success
-2025-8-1 14:02:33-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:02:33-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:02:33-debug: asset-db:refresh-all-database (163ms)
-2025-8-1 14:02:33-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 14:02:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-8-1 14:02:45-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\UserInitTool.ts -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\User.ts...
-2025-8-1 14:02:45-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\User.ts...
-2025-8-1 14:02:45-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\User.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:02:45-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools...
-2025-8-1 14:02:45-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools success
-2025-8-1 14:02:45-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Toolsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:02:45-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\UserInitTool.ts -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools\User.ts success
-2025-8-1 14:02:45-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 14:02:46-debug: Query all assets info in project
-2025-8-1 14:02:46-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 14:02:46-debug: Skip compress image, progress: 0%
-2025-8-1 14:02:46-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 14:02:46-debug: Init all bundles start..., progress: 0%
-2025-8-1 14:02:46-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 14:02:46-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 14:02:46-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:02:46-debug:   Number of all scenes: 3
-2025-8-1 14:02:46-debug:   Number of all scripts: 8
-2025-8-1 14:02:46-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 14:02:46-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 14:02:46-debug:   Number of other assets: 309
-2025-8-1 14:02:46-debug: [Build Memory track]: 查询 Asset Bundle start:210.04MB, end 209.75MB, increase: -303.05KB
-2025-8-1 14:02:46-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
-2025-8-1 14:02:46-log: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
-2025-8-1 14:02:46-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:02:46-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 14:02:46-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
-2025-8-1 14:02:46-debug: [Build Memory track]: 查询 Asset Bundle start:209.78MB, end 209.90MB, increase: 113.40KB
-2025-8-1 14:02:46-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 14:02:46-log: run build task 查询 Asset Bundle success in 8 ms√, progress: 10%
-2025-8-1 14:02:46-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:02:46-log: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
-2025-8-1 14:02:46-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.93MB, end 209.95MB, increase: 20.91KB
-2025-8-1 14:02:46-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 14:02:46-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 14:02:46-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
-2025-8-1 14:02:46-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
-2025-8-1 14:02:46-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 14:02:46-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:02:46-debug: [Build Memory track]: 填充脚本数据到 settings.json start:209.99MB, end 210.02MB, increase: 32.20KB
-2025-8-1 14:02:46-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (21ms)
-2025-8-1 14:02:46-log: run build task 整理部分构建选项内数据到 settings.json success in 21 ms√, progress: 15%
-2025-8-1 14:02:46-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:210.07MB, end 209.53MB, increase: -555.35KB
-2025-8-1 14:02:58-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs...
-2025-8-1 14:03:14-debug: refresh db internal success
-2025-8-1 14:03:14-error: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools.meta is not exist! will use cache meta.
-2025-8-1 14:03:14-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:03:14-debug: refresh db assets success
-2025-8-1 14:03:14-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:03:14-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:03:14-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 14:03:14-debug: asset-db:refresh-all-database (195ms)
-2025-8-1 14:03:14-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:03:22-debug: refresh db internal success
-2025-8-1 14:03:22-debug: refresh db assets success
-2025-8-1 14:03:22-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:03:22-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:03:22-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 14:03:22-debug: asset-db:refresh-all-database (171ms)
-2025-8-1 14:03:22-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:03:27-debug: refresh db internal success
-2025-8-1 14:03:27-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:03:27-debug: refresh db assets success
-2025-8-1 14:03:27-debug: asset-db:refresh-all-database (183ms)
-2025-8-1 14:03:27-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 14:03:27-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:03:27-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:03:59-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 14:03:59-error: Error: EBUSY: resource busy or locked, rename 'C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools' -> 'C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs'
-2025-8-1 14:03:59-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs...
-2025-8-1 14:03:59-error: asset db moveFile from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs fail!
-2025-8-1 14:03:59-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts...
-2025-8-1 14:03:59-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 14:03:59-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs success
-2025-8-1 14:04:15-debug: refresh db internal success
-2025-8-1 14:04:15-debug: refresh db assets success
-2025-8-1 14:04:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:04:15-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:04:15-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 14:04:15-debug: asset-db:refresh-all-database (216ms)
-2025-8-1 14:04:15-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:04:19-debug: start move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs...
-2025-8-1 14:04:49-debug: refresh db internal success
-2025-8-1 14:04:49-error: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools.meta is not exist! will use cache meta.
-2025-8-1 14:04:49-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:04:49-debug: refresh db assets success
-2025-8-1 14:04:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:04:49-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:04:49-debug: asset-db:worker-effect-data-processing (3ms)
-2025-8-1 14:04:49-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:04:49-debug: asset-db:refresh-all-database (175ms)
-2025-8-1 14:05:04-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs...
-2025-8-1 14:05:04-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs\User.tsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:05:04-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:05:04-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts success
-2025-8-1 14:05:04-debug: start refresh asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts...
-2025-8-1 14:05:04-debug: %cImport%c: C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scriptsbackground: #aaff85; color: #000;color: #000;
-2025-8-1 14:05:04-debug: move asset from C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Tools -> C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets\scripts\Objs success
-2025-8-1 14:05:04-debug: refresh asset C:\Users\zqd66\Documents\Git\MD5\project\MD5Game\assets success
-2025-8-1 14:05:05-debug: Query all assets info in project
-2025-8-1 14:05:05-debug: init custom config: keepNodeUuid: false, useCache: true
-2025-8-1 14:05:05-debug: Skip compress image, progress: 0%
-2025-8-1 14:05:05-debug: Num of bundles: 2..., progress: 0%
-2025-8-1 14:05:05-debug: Init all bundles start..., progress: 0%
-2025-8-1 14:05:05-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:05:05-debug: Init bundle root assets start..., progress: 0%
-2025-8-1 14:05:05-debug: 查询 Asset Bundle start, progress: 0%
-2025-8-1 14:05:05-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1
-2025-8-1 14:05:05-debug:   Number of all scripts: 8
-2025-8-1 14:05:05-debug:   Number of other assets: 309
-2025-8-1 14:05:05-debug: Init bundle root assets success..., progress: 0%
-2025-8-1 14:05:05-debug:   Number of all scenes: 3
-2025-8-1 14:05:05-debug: // ---- build task 查询 Asset Bundle ---- (10ms)
-2025-8-1 14:05:05-debug: [Build Memory track]: 查询 Asset Bundle start:200.36MB, end 200.12MB, increase: -243.58KB
-2025-8-1 14:05:05-log: run build task 查询 Asset Bundle success in 10 ms√, progress: 5%
-2025-8-1 14:05:05-debug: 查询 Asset Bundle start, progress: 5%
-2025-8-1 14:05:05-debug: // ---- build task 查询 Asset Bundle ----
-2025-8-1 14:05:05-log: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
-2025-8-1 14:05:05-debug: [Build Memory track]: 查询 Asset Bundle start:200.16MB, end 200.26MB, increase: 104.07KB
-2025-8-1 14:05:05-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
-2025-8-1 14:05:05-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
-2025-8-1 14:05:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:05:05-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
-2025-8-1 14:05:05-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:200.30MB, end 200.33MB, increase: 33.93KB
-2025-8-1 14:05:05-debug: 填充脚本数据到 settings.json start, progress: 12%
-2025-8-1 14:05:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
-2025-8-1 14:05:05-debug: // ---- build task 填充脚本数据到 settings.json ----
-2025-8-1 14:05:05-log: run build task 填充脚本数据到 settings.json success in 3 ms√, progress: 13%
-2025-8-1 14:05:05-debug: [Build Memory track]: 填充脚本数据到 settings.json start:200.37MB, end 200.40MB, increase: 33.83KB
-2025-8-1 14:05:05-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
-2025-8-1 14:05:05-debug: // ---- build task 填充脚本数据到 settings.json ---- (3ms)
-2025-8-1 14:05:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
-2025-8-1 14:05:05-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
-2025-8-1 14:05:05-log: run build task 整理部分构建选项内数据到 settings.json success in 7 ms√, progress: 15%
-2025-8-1 14:05:05-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:200.44MB, end 199.85MB, increase: -602.86KB
-2025-8-1 14:05:07-debug: refresh db internal success
-2025-8-1 14:05:07-debug: refresh db assets success
-2025-8-1 14:05:07-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:05:07-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:05:07-debug: asset-db:refresh-all-database (184ms)
-2025-8-1 14:05:07-debug: asset-db:worker-effect-data-processing (2ms)
-2025-8-1 14:05:07-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-8-1 14:07:23-debug: refresh db internal success
-2025-8-1 14:07:23-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-8-1 14:07:23-debug: refresh db assets success
-2025-8-1 14:07:23-debug: asset-db:refresh-all-database (176ms)
-2025-8-1 14:07:23-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-8-1 14:07:23-debug: asset-db:worker-effect-data-processing (1ms)
-2025-8-1 14:07:23-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-8-1 14:07:24-warn: 为更好地打开脚本，请在 {preferences} -> {program} -> {scriptEditor} 里配置打开脚本的应用程序
