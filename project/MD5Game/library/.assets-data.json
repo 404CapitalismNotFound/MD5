@@ -78,5 +78,85 @@
     "url": "db://assets/scripts/Objs/tests",
     "value": {},
     "versionCode": 1
+  },
+  "ee21f252-a048-43b9-b288-16dccd37b9b5": {
+    "url": "db://assets/scripts/Manager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a471005c-542c-45bb-9ed1-ae1cc674a5e0": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "a471005c-542c-45bb-9ed1-ae1cc674a5e0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "29ca4acc-4064-4cf3-847f-ef47dead7857": {
+    "url": "db://assets/scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "65aa9eeb-8391-47fb-be4c-f7edfc99c8ff": {
+    "url": "db://assets/scripts/DAO",
+    "value": {},
+    "versionCode": 1
+  },
+  "460774f1-89cd-4d58-ae68-407da6fe440c": {
+    "url": "db://assets/scripts/DAO/Requset.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "03dbc5a9-5994-4dea-9d5a-60d230ddc3ba": {
+    "url": "db://assets/scripts/DAO/Send.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bff6f248-1a93-41d3-845e-135ba5a9fd4a": {
+    "url": "db://assets/scripts/Objs/Skills.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2301a297-d948-452c-9b8d-6d00416c7dc0": {
+    "url": "db://assets/scripts/Objs/Skill/SkillList.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c453dcc2-7866-43f2-81cc-d83be2e11013": {
+    "url": "db://assets/scripts/Objs/Skill",
+    "value": {},
+    "versionCode": 1
+  },
+  "c93251f6-64d2-43fc-b3c8-3e237c203b49": {
+    "url": "db://assets/scripts/Objs/Skill/Skill",
+    "value": {},
+    "versionCode": 1
+  },
+  "59f1c822-c884-4fab-89b6-32048238fbcd": {
+    "url": "db://assets/scripts/Objs/Skill/Skill.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7b0b4712-a621-4ec2-91c1-72c134732da9": {
+    "url": "db://assets/scripts/Objs/NewComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fe46f173-4208-4a0c-98bf-6faa54fdaf91": {
+    "url": "db://assets/scripts/AudioPlayer.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f82b4718-ad5c-4b50-b99f-43bd9c6fcd17": {
+    "url": "db://assets/scripts/Objs/Skill/SkillType.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "48ef1fd7-6337-481c-805a-764912ab118f": {
+    "url": "db://assets/scripts/Objs/Faction.ts",
+    "value": {},
+    "versionCode": 1
   }
 }
