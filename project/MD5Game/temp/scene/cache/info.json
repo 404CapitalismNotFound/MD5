@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "version": "Windows 11 Home China"
+    },
+    "sceneListMap": {
+        "c4df31f5-e8a8-4b9c-b494-b63a386e40ee": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\main.scene",
+        "unSave": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene"
+    },
+    "deviceMd5": "0e01b794351a4c8de443c19283f809a8"
+}

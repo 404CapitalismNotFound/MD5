@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes.meta": {
+      "time": 1754018997584.5154
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes": {
+      "time": 1754024350759.5896,
+      "uuid": "009f2011-a621-4b13-90d2-3a61ca5b5992"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene.meta": {
+      "time": 1754020093528.6584
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene": {
+      "time": 1754021188779.9126,
+      "uuid": "1f427bef-9b69-407d-9d05-44d8d7c012a9"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene.meta": {
+      "time": 1754018997619.0032
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene": {
+      "time": 1754023182108.1848,
+      "uuid": "c4df31f5-e8a8-4b9c-b494-b63a386e40ee"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts.meta": {
+      "time": 1754021351698.5388
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts": {
+      "time": 1754028304063.7512,
+      "uuid": "24a994e9-9ecb-4cc9-8b0b-31de10a02dc6"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts.meta": {
+      "time": 1754023937913.6587
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts": {
+      "time": 1754024541994.8665,
+      "uuid": "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene.meta": {
+      "time": 1754024350764.4443
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene": {
+      "time": 1754024350764.4443,
+      "uuid": "1ad42509-19f1-493c-b533-7b9e573990cc"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs.meta": {
+      "time": 1754028194687.6562
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs": {
+      "time": 1754028165021.863,
+      "uuid": "d81f199f-e6f7-484e-8f3f-8c98156ebce6"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts.meta": {
+      "time": 1754025484782.3396
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts": {
+      "time": 1754027930235.2217,
+      "uuid": "f0002539-923d-4c82-87c1-7405da681801"
+    }
+  },
+  "missing": {
+    "1f427bef-9b69-407d-9d05-44d8d7c012a9": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene",
+      "time": 1754020403746.2046,
+      "removeTime": 1754021188777
+    },
+    "c4df31f5-e8a8-4b9c-b494-b63a386e40ee": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu-.scene",
+      "time": 1754021184609.4453,
+      "removeTime": 1754021198721
+    },
+    "a2a3ff8b-1355-472a-a5a3-257c421fb54d": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\UI\\StartMenu.ts",
+      "time": 1754023379753.6863,
+      "removeTime": 1754024289870
+    },
+    "6f845891-9821-4ae1-9dda-5460c0560180": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene",
+      "time": 1754023364330.9736,
+      "removeTime": 1754024289869
+    },
+    "819dc22e-2187-4495-b871-1daa2fadd01c": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\UI",
+      "time": 1754023543037.8025,
+      "removeTime": 1754024289870
+    },
+    "f0002539-923d-4c82-87c1-7405da681801": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Tools\\User.ts",
+      "time": 1754027930235.2217,
+      "removeTime": 1754028304064
+    },
+    "d81f199f-e6f7-484e-8f3f-8c98156ebce6": {
+      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Tools",
+      "time": 1754028165021.863,
+      "removeTime": 1754028304063
+    }
+  }
+}

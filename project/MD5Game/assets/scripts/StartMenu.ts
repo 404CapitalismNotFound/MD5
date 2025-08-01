@@ -7,7 +7,7 @@ export class StartMenu extends Component {
         director.loadScene("Main")
     }
     onRankButtonClick(){
-        //director.loadScene("Main")
+        director.loadScene("Rank")
     }
 }
 

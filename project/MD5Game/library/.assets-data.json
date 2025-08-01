@@ -1,0 +1,72 @@
+{
+  "009f2011-a621-4b13-90d2-3a61ca5b5992": {
+    "url": "db://assets/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "c4df31f5-e8a8-4b9c-b494-b63a386e40ee": {
+    "url": "db://assets/scenes/StartMenu.scene",
+    "value": {
+      "depends": [
+        "c4df31f5-e8a8-4b9c-b494-b63a386e40ee",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": [
+        "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1f427bef-9b69-407d-9d05-44d8d7c012a9": {
+    "url": "db://assets/scenes/Main.scene",
+    "value": {
+      "depends": [
+        "1f427bef-9b69-407d-9d05-44d8d7c012a9"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "24a994e9-9ecb-4cc9-8b0b-31de10a02dc6": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a2a3ff8b-1355-472a-a5a3-257c421fb54d": {
+    "url": "db://assets/scripts/StartMenu.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6f845891-9821-4ae1-9dda-5460c0560180": {
+    "url": "db://assets/scenes/Rank.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "819dc22e-2187-4495-b871-1daa2fadd01c": {
+    "url": "db://assets/scripts/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "d81f199f-e6f7-484e-8f3f-8c98156ebce6": {
+    "url": "db://assets/scripts/Objs",
+    "value": {},
+    "versionCode": 1
+  },
+  "1ad42509-19f1-493c-b533-7b9e573990cc": {
+    "url": "db://assets/scenes/Rank.scene",
+    "value": {
+      "depends": [
+        "1ad42509-19f1-493c-b533-7b9e573990cc"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "f0002539-923d-4c82-87c1-7405da681801": {
+    "url": "db://assets/scripts/Objs/User.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}
