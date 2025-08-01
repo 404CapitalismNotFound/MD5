@@ -10,12 +10,13 @@ enum Faction {//阵营
 export class User {
     blood: number//血量
     normalAttackHurt: number//普攻伤害
-    toEnemyHurt: number//对敌伤害
+    toEnemyHurt: number//对敌人技能伤害
     criticalStrikeProbability:number//暴击概率
     criticalStrikeHurt:number//暴击伤害
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
+    faction:Faction
 
     private _userNameMD5: string
 
@@ -33,6 +34,10 @@ export class User {
         this.dodgeProbability = parseInt(this._userNameMD5.slice(9, 11), 16) / 255 * 0.2
         this.reflectProbability = parseInt(this._userNameMD5.slice(11, 13), 16) / 255 * 0.1
         this.reflectRatio = parseInt(this._userNameMD5.slice(13, 15), 16) / 255 * 0.5
+    }
+
+    setFaction(faction:Faction){
+        this.faction = faction
     }
 
 

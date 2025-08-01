@@ -68,5 +68,15 @@
     "url": "db://assets/scripts/Objs/User.ts",
     "value": {},
     "versionCode": 1
+  },
+  "3f6872fc-31d3-4d64-a7f6-5093bef96e54": {
+    "url": "db://assets/scripts/Objs/tests/UserTest.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1b0bc439-7073-4c3b-9d38-e70ecbe572f4": {
+    "url": "db://assets/scripts/Objs/tests",
+    "value": {},
+    "versionCode": 1
   }
 }
