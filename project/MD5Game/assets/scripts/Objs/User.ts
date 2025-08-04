@@ -1,7 +1,6 @@
 import MD5 from "crypto-js/md5";
 import { Skills } from "./Skill/SkillList";
 import {Faction} from "./Faction"
-import { Skill } from "d:/微信记录/WeChat Files/wxid_cjyi2j61iro22/FileStorage/File/2025-08/Skills";
 
 
 
