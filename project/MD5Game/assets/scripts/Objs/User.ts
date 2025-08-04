@@ -1,6 +1,7 @@
 import MD5 from "crypto-js/md5";
 import { Skills } from "./Skill/SkillList";
 import {Faction} from "./Faction"
+import { Skill } from "d:/微信记录/WeChat Files/wxid_cjyi2j61iro22/FileStorage/File/2025-08/Skills";
 
 
 
@@ -43,7 +44,7 @@ export class User {
                 this.faction = Faction.Su
         }
 
-        this.skillList
+        this.skillList = Skills();
 
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
