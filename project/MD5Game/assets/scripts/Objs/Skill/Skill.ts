@@ -7,6 +7,7 @@ const { ccclass, property } = _decorator;
 export class Skill extends Component {
 
     @property
+<<<<<<< HEAD
     SpecialEffect = null
 
     constructor(Cmap:Faction, Type:SkillType, Hurt:number){
@@ -19,5 +20,17 @@ export class Skill extends Component {
     skillType:SkillType    
     skillName:string
     skillHurt:number
+=======
+    SpecialEffect:
+
+    constructor(Cmap:Faction, Type:SkillType){
+        if (Cmap === Faction.Su ){
+            if(Type = SkillType.Attack)
+
+        }
+        super()
+
+    }
+>>>>>>> dev
 
 }
