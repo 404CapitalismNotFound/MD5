@@ -1,5 +1,5 @@
 import { _decorator, Component, Node } from 'cc';
-import { Faction } from '../Faction';
+import { Faction } from '../User/Faction';
 import { SkillType } from './SkillType';
 const { ccclass, property } = _decorator;
 
