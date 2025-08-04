@@ -5,7 +5,6 @@ import { Faction } from '../Faction';
 
 @ccclass('Skills')
 export class Skills extends Component {
-
     constructor(Camp:Faction, SkillHurt:number, ) {
         super()
         this.Attack = 
