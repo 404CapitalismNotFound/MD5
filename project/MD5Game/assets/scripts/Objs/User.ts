@@ -1,4 +1,4 @@
-import MD5 from "crypto-js/md5";
+import { MD5 } from "./MD5";
 import { Skills } from "./Skill/SkillList";
 import {Faction} from "./Faction"
 
@@ -9,10 +9,14 @@ export class User {
     userName:string
 
     blood: number//血量
+    priority:number//优先值
     normalAttackHurt: number//普攻伤害
+    skillRatio:number//用技能概率
     toEnemyHurt: number//对敌人技能伤害
     criticalStrikeProbability:number//暴击概率
     criticalStrikeHurt:number//暴击伤害
+    banzaiCoolDown:number = 10//大招冷却轮数
+    banzaiHurt:number//大招伤害
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
@@ -43,7 +47,7 @@ export class User {
                 this.faction = Faction.Su
                 break
         };
-        this.skillList = new Skills();
+        //this.skillList = new Skills();
 
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
@@ -53,6 +57,9 @@ export class User {
         this.dodgeProbability = parseInt(this._userNameMD5.slice(9, 11), 16) / 255 * 0.2
         this.reflectProbability = parseInt(this._userNameMD5.slice(11, 13), 16) / 255 * 0.1
         this.reflectRatio = parseInt(this._userNameMD5.slice(13, 15), 16) / 255 * 0.5
+        this.skillRatio = parseInt(this._userNameMD5.slice(15, 17), 16)/255
+        this.priority = parseInt(this._userNameMD5.slice(17, 19), 16)
+        this.banzaiHurt = this.criticalStrikeHurt*2
     }
     
 
