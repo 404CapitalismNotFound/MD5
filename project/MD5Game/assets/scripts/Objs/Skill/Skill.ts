@@ -7,15 +7,17 @@ const { ccclass, property } = _decorator;
 export class Skill extends Component {
 
     @property
-    SpecialEffect:
+    SpecialEffect = null
 
-    constructor(Cmap:Faction, Type:SkillType){
-        if (Cmap === Faction.Su ){
-            if(Type = SkillType.Attack)
-
-        }
+    constructor(Cmap:Faction, Type:SkillType, Hurt:number){
         super()
-
+        this.skillHurt = Hurt
+        this.skillName = "普通攻击"
+        this.skillType = SkillType.Attack
     }
+    constructor
+    skillType:SkillType    
+    skillName:string
+    skillHurt:number
 
 }

@@ -42,6 +42,9 @@ export class User {
             default:
                 this.faction = Faction.Su
         }
+
+        this.skillList
+
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
         this.toEnemyHurt = parseInt(this._userNameMD5.slice(5, 6), 16) * 4
