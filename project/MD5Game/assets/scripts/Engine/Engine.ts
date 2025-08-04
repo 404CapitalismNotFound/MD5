@@ -15,18 +15,24 @@ export class Engine extends Component {
     private anotherUser: User = null //主攻方对象
     constructor() {
         super()//初始化父类
-        setInterval(this.battleCallBack, this.battleInterval * 1000)
-        //！！！待修改当第1个先手值小的时候，第二位先手，否则第一位
-        if (this.userList[0] < this.userList[1]) {
+        //当第1个先手值小的时候，第二位先手，否则第一位
+        if (this.userList[0].priority < this.userList[1].priority) {
             this.thisTurnIndex = 1
         } else {
             this.thisTurnIndex = 0
         }
     }
+
+    startBattle(){
+        setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
+    }
     //判斷是哪種攻擊類型
     judgeAttackType() {
-        //预留大招！！！待修改
-        if (Math.random() <= this.thisUser.criticalStrikeProbability) {//用技能概率，待修改！！！
+        if (this.thisUser.banzaiCoolDown === 0){
+            this.thisUser.banzaiCoolDown = 10 // 重置冷却时间
+            return SkillType.UniqueSkill
+        }
+        if (Math.random() <= this.thisUser.skillRatio) {//用技能概率
             return SkillType.GeneralSkills
         }
         return SkillType.Attack//普通攻击
@@ -36,6 +42,7 @@ export class Engine extends Component {
         if (Math.random() <= this.thisUser.criticalStrikeProbability) {
             return true
         }
+        return false
     }
 
     hit() {
@@ -48,31 +55,31 @@ export class Engine extends Component {
 
             case SkillType.GeneralSkills:
                 //有概率暴击
-                if (this.judegStrike) {
-
+                if (this.judegStrike()) {
                     hitMsg.hurt = this.thisUser.criticalStrikeHurt
                 } else {
-                    hitMsg.hurt = this.thisUser.normalAttackHurt//待修改！！！
+                    hitMsg.hurt = this.thisUser.toEnemyHurt
                 }
                 break;
 
             case SkillType.UniqueSkill:
-                hitMsg = this.thisUser//待修改！！！大招伤害
+                hitMsg.hurt = this.thisUser.banzaiHurt
                 break
         }
         return hitMsg
     }
 
     responce(hitMsg) {
-        //反弹处理
-        if (Math.random() <= this.thisUser.reflectProbability) {
+        //反弹处理 - 被攻击者有概率反弹伤害给攻击者
+        if (Math.random() <= this.anotherUser.reflectProbability) {
             this.thisUser.blood -= hitMsg.hurt * this.anotherUser.reflectRatio
             return
         }
-        //闪避处理
-        if (Math.random() <= this.thisUser.dodgeProbability) {
+        //闪避处理 - 被攻击者有概率闪避攻击
+        if (Math.random() <= this.anotherUser.dodgeProbability) {
             return
         }
+        //正常受到伤害
         this.anotherUser.blood -= hitMsg.hurt
     }
 
@@ -88,7 +95,14 @@ export class Engine extends Component {
         //响应攻击，扣血
         this.responce(hitMsg)
 
-        console.log(`end turn:${this.turn}`)
+        // 处理大招冷却
+        if (this.thisUser.banzaiCoolDown > 0) {
+            this.thisUser.banzaiCoolDown--
+        }
+
+        console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
+        if (this.userList[0].blood<0) console.log("u1 die")
+        if (this.userList[1].blood<0) console.log("u2 die")
 
         //增加轮数
         this.turn++

@@ -14,6 +14,7 @@
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
       "dependScripts": [
+        "f483a537-733e-41ed-8206-44da9906f557",
         "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
       ]
     },
@@ -188,6 +189,21 @@
   },
   "7c4854ae-aad1-498c-8a00-23fd2d749b15": {
     "url": "db://assets/scripts/Engine/HitMessage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dd8ac55d-e8d3-461e-a355-e403990769c5": {
+    "url": "db://assets/scripts/Engine/Message.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7c80873a-fe6c-4048-a2ce-df1dfcb41fc7": {
+    "url": "db://assets/scripts/Objs/Skill/SkillNames.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "38d1f399-0856-4455-94c6-58be439552cb": {
+    "url": "db://assets/scripts/Objs/MD5.ts",
     "value": {},
     "versionCode": 1
   }
