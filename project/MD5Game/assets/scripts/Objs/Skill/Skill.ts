@@ -7,6 +7,20 @@ const { ccclass, property } = _decorator;
 export class Skill extends Component {
 
     @property
+<<<<<<< HEAD
+    SpecialEffect = null
+
+    constructor(Cmap:Faction, Type:SkillType, Hurt:number){
+        super()
+        this.skillHurt = Hurt
+        this.skillName = "普通攻击"
+        this.skillType = SkillType.Attack
+    }
+    constructor
+    skillType:SkillType    
+    skillName:string
+    skillHurt:number
+=======
     SpecialEffect:
 
     constructor(Cmap:Faction, Type:SkillType){
@@ -17,5 +31,6 @@ export class Skill extends Component {
         super()
 
     }
+>>>>>>> dev
 
 }
