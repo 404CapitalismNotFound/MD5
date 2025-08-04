@@ -7,7 +7,7 @@ import { Faction } from '../Faction';
 export class Skills extends Component {
     constructor(Camp:Faction, SkillHurt:number, ) {
         super()
-        this.Attack = 
+        this.Attack
 
     }
 
