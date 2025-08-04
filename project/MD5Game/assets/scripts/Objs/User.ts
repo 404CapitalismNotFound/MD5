@@ -1,5 +1,6 @@
 import MD5 from "crypto-js/md5";
 import { Skills } from "./Skill/SkillList";
+import {Faction} from "./Faction"
 
 
 
@@ -21,21 +22,21 @@ export class User {
     private _userNameMD5: string
 
     //初始化函数调用一次即可，直接写入构造函数
-    constructor(userName: string, UserFaction?:string) {
+    constructor(userName: string, UserFaction:Faction = Faction.Su ) {
         
         this._userNameMD5 = MD5(userName).toString();
         
         switch (UserFaction){
-            case "SU":
+            case Faction.Su:
                 this.faction = Faction.Su;
                 break
-            case "Meng":
+            case Faction.Meng:
                 this.faction = Faction.Meng
                 break
-            case "Yuri":
+            case Faction.Yuri:
                 this.faction = Faction.Yuri
                 break;
-            case "FF":
+            case Faction.FenFeng:
                 this.faction = Faction.FenFeng
                 break;
             default:
@@ -50,12 +51,7 @@ export class User {
         this.reflectProbability = parseInt(this._userNameMD5.slice(11, 13), 16) / 255 * 0.1
         this.reflectRatio = parseInt(this._userNameMD5.slice(13, 15), 16) / 255 * 0.5
     }
-
-    public setFaction(faction:Faction){
-        this.faction = faction
-    }
-
-
+    
 
 }
 

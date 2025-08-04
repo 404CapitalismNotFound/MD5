@@ -85,12 +85,14 @@
     "versionCode": 1
   },
   "a471005c-542c-45bb-9ed1-ae1cc674a5e0": {
-    "url": "db://assets/scene.scene",
+    "url": "db://assets/scenes/scene.scene",
     "value": {
       "depends": [
         "a471005c-542c-45bb-9ed1-ae1cc674a5e0"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "29ca4acc-4064-4cf3-847f-ef47dead7857"
+      ]
     },
     "versionCode": 1
   },
@@ -156,6 +158,11 @@
   },
   "48ef1fd7-6337-481c-805a-764912ab118f": {
     "url": "db://assets/scripts/Objs/Faction.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "07074e0f-2021-4f13-8836-99b2bcea762a": {
+    "url": "db://assets/scripts/Objs/Skill/SkillType.ts",
     "value": {},
     "versionCode": 1
   }
