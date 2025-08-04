@@ -1,6 +1,6 @@
 import { MD5 } from "./MD5";
 import { Skills } from "../Skill/SkillList";
-import {Faction} from "./Faction"
+import {Faction} from "../Faction"
 
 
 
