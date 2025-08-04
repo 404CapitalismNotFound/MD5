@@ -1,328 +1,174 @@
 {
   "version": "1.0.0",
   "map": {
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes.meta": {
-      "time": 1754018997584.5154
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes": {
-      "time": 1754024350759.5896,
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes": {
+      "time": 1754277947297.9927,
       "uuid": "009f2011-a621-4b13-90d2-3a61ca5b5992"
     },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene.meta": {
-      "time": 1754020093528.6584
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene": {
-      "time": 1754021188779.9126,
-      "uuid": "1f427bef-9b69-407d-9d05-44d8d7c012a9"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene.meta": {
-      "time": 1754018997619.0032
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene": {
-      "time": 1754023182108.1848,
-      "uuid": "c4df31f5-e8a8-4b9c-b494-b63a386e40ee"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts.meta": {
-      "time": 1754021351698.5388
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts": {
-      "time": 1754028304063.7512,
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts": {
+      "time": 1754278285585.883,
       "uuid": "24a994e9-9ecb-4cc9-8b0b-31de10a02dc6"
     },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts.meta": {
-      "time": 1754023937913.6587
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts": {
-      "time": 1754024541994.8665,
-      "uuid": "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene.meta": {
-      "time": 1754024350764.4443
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene": {
-      "time": 1754024350764.4443,
-      "uuid": "1ad42509-19f1-493c-b533-7b9e573990cc"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs.meta": {
-      "time": 1754028194687.6562
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs": {
-      "time": 1754029241503.146,
-      "uuid": "d81f199f-e6f7-484e-8f3f-8c98156ebce6"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts.meta": {
-      "time": 1754025484782.3396
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts": {
-      "time": 1754029041022.9402,
-      "uuid": "f0002539-923d-4c82-87c1-7405da681801"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests.meta": {
-      "time": 1754029241512.1426
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts.meta": {
-      "time": 1754029241514.1426
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests": {
-      "time": 1754029241505.14,
-      "uuid": "1b0bc439-7073-4c3b-9d38-e70ecbe572f4"
-    },
-    "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts": {
-      "time": 1754029237199.886,
-      "uuid": "3f6872fc-31d3-4d64-a7f6-5093bef96e54"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes": {
-<<<<<<< HEAD
-      "time": 1754275410775.7102,
-=======
-      "time": 1754270217121.4858,
->>>>>>> dev
-      "uuid": "009f2011-a621-4b13-90d2-3a61ca5b5992"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts": {
-      "time": 1754034709088.446,
-      "uuid": "24a994e9-9ecb-4cc9-8b0b-31de10a02dc6"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs": {
-      "time": 1754275410777.9355,
-      "uuid": "d81f199f-e6f7-484e-8f3f-8c98156ebce6"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests": {
-      "time": 1754032271037.1614,
-      "uuid": "1b0bc439-7073-4c3b-9d38-e70ecbe572f4"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts": {
-      "time": 1754028979416.2397,
-      "uuid": "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts": {
-<<<<<<< HEAD
-      "time": 1754275410777.9355,
-=======
-      "time": 1754269384142.931,
->>>>>>> dev
-      "uuid": "f0002539-923d-4c82-87c1-7405da681801"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts": {
-      "time": 1754032271037.1614,
-      "uuid": "3f6872fc-31d3-4d64-a7f6-5093bef96e54"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes.meta": {
-      "time": 1754026985738.6282
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts.meta": {
-      "time": 1754026985749.6277
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs.meta": {
-      "time": 1754028979414.8665
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests.meta": {
-      "time": 1754032271036.1575
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts.meta": {
-      "time": 1754026985752.854
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts.meta": {
-      "time": 1754028979415.869
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts.meta": {
-      "time": 1754032271037.1614
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene": {
-      "time": 1754026985741.628,
-      "uuid": "1f427bef-9b69-407d-9d05-44d8d7c012a9"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene": {
-      "time": 1754028979413.867,
-      "uuid": "1ad42509-19f1-493c-b533-7b9e573990cc"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene": {
-      "time": 1754026985747.6284,
-      "uuid": "c4df31f5-e8a8-4b9c-b494-b63a386e40ee"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene.meta": {
-      "time": 1754026985748.6284
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene.meta": {
-      "time": 1754026985742.6272
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene.meta": {
-      "time": 1754028979414.8665
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\GameManager.ts.meta": {
-      "time": 1754032909580.446
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\GameManager.ts": {
-      "time": 1754035917044.8845,
-      "uuid": "29ca4acc-4064-4cf3-847f-ef47dead7857"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO.meta": {
-      "time": 1754033166164.493
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO": {
-      "time": 1754033238153.6555,
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO": {
+      "time": 1754277947306.272,
       "uuid": "65aa9eeb-8391-47fb-be4c-f7edfc99c8ff"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Requset.ts.meta": {
-      "time": 1754033212059.3333
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Engine": {
+      "time": 1754278285593.4988,
+      "uuid": "39855696-bc15-4f77-9c1f-7a2e868104c4"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Requset.ts": {
-      "time": 1754033212057.3328,
-      "uuid": "460774f1-89cd-4d58-ae68-407da6fe440c"
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs": {
+      "time": 1754277947323,
+      "uuid": "d81f199f-e6f7-484e-8f3f-8c98156ebce6"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Send.ts.meta": {
-      "time": 1754033238154.6548
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Send.ts": {
-      "time": 1754033238152.6582,
-      "uuid": "03dbc5a9-5994-4dea-9d5a-60d230ddc3ba"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill.meta": {
-      "time": 1754034320183.5417
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill": {
-<<<<<<< HEAD
-      "time": 1754275410777.9355,
-=======
-      "time": 1754270608347.5369,
->>>>>>> dev
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill": {
+      "time": 1754277947319.752,
       "uuid": "c453dcc2-7866-43f2-81cc-d83be2e11013"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillList.ts.meta": {
-      "time": 1754034312619.853
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests": {
+      "time": 1754277947323,
+      "uuid": "1b0bc439-7073-4c3b-9d38-e70ecbe572f4"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillList.ts": {
-      "time": 1754034594036.4375,
-      "uuid": "2301a297-d948-452c-9b8d-6d00416c7dc0"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\Skill.ts.meta": {
-      "time": 1754034339897.4507
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\Skill.ts": {
-<<<<<<< HEAD
-      "time": 1754275410776.934,
-=======
-      "time": 1754270115315.929,
->>>>>>> dev
-      "uuid": "59f1c822-c884-4fab-89b6-32048238fbcd"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\AudioPlayer.ts.meta": {
-      "time": 1754034709090.4453
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\AudioPlayer.ts": {
-      "time": 1754034750694.4988,
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\AudioPlayer.ts": {
+      "time": 1754277947300.0054,
       "uuid": "fe46f173-4208-4a0c-98bf-6faa54fdaf91"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Faction.ts.meta": {
-      "time": 1754037215493.517
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\GameManager.ts": {
+      "time": 1754277947309.69,
+      "uuid": "29ca4acc-4064-4cf3-847f-ef47dead7857"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Faction.ts": {
-<<<<<<< HEAD
-      "time": 1754275410776.934,
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts": {
+      "time": 1754277947323,
+      "uuid": "a2a3ff8b-1355-472a-a5a3-257c421fb54d"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Requset.ts": {
+      "time": 1754277947306.272,
+      "uuid": "460774f1-89cd-4d58-ae68-407da6fe440c"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Send.ts": {
+      "time": 1754277947306.272,
+      "uuid": "03dbc5a9-5994-4dea-9d5a-60d230ddc3ba"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Engine\\Engine.ts": {
+      "time": 1754275767056.8994,
+      "uuid": "f483a537-733e-41ed-8206-44da9906f557"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Faction.ts": {
+      "time": 1754277947309.69,
       "uuid": "48ef1fd7-6337-481c-805a-764912ab118f"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene.meta": {
-      "time": 1754275410775.9402
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts": {
+      "time": 1754277947323,
+      "uuid": "f0002539-923d-4c82-87c1-7405da681801"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene": {
-      "time": 1754275410774.9343,
-      "uuid": "a471005c-542c-45bb-9ed1-ae1cc674a5e0"
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\Skill.ts": {
+      "time": 1754277947314.4395,
+      "uuid": "59f1c822-c884-4fab-89b6-32048238fbcd"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts.meta": {
-      "time": 1754275410777.9355
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillList.ts": {
+      "time": 1754277947314.4395,
+      "uuid": "2301a297-d948-452c-9b8d-6d00416c7dc0"
     },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts": {
-      "time": 1754275410776.934,
-=======
-      "time": 1754269388563.7551,
-      "uuid": "48ef1fd7-6337-481c-805a-764912ab118f"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene.meta": {
-      "time": 1754032758424.309
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene": {
-      "time": 1754040536402.1917,
-      "uuid": "a471005c-542c-45bb-9ed1-ae1cc674a5e0"
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts.meta": {
-      "time": 1754270608349.537
-    },
-    "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts": {
-      "time": 1754270608346.5735,
->>>>>>> dev
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts": {
+      "time": 1754277947319.752,
       "uuid": "07074e0f-2021-4f13-8836-99b2bcea762a"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts": {
+      "time": 1754277947323,
+      "uuid": "3f6872fc-31d3-4d64-a7f6-5093bef96e54"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes.meta": {
+      "time": 1754277947289.5789
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts.meta": {
+      "time": 1754277947297.9927
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO.meta": {
+      "time": 1754277947300.0054
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs.meta": {
+      "time": 1754277947309.69
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Engine.meta": {
+      "time": 1754278285607.7612
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill.meta": {
+      "time": 1754277947314.4395
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests.meta": {
+      "time": 1754277947323
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\AudioPlayer.ts.meta": {
+      "time": 1754277947300.0054
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\GameManager.ts.meta": {
+      "time": 1754277947309.69
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\StartMenu.ts.meta": {
+      "time": 1754277947329.8562
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Requset.ts.meta": {
+      "time": 1754277947306.272
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\DAO\\Send.ts.meta": {
+      "time": 1754277947306.272
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Engine\\Engine.ts.meta": {
+      "time": 1754278285640.8647
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Faction.ts.meta": {
+      "time": 1754277947314.4395
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\User.ts.meta": {
+      "time": 1754277947323
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\Skill.ts.meta": {
+      "time": 1754277947314.4395
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillList.ts.meta": {
+      "time": 1754277947319.752
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts.meta": {
+      "time": 1754277947319.752
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\tests\\UserTest.ts.meta": {
+      "time": 1754277947323
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scene.scene": {
+      "time": 1754277947285.548,
+      "uuid": "a471005c-542c-45bb-9ed1-ae1cc674a5e0"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene": {
+      "time": 1754277947289.5789,
+      "uuid": "1f427bef-9b69-407d-9d05-44d8d7c012a9"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene": {
+      "time": 1754277947289.5789,
+      "uuid": "1ad42509-19f1-493c-b533-7b9e573990cc"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene.meta": {
+      "time": 1754278291947.7878
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene": {
+      "time": 1754277947289.5789,
+      "uuid": "c4df31f5-e8a8-4b9c-b494-b63a386e40ee"
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scene.scene.meta": {
+      "time": 1754277947285.548
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\Main.scene.meta": {
+      "time": 1754277947289.5789
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene.meta": {
+      "time": 1754277947289.5789
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene.meta": {
+      "time": 1754277947289.5789
+    },
+    "C:\\Users\\zqd66\\Documents\\Git\\RealMD5\\MD5\\project\\MD5Game\\assets\\scenes\\scene.scene": {
+      "time": 1754278291963.559,
+      "uuid": "aebd834b-80c6-41a6-96b0-8e6ce107cc11"
     }
   },
-  "missing": {
-    "1f427bef-9b69-407d-9d05-44d8d7c012a9": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu.scene",
-      "time": 1754020403746.2046,
-      "removeTime": 1754021188777
-    },
-    "c4df31f5-e8a8-4b9c-b494-b63a386e40ee": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\StartMenu-.scene",
-      "time": 1754021184609.4453,
-      "removeTime": 1754021198721
-    },
-    "a2a3ff8b-1355-472a-a5a3-257c421fb54d": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\UI\\StartMenu.ts",
-      "time": 1754023379753.6863,
-      "removeTime": 1754024289870
-    },
-    "6f845891-9821-4ae1-9dda-5460c0560180": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scenes\\Rank.scene",
-      "time": 1754023364330.9736,
-      "removeTime": 1754024289869
-    },
-    "819dc22e-2187-4495-b871-1daa2fadd01c": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\UI",
-      "time": 1754023543037.8025,
-      "removeTime": 1754024289870
-    },
-    "f0002539-923d-4c82-87c1-7405da681801": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Tools\\User.ts",
-      "time": 1754027930235.2217,
-      "removeTime": 1754028304064
-    },
-    "d81f199f-e6f7-484e-8f3f-8c98156ebce6": {
-      "path": "C:\\Users\\zqd66\\Documents\\Git\\MD5\\project\\MD5Game\\assets\\scripts\\Tools",
-      "time": 1754028165021.863,
-      "removeTime": 1754028304063
-    },
-    "ee21f252-a048-43b9-b288-16dccd37b9b5": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Manager.ts",
-      "time": 1754028842511.5308,
-      "removeTime": 1754032898161
-    },
-    "bff6f248-1a93-41d3-845e-135ba5a9fd4a": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skills.ts",
-      "time": 1754033623883.455,
-      "removeTime": 1754034312617
-    },
-    "2301a297-d948-452c-9b8d-6d00416c7dc0": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\SkillList.ts",
-      "time": 1754033623883.455,
-      "removeTime": 1754034322708
-    },
-    "c93251f6-64d2-43fc-b3c8-3e237c203b49": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\Skill",
-      "time": 1754034330540.2158,
-      "removeTime": 1754034334083
-    },
-    "7b0b4712-a621-4ec2-91c1-72c134732da9": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\NewComponent.ts",
-      "time": 1754034690277.14,
-      "removeTime": 1754034693041
-    },
-    "f82b4718-ad5c-4b50-b99f-43bd9c6fcd17": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scripts\\Objs\\Skill\\SkillType.ts",
-      "time": 1754035296501.9885,
-      "removeTime": 1754037215490
-    },
-    "a471005c-542c-45bb-9ed1-ae1cc674a5e0": {
-      "path": "E:\\GitLibrary\\MD5\\project\\MD5Game\\assets\\scene.scene",
-      "time": 1754040536402.1917,
-      "removeTime": 1754270217123
-    }
-  }
+  "missing": {}
 }
