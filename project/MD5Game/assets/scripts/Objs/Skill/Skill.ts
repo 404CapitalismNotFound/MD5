@@ -151,5 +151,5 @@ export class Skill extends Component {
             }
         }
     }
-    
+
 }
