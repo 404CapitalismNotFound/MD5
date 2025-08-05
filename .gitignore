@@ -9,3 +9,13 @@ project/MD5Game/profiles
 project/MD5Game/native
 project/MD5Game/node_modules
 project/MD5Game/.vscode
+
+
+project/RankingList/library/
+project/RankingList/temp
+project/RankingList/local
+project/RankingList/build
+project/RankingList/profiles
+project/RankingList/native
+project/RankingList/.vscode/
+project/RankingList/.idea/
