@@ -47,7 +47,6 @@ export class User {
                 this.faction = Faction.Su
                 break
         };
-        //this.skillList = new Skills();
 
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
@@ -60,6 +59,8 @@ export class User {
         this.skillRatio = parseInt(this._userNameMD5.slice(15, 17), 16)/255
         this.priority = parseInt(this._userNameMD5.slice(17, 19), 16)
         this.banzaiHurt = this.criticalStrikeHurt*2
+        
+        this.skillList = new Skills(UserFaction, this.toEnemyHurt, this.normalAttackHurt);
     }
     
 
