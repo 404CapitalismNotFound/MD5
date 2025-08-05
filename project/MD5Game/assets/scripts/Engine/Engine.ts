@@ -2,19 +2,23 @@ import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 import { User } from '../Objs/User/User';
 import { SkillType } from '../Objs/Skill/SkillType';
-import {HitMessage, ResponceMessage} from "./Message"
+import { HitMessage, ResponceMessage } from "./Message"
 
 @ccclass('Engine')
 export class Engine extends Component {
-    @property(Number)//单位：秒
-    private battleInterval: number = 5
-    private userList: User[] = [new User("1"), new User("2")]//索引是我自己，1是敌人
+    @property//单位：秒
+    battleInterval: number = 5//默认值
+    private userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
     private thisTurnIndex: number = NaN//主动攻击方
     private thisUser: User = null //主攻方对象
     private anotherUser: User = null //主攻方对象
-    constructor() {
+
+    constructor(thisUser: User, anotherUser: User) {
         super()//初始化父类
+        //将两对象装入数组
+        this.userList[0] = thisUser
+        this.userList[1] = anotherUser
         //当第1个先手值小的时候，第二位先手，否则第一位
         if (this.userList[0].priority < this.userList[1].priority) {
             this.thisTurnIndex = 1
@@ -23,12 +27,13 @@ export class Engine extends Component {
         }
     }
 
-    startBattle(){
+    startBattle(interval?: number) {
+        if (interval) this.battleInterval = interval
         setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
     }
     //判斷是哪種攻擊類型
-    judgeAttackType() {
-        if (this.thisUser.banzaiCoolDown === 0){
+    private judgeAttackType() {
+        if (this.thisUser.banzaiCoolDown === 0) {
             this.thisUser.banzaiCoolDown = 10 // 重置冷却时间
             return SkillType.UniqueSkill
         }
@@ -38,14 +43,14 @@ export class Engine extends Component {
         return SkillType.Attack//普通攻击
     }
     //判斷是否暴击
-    judegStrike() {
+    private judegStrike() {
         if (Math.random() <= this.thisUser.criticalStrikeProbability) {
             return true
         }
         return false
     }
 
-    hit() {
+    private hit() {
         let hitMsg = new HitMessage()
 
         switch (this.judgeAttackType()) {
@@ -66,10 +71,16 @@ export class Engine extends Component {
                 hitMsg.hurt = this.thisUser.banzaiHurt
                 break
         }
+
+        // 处理大招冷却
+        if (this.thisUser.banzaiCoolDown > 0) {
+            this.thisUser.banzaiCoolDown--
+        }
+
         return hitMsg
     }
 
-    responce(hitMsg) {
+    private responce(hitMsg:HitMessage) {
         //反弹处理 - 被攻击者有概率反弹伤害给攻击者
         if (Math.random() <= this.anotherUser.reflectProbability) {
             this.thisUser.blood -= hitMsg.hurt * this.anotherUser.reflectRatio
@@ -83,8 +94,12 @@ export class Engine extends Component {
         this.anotherUser.blood -= hitMsg.hurt
     }
 
+    die(user:User){
+        console.log(`${user} die`)
+    }
 
-    battleCallBack() {
+
+    private battleCallBack() {
         console.log(`start turn:${this.turn}`)
 
         this.thisUser = this.userList[this.thisTurnIndex]
@@ -95,14 +110,9 @@ export class Engine extends Component {
         //响应攻击，扣血
         this.responce(hitMsg)
 
-        // 处理大招冷却
-        if (this.thisUser.banzaiCoolDown > 0) {
-            this.thisUser.banzaiCoolDown--
-        }
-
         console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
-        if (this.userList[0].blood<0) console.log("u1 die")
-        if (this.userList[1].blood<0) console.log("u2 die")
+        if (this.userList[0].blood < 0) this.die(this.userList[0])
+        if (this.userList[1].blood < 0) this.die(this.userList[1])
 
         //增加轮数
         this.turn++

@@ -20,8 +20,8 @@ export class User {
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
-    faction:string
-    skillList:Skills
+    faction:string//阵营
+    skillList:Skills//技能表
 
     private _userNameMD5: string
 
