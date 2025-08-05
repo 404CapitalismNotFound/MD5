@@ -13,4 +13,14 @@ project/MD5Game/node_modules
 project/MD5Game/temp
 project/MD5Game/profiles
 project/MD5Game/library
+
+project/RankingList/library/
+project/RankingList/temp
+project/RankingList/local
+project/RankingList/build
+project/RankingList/profiles
+project/RankingList/native
+project/RankingList/.vscode/
+project/RankingList/.idea/
+
 >>>>>>> 945eff7c350a0518cfd2fbd4aec0ef884be29c48
