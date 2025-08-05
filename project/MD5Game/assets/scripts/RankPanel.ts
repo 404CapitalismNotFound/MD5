@@ -8,7 +8,7 @@ export class RankPanel extends Component {
 
     public show(){
         this.node.active = true
-        this.
+        // this.
     }
 }
 
