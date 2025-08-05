@@ -1,13 +1,16 @@
 import { _decorator, Component, director, Node } from 'cc';
+import { GameManager } from "../GameManager"
 const { ccclass, property } = _decorator;
 
 @ccclass('StartMenu')
 export class StartMenu extends Component {
-    onGameStartButtonClick(){
-        director.loadScene("Battle")
+    @property(GameManager)
+    gameManager:GameManager = null
+    onGameStartButtonClick() {
+        this.gameManager.changeSceneToBattle()
     }
-    onRankButtonClick(){
-        director.loadScene("Rank")
+    onRankButtonClick() {
+        this.gameManager.changeSceneToRank()
     }
 }
 
