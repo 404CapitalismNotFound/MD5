@@ -2281,7 +2281,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 102.3046875,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2311,7 +2311,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Blood",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -2731,7 +2731,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 80.05859375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2761,7 +2761,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Blue",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -3181,7 +3181,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 126.73828125,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -3211,7 +3211,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Energy",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -5599,7 +5599,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 102.3046875,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -5629,7 +5629,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Blood",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -6049,7 +6049,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 80.05859375,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -6079,7 +6079,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Blue",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -6499,7 +6499,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84.51171875,
+      "width": 126.73828125,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -6529,7 +6529,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Energy",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -7692,7 +7692,7 @@
   {
     "__type__": "cc.Node",
     "_name": "My",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 2
@@ -7744,7 +7744,7 @@
   {
     "__type__": "cc.Node",
     "_name": "贴图",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 207
@@ -7938,7 +7938,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Emey",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 2
@@ -7990,7 +7990,7 @@
   {
     "__type__": "cc.Node",
     "_name": "贴图",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "__editorExtras__": {},
     "_parent": {
       "__id__": 214
