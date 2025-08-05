@@ -1,7 +1,6 @@
 # this is .gitignore file.
 # 以下是忽略的文件
 
-<<<<<<< HEAD
 project/MD5Game/library
 project/MD5Game/temp
 project/MD5Game/local
@@ -9,8 +8,3 @@ project/MD5Game/build
 project/MD5Game/profiles
 project/MD5Game/native
 project/MD5Game/node_modules
-=======
-project/MD5Game/temp
-project/MD5Game/profiles
-project/MD5Game/library
->>>>>>> 945eff7c350a0518cfd2fbd4aec0ef884be29c48
