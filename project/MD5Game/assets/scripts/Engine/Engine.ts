@@ -1,6 +1,6 @@
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
-import { User } from '../Objs/User';
+import { User } from '../Objs/User/User';
 import { SkillType } from '../Objs/Skill/SkillType';
 import {HitMessage, ResponceMessage} from "./Message"
 
