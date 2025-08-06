@@ -26,6 +26,7 @@ export class SkillList extends Component {
      */
     constructor(Camp:Faction, SkillHurt:number, AttackHurt:number) {
         super()
+        this.GeneralSkills = new Array<Skill>;
         this.Attack = new Skill(Camp, SkillType.Attack, AttackHurt, 0);
         for (let i = 0; i < 3; i++) {
             let a:number[]=[0, 0, 0, 0, 0, 0, 0, 0, 0];
