@@ -1,6 +1,7 @@
 import { MD5 } from "./MD5";
-import { Skills } from "../Skill/SkillList";
+import { SkillList } from "../Skill/SkillList";
 import {Faction} from "../Faction"
+import { Skill } from "../Skill/Skill";
 
 
 
@@ -21,7 +22,7 @@ export class User {
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
     faction:string//阵营
-    skillList:Skills//技能表
+    skillList:SkillList//技能表
 
     private _userNameMD5: string
 
@@ -60,7 +61,7 @@ export class User {
         this.priority = parseInt(this._userNameMD5.slice(17, 19), 16)
         this.banzaiHurt = this.criticalStrikeHurt*2
         
-        this.skillList = new Skills(UserFaction, this.toEnemyHurt, this.normalAttackHurt);
+        this.skillList = new SkillList(UserFaction, this.toEnemyHurt, this.normalAttackHurt);
     }
     
 

@@ -11,7 +11,7 @@ import { SkillType } from './SkillType';
  * @param GeneralSkills 普通技能列表
  * @param UniqueSkill   大招
  */
-export class Skills extends Component {
+export class SkillList extends Component {
 
     public Attack: Skill
     public GeneralSkills: Skill[]
