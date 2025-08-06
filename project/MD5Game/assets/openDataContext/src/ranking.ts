@@ -1,8 +1,8 @@
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('Send')
-export class Send extends Component {
+@ccclass('ranking')
+export class ranking extends Component {
     start() {
 
     }
