@@ -6,5 +6,7 @@
       "height": 2712
     }
   },
-  "custom_joint_texture_layouts": []
+  "custom_joint_texture_layouts": [],
+  "orientation": "portrait",
+  "openDataContext": "assets/openDataContext/src/"
 }

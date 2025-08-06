@@ -5,9 +5,14 @@ import 'miniprogram-api-typings'
 const sharedCanvas = wx.getSharedCanvas();
 const ctx = sharedCanvas.getContext('2d');
 
+
+/**
+ * 画布位置大概位于0,750处，每生成一个新的画布位置-200
+ * 
+ */
 // 初始化画布尺寸
-sharedCanvas.width = 720;
-sharedCanvas.height = 1280;
+sharedCanvas.width = 1067;
+sharedCanvas.height = 2000;
 
 // 监听主域消息
 wx.onMessage((message: IMessage) => {
