@@ -31,6 +31,7 @@ export class Engine extends Component {
         if (interval) this.battleInterval = interval
         setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
     }
+
     //判斷是哪種攻擊類型
     private judgeAttackType() {
         if (this.thisUser.banzaiCoolDown === 0) {
@@ -42,6 +43,7 @@ export class Engine extends Component {
         }
         return SkillType.Attack//普通攻击
     }
+
     //判斷是否暴击
     private judegStrike() {
         if (Math.random() <= this.thisUser.criticalStrikeProbability) {
@@ -52,8 +54,12 @@ export class Engine extends Component {
 
     private hit() {
         let hitMsg = new HitMessage()
+        hitMsg.from = this.thisUser;hitMsg.to = this.anotherUser
+        const attackType = this.judgeAttackType()
+        
+        hitMsg.attackType = attackType  // 设置攻击类型
 
-        switch (this.judgeAttackType()) {
+        switch (attackType) {
             case SkillType.Attack:
                 hitMsg.hurt = this.thisUser.normalAttackHurt
                 break;
@@ -62,6 +68,7 @@ export class Engine extends Component {
                 //有概率暴击
                 if (this.judegStrike()) {
                     hitMsg.hurt = this.thisUser.criticalStrikeHurt
+                    hitMsg.isCritical = true  // 标记为暴击
                 } else {
                     hitMsg.hurt = this.thisUser.toEnemyHurt
                 }
@@ -80,21 +87,22 @@ export class Engine extends Component {
         return hitMsg
     }
 
-    private responce(hitMsg:HitMessage) {
+    private responce(hitMsg: HitMessage) {
         //反弹处理 - 被攻击者有概率反弹伤害给攻击者
         if (Math.random() <= this.anotherUser.reflectProbability) {
             this.thisUser.blood -= hitMsg.hurt * this.anotherUser.reflectRatio
-            return
+            return ResponceMessage.reflect(hitMsg.hurt * this.anotherUser.reflectRatio,this.anotherUser,this.thisUser)
         }
         //闪避处理 - 被攻击者有概率闪避攻击
         if (Math.random() <= this.anotherUser.dodgeProbability) {
-            return
+            return ResponceMessage.dodge(this.anotherUser,this.thisUser)
         }
         //正常受到伤害
         this.anotherUser.blood -= hitMsg.hurt
+        return ResponceMessage.normal(hitMsg.hurt,this.thisUser,this.anotherUser)
     }
 
-    die(user:User){
+    die(user: User) {
         console.log(`${user} die`)
     }
 
@@ -108,7 +116,7 @@ export class Engine extends Component {
         //攻击
         const hitMsg = this.hit()
         //响应攻击，扣血
-        this.responce(hitMsg)
+        const rspMsg = this.responce(hitMsg)
 
         console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
         if (this.userList[0].blood < 0) this.die(this.userList[0])

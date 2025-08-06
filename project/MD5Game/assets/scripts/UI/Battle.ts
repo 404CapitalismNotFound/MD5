@@ -7,13 +7,12 @@ const { ccclass, property } = _decorator;
 export class Battle extends Component {
     @property(BattleIndexManager)
     battleIndexManager:BattleIndexManager =null
-
     gameManager: GameManager = null
     protected onLoad(): void {
         this.gameManager = find("Manager").getComponent(GameManager)
         if (!this.gameManager) {
             console.error("GameManager在Battle界面未找到引用！！！")
-        }
+        }   
         
     }
 
