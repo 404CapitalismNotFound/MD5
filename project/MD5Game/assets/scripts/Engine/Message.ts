@@ -1,3 +1,4 @@
+import { Skill } from '../Objs/Skill/Skill';
 import { SkillType } from '../Objs/Skill/SkillType';
 import { User } from '../Objs/User/User';
 
@@ -10,6 +11,7 @@ export class HitMessage {
     isCritical: boolean = false                 // 是否暴击
     from: User = null
     to: User = null
+    skill:Skill = null
 
     constructor(hurt?: number, attackType?: SkillType, isCritical?: boolean) {
         if (hurt !== undefined) this.hurt = hurt;
@@ -18,7 +20,7 @@ export class HitMessage {
     }
 
     toString() {
-        return `${this.from.userName}对${this.to.userName}发起${SkillType}攻击${this.isCritical? ",产生暴击":""}`
+        return `${this.from.userName}对${this.to.userName}发起${this.attackType}类型的${this.skill.skillName} ${this.isCritical? ",暴击":""}`
     }
 }
 

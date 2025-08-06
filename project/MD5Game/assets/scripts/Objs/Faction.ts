@@ -6,8 +6,8 @@
  */
 
 export enum Faction {//阵营
-    Su = "Union",      // 苏联
-    Meng = "Alliance",    // 盟军
-    Yuri = "Ru",    // 尤里
-    FenFeng = "FF" // 焚风
+    Su = "苏联",      // 苏联
+    Meng = "盟军",    // 盟军
+    Yuri = "尤里",    // 尤里
+    FenFeng = "焚风" // 焚风
 }

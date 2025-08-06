@@ -1,37 +1,35 @@
 import { MD5 } from "./MD5";
 import { SkillList } from "../Skill/SkillList";
-import {Faction} from "../Faction"
+import { Faction } from "../Faction"
 import { Skill } from "../Skill/Skill";
 
 
 
 export class User {
-
-    userName:string
-
+    userName: string
     blood: number//血量
-    priority:number//优先值
+    priority: number//优先值
     normalAttackHurt: number//普攻伤害
-    skillRatio:number//用技能概率
+    skillRatio: number//用技能概率
     toEnemyHurt: number//对敌人技能伤害
-    criticalStrikeProbability:number//暴击概率
-    criticalStrikeHurt:number//暴击伤害
-    banzaiCoolDown:number = 10//大招冷却轮数
-    banzaiHurt:number//大招伤害
+    criticalStrikeProbability: number//暴击概率
+    // criticalStrikeHurt:number//暴击伤害(弃用，在引擎中处理，*1.5)
+    banzaiCoolDown: number = 10//大招冷却轮数
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
-    faction:string//阵营
-    skillList:SkillList//技能表
+    faction: string//阵营
+    skillList: SkillList//技能表
 
     private _userNameMD5: string
 
     //初始化函数调用一次即可，直接写入构造函数
-    constructor(userName: string, UserFaction:Faction = Faction.Su ) {
-        
+    constructor(userName: string, UserFaction: Faction = Faction.Su) {
+
+        this.userName = userName
         this._userNameMD5 = MD5(userName).toString();
-        
-        switch (UserFaction){
+
+        switch (UserFaction) {
             case Faction.Su:
                 this.faction = Faction.Su;
                 break
@@ -52,18 +50,17 @@ export class User {
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
         this.toEnemyHurt = parseInt(this._userNameMD5.slice(5, 6), 16) * 4
-        this.criticalStrikeProbability = parseInt(this._userNameMD5.slice(6,7), 16) /16
-        this.criticalStrikeHurt = parseInt(this._userNameMD5.slice(7,9), 16) * 4
+        this.criticalStrikeProbability = parseInt(this._userNameMD5.slice(6, 7), 16) / 16
+        // this.criticalStrikeHurt = parseInt(this._userNameMD5.slice(7,9), 16) * 4
         this.dodgeProbability = parseInt(this._userNameMD5.slice(9, 11), 16) / 255 * 0.2
         this.reflectProbability = parseInt(this._userNameMD5.slice(11, 13), 16) / 255 * 0.1
         this.reflectRatio = parseInt(this._userNameMD5.slice(13, 15), 16) / 255 * 0.5
-        this.skillRatio = parseInt(this._userNameMD5.slice(15, 17), 16)/255
+        this.skillRatio = parseInt(this._userNameMD5.slice(15, 17), 16) / 255
         this.priority = parseInt(this._userNameMD5.slice(17, 19), 16)
-        this.banzaiHurt = this.criticalStrikeHurt*2
-        
+
         this.skillList = new SkillList(UserFaction, this.toEnemyHurt, this.normalAttackHurt);
     }
-    
+
 
 }
 
