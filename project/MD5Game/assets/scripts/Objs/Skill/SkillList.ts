@@ -14,7 +14,7 @@ import { SkillType } from './SkillType';
 export class SkillList extends Component {
 
     public Attack: Skill
-    public GeneralSkills: Skill[]
+    public GeneralSkills: Array<Skill>
     // 大招双倍技能伤害
     public UniqueSkill: Skill
     
@@ -38,7 +38,10 @@ export class SkillList extends Component {
                 }
             }
             a[temp]++;
-            this.GeneralSkills.push(new Skill(Camp, SkillType.GeneralSkills, SkillHurt, temp));
+            let temp2 = new Skill(Camp, SkillType.GeneralSkills, SkillHurt, temp)
+            // this.GeneralSkills.push(new Skill(Camp, SkillType.GeneralSkills, SkillHurt, temp));
+            this.GeneralSkills.push(temp2);
+
         }
         this.UniqueSkill = new Skill(Camp, SkillType.UniqueSkill, SkillHurt*2, 5)
 
