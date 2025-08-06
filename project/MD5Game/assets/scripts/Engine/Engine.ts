@@ -8,7 +8,8 @@ import { Battle } from '../UI/Battle';
 @ccclass('Engine')
 export class Engine extends Component {
     @property//单位：秒
-    battleInterval: number = 1//默认值
+    battleInterval: number = 1//默认值，战斗间隔
+    battleTimerId:number
     battleUI: Battle = null
     private userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
@@ -46,11 +47,21 @@ export class Engine extends Component {
         }
         // 重置回合数
         this.turn = 1;
+        this.initUI()
+    }
+
+    initUI(){
+        this.battleUI.setMyName(this.userList[0].userName)
+        this.battleUI.setEnemyName(this.userList[1].userName)
     }
 
     startBattle(interval?: number) {
         if (interval) this.battleInterval = interval
-        setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
+        this.battleTimerId=setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
+    }
+
+    stopBattle(){
+        clearInterval(this.battleTimerId)
     }
 
     //判斷是哪種攻擊類型
@@ -130,14 +141,26 @@ export class Engine extends Component {
 
     private die(user: User) {
         console.log(`${user} die`)
+        this.stopBattle()
+    }
+
+    private getPercentage(part: number, all: number) {
+        return part / all
     }
 
     private updateUIFromHitMsg(Msg: HitMessage) {
+        this.battleUI.addBattleInfo(Msg.toString())
 
     }
 
     private updateUIFromRspMsg(Msg: ResponceMessage) {
+        this.battleUI.addBattleInfo(Msg.toString())
 
+        this.battleUI.setMyBlood(this.getPercentage(this.userList[0].blood, this.userList[0].originBlood))
+        this.battleUI.setEnemyBlood(this.getPercentage(this.userList[1].blood, this.userList[1].originBlood))
+
+        this.battleUI.setMyEnergy(this.getPercentage(this.userList[0].banzaiTurn - this.userList[0].banzaiCoolDown, this.userList[0].banzaiTurn))
+        this.battleUI.setEnemyEnergy(this.getPercentage(this.userList[1].banzaiTurn - this.userList[1].banzaiCoolDown, this.userList[1].banzaiTurn))
     }
 
     private battleCallBack() {

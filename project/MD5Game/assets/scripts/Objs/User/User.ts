@@ -8,13 +8,15 @@ import { Skill } from "../Skill/Skill";
 export class User {
     userName: string
     blood: number//血量
+    readonly originBlood: number//原始（没扣血）血量
     priority: number//优先值
     normalAttackHurt: number//普攻伤害
     skillRatio: number//用技能概率
     toEnemyHurt: number//对敌人技能伤害
     criticalStrikeProbability: number//暴击概率
     // criticalStrikeHurt:number//暴击伤害(弃用，在引擎中处理，*1.5)
-    banzaiCoolDown: number = 10//大招冷却轮数
+    readonly banzaiTurn: number = 10//大招冷却剩余轮数
+    banzaiCoolDown: number = 10//大招冷却剩余轮数
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
@@ -48,6 +50,7 @@ export class User {
         };
 
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
+        this.originBlood = this.blood
         this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
         this.toEnemyHurt = parseInt(this._userNameMD5.slice(5, 6), 16) * 4
         this.criticalStrikeProbability = parseInt(this._userNameMD5.slice(6, 7), 16) / 16

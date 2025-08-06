@@ -55,9 +55,9 @@ class StatueIndex {
 @ccclass('BattleIndexManager')
 export class BattleIndexManager extends Component {
     @property(Node)
-    myStatueNode:Node =null
+    private myStatueNode:Node =null
     @property(Node)
-    emeyStatueNode:Node =null
+    private emeyStatueNode:Node =null
 
     @property(Node)
     myNode:Node = null

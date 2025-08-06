@@ -5,6 +5,7 @@ const { ccclass, property } = _decorator;
 
 @ccclass('Battle')
 export class Battle extends Component {
+    battleInfoString:string = ""
     @property(BattleIndexManager)
     battleIndexManager:BattleIndexManager =null
     gameManager: GameManager = null
@@ -41,7 +42,7 @@ export class Battle extends Component {
         this.battleIndexManager.emeyStatueBarIndex.battleRate.string = battle
     }
 
-    setBlood(percentage:number){
+    setMyBlood(percentage:number){
         this.battleIndexManager.myStatueBarIndex.blood.progress = percentage
     }
 
@@ -49,7 +50,7 @@ export class Battle extends Component {
         this.battleIndexManager.emeyStatueBarIndex.blood.progress = percentage
     }
 
-    setBlue(percentage:number){
+    setMyBlue(percentage:number){
         this.battleIndexManager.myStatueBarIndex.blue.progress = percentage
     }
 
@@ -57,12 +58,25 @@ export class Battle extends Component {
         this.battleIndexManager.emeyStatueBarIndex.blue.progress = percentage
     }
 
-    setEnergy(percentage:number){
+    setMyEnergy(percentage:number){
         this.battleIndexManager.myStatueBarIndex.energy.progress = percentage
     }
 
     setEnemyEnergy(percentage:number){
         this.battleIndexManager.emeyStatueBarIndex.energy.progress = percentage
+    }
+
+    private setBattleInfo(){
+        if (this.battleInfoString.length>390) {
+            this.battleInfoString = this.battleInfoString.slice(-390)
+        }
+        debugger
+        this.battleIndexManager.battleInfo.string = this.battleInfoString
+    }
+
+    addBattleInfo(add:string){
+            this.battleInfoString+=(add+"\n")
+            this.setBattleInfo()
     }
 }
 
