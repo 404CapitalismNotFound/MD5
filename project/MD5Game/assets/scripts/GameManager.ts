@@ -28,7 +28,7 @@ export class GameManager extends Component {
     }
 
     changeSceneToRank(){
-        director.loadScene("Rank")
+        director.loadScene("RankList")
     }
 
 }
