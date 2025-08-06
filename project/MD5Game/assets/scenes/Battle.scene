@@ -3195,6 +3195,9 @@
     "emeyStatueNode": {
       "__id__": 38
     },
+    "gameOverLayer": {
+      "__id__": 120
+    },
     "myNode": {
       "__id__": 106
     },

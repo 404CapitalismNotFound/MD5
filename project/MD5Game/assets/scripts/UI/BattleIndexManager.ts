@@ -58,6 +58,8 @@ export class BattleIndexManager extends Component {
     private myStatueNode:Node =null
     @property(Node)
     private emeyStatueNode:Node =null
+    @property(Node)
+    gameOverLayer:Node =null
 
     @property(Node)
     myNode:Node = null

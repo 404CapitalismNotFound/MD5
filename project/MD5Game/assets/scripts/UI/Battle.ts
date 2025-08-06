@@ -78,6 +78,10 @@ export class Battle extends Component {
             this.battleInfoString+=(add+"\n")
             this.setBattleInfo()
     }
+
+    showGameOverLayer(){
+        this.battleIndexManager.gameOverLayer.active = true
+    }
 }
 
 

@@ -142,6 +142,7 @@ export class Engine extends Component {
     private die(user: User) {
         console.log(`${user} die`)
         this.stopBattle()
+        this.battleUI.showGameOverLayer()
     }
 
     private getPercentage(part: number, all: number) {
