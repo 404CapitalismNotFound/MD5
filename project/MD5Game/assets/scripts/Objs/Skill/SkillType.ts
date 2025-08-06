@@ -7,10 +7,10 @@
 
 export enum SkillType{
     // 普通攻击
-    Attack = "Attack",
+    Attack = "普通攻击",
     // 普通技能
-    GeneralSkills = "GeneralSkills",
+    GeneralSkills = "普通技能",
     // 大招
-    UniqueSkill = "UniqueSkill"
+    UniqueSkill = "大招"
 
 }

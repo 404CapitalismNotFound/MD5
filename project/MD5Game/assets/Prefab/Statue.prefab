@@ -757,7 +757,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 211.279296875,
+      "width": 266.748046875,
       "height": 126
     },
     "_anchorPoint": {
@@ -793,7 +793,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Name",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 100,
@@ -916,7 +916,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 211.279296875,
+      "width": 238.916015625,
       "height": 126
     },
     "_anchorPoint": {
@@ -952,7 +952,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Grow",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 100,
@@ -1075,7 +1075,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 211.279296875,
+      "width": 255.712890625,
       "height": 126
     },
     "_anchorPoint": {
@@ -1111,7 +1111,7 @@
       "b": 255,
       "a": 255
     },
-    "_string": "label",
+    "_string": "Battle",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 100,
@@ -2240,7 +2240,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 348.262,
+      "width": 85,
       "height": 40.115
     },
     "_anchorPoint": {
@@ -2798,7 +2798,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 348.262,
+      "width": 85,
       "height": 40.115
     },
     "_anchorPoint": {
@@ -4014,6 +4014,8 @@
       "__id__": 0
     },
     "fileId": "03VC+j2tFJU53b3B+mfEj/",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
