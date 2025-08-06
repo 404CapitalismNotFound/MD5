@@ -1,4 +1,4 @@
-import { _decorator, Component, Label, Node, ProgressBar, RichText, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Component, Label, Node, ParticleSystem, ParticleSystem2D, ProgressBar, RichText, Sprite, SpriteFrame } from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -67,6 +67,10 @@ export class BattleIndexManager extends Component {
     emeyNode:Node = null
     @property(RichText)
     battleInfo:RichText = null
+    @property([ParticleSystem2D])
+    myPaticleIndex=[]
+    @property([ParticleSystem2D])
+    enemyPaticleIndex=[]
     myStatueBarIndex:StatueIndex = null
     emeyStatueBarIndex:StatueIndex = null
     
