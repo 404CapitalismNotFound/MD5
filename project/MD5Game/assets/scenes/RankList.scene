@@ -90,7 +90,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 610,
-      "y": 1356,
+      "y": 1356.0000000000002,
       "z": 0
     },
     "_lrot": {
@@ -175,7 +175,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 1356,
+    "_orthoHeight": 1356.0000000000002,
     "_near": 0,
     "_far": 2000,
     "_color": {
@@ -1840,7 +1840,6 @@
     "__type__": "e45e3KppMhHzoRDtIHWCsxE",
     "_name": "",
     "_objFlags": 0,
-    "__editorExtras__": {},
     "node": {
       "__id__": 5
     },
@@ -1861,7 +1860,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1220,
-      "height": 2712
+      "height": 2712.0000000000005
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
