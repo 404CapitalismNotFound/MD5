@@ -39,6 +39,7 @@ export class SkillList extends Component {
             }
             a[temp]++;
             let temp2 = new Skill(Camp, SkillType.GeneralSkills, SkillHurt, temp)
+            temp2.specialEffectId = i
             // this.GeneralSkills.push(new Skill(Camp, SkillType.GeneralSkills, SkillHurt, temp));
             this.GeneralSkills.push(temp2);
 

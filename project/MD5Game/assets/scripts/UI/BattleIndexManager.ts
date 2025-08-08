@@ -1,4 +1,4 @@
-import { _decorator, Component, Label, Node, ParticleSystem, ParticleSystem2D, ProgressBar, RichText, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Animation, Component, Label, Node, ParticleSystem, ParticleSystem2D, ProgressBar, RichText, Sprite, SpriteFrame } from 'cc';
 const { ccclass, property } = _decorator;
 
 
@@ -12,7 +12,7 @@ class StatueIndex {
     energy: ProgressBar = null
     normalSkills: SpriteFrame[] = []
     constructor(StatueNode: Node) {
-        this.faceIcon = StatueNode.getChildByName("FaceIconMask").getChildByName("FaceIcon").getComponent(Sprite).spriteFrame   
+        this.faceIcon = StatueNode.getChildByName("FaceIconMask").getChildByName("FaceIcon").getComponent(Sprite).spriteFrame
 
         this.id = StatueNode.getChildByName("UserInfoModel").getChildByName("Name").getComponent(Label)
         this.growRate = StatueNode.getChildByName("UserInfoModel").getChildByName("GrowNum").getComponent(Label)
@@ -55,28 +55,27 @@ class StatueIndex {
 @ccclass('BattleIndexManager')
 export class BattleIndexManager extends Component {
     @property(Node)
-    private myStatueNode:Node =null
+    private myStatueNode: Node = null
+    // @property(Node)
+    // private emeyStatueNode: Node = null
     @property(Node)
-    private emeyStatueNode:Node =null
-    @property(Node)
-    gameOverLayer:Node =null
-
-    @property(Node)
-    myNode:Node = null
-    @property(Node)
-    emeyNode:Node = null
+    gameOverLayer: Node = null
     @property(RichText)
-    battleInfo:RichText = null
+    battleInfo: RichText = null
     @property([ParticleSystem2D])
-    myPaticleIndex=[]
-    @property([ParticleSystem2D])
-    enemyPaticleIndex=[]
-    myStatueBarIndex:StatueIndex = null
-    emeyStatueBarIndex:StatueIndex = null
-    
-    onLoad(){
+    myPaticleIndex = []
+    // @property([ParticleSystem2D])
+    // enemyPaticleIndex = []
+    @property(Animation)
+    myAnimationIndex:Animation = null
+    @property(Animation)
+    enemyAnimationIndex = null
+    myStatueBarIndex: StatueIndex = null
+    emeyStatueBarIndex: StatueIndex = null
+
+    onLoad() {
         this.myStatueBarIndex = new StatueIndex(this.myStatueNode)
-        this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
+        // this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
     }
 }
 

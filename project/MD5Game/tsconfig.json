@@ -4,7 +4,7 @@
 
   /* Add your custom configuration here. */
   "compilerOptions": {
-	// "types":["miniprogram-api-typings"],
+	"types":["minigame-api-typings"],
 	"strict": false
   }
 }
