@@ -8,8 +8,8 @@ import { Battle } from '../UI/Battle';
 @ccclass('Engine')
 export class Engine extends Component {
     @property//单位：秒
-    battleInterval: number = 1//默认值，战斗间隔
-    battleTimerId:number
+    battleInterval: number = 5//默认值，战斗间隔
+    battleTimerId: number
     battleUI: Battle = null
     private userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
@@ -50,17 +50,17 @@ export class Engine extends Component {
         this.initUI()
     }
 
-    initUI(){
+    initUI() {
         this.battleUI.setMyName(this.userList[0].userName)
-        this.battleUI.setEnemyName(this.userList[1].userName)
+        // this.battleUI.setEnemyName(this.userList[1].userName)
     }
 
     startBattle(interval?: number) {
         if (interval) this.battleInterval = interval
-        this.battleTimerId=setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
+        this.battleTimerId = setInterval(() => this.battleCallBack(), this.battleInterval * 1000)
     }
 
-    stopBattle(){
+    stopBattle() {
         clearInterval(this.battleTimerId)
     }
 
@@ -132,16 +132,16 @@ export class Engine extends Component {
         }
         //闪避处理 - 被攻击者有概率闪避攻击
         if (Math.random() <= this.anotherUser.dodgeProbability) {
-            return ResponceMessage.dodge(this.anotherUser, this.thisUser)
+            return ResponceMessage.dodge(this.thisUser, this.anotherUser)
         }
         //正常受到伤害
         this.anotherUser.blood -= hitMsg.hurt
         return ResponceMessage.normal(hitMsg.hurt, this.thisUser, this.anotherUser)
     }
 
-    private die(user: User) {
-        console.log(`${user} die`)
+    private gameOver(win: User, lost: User) {
         this.stopBattle()
+        this.battleUI.addBattleInfo(`${win.userName}获胜！！！`)
         this.battleUI.showGameOverLayer()
     }
 
@@ -151,6 +151,39 @@ export class Engine extends Component {
 
     private updateUIFromHitMsg(Msg: HitMessage) {
         this.battleUI.addBattleInfo(Msg.toString())
+        if (Msg.from === this.userList[0]) {
+            this.battleUI.battleIndexManager.myAnimationIndex.play("Attack")
+            switch (Msg.skill.skillType) {
+                case SkillType.Attack:
+                    this.battleUI.battleIndexManager.myPaticleIndex[0].resetSystem()
+                    break
+                case SkillType.GeneralSkills:
+                    if (0 <= Msg.skill.specialEffectId && Msg.skill.specialEffectId < 3) {
+                        const praticleObj = this.battleUI.battleIndexManager.myPaticleIndex[Msg.skill.specialEffectId + 1]
+                        praticleObj.resetSystem()
+                    }
+                    break
+                case SkillType.UniqueSkill:
+                    //预留
+                    break
+            }
+        } else {
+            this.battleUI.battleIndexManager.enemyAnimationIndex.play("Attack")
+            switch (Msg.skill.skillType) {
+                case SkillType.Attack:
+                    // this.battleUI.battleIndexManager.enemyPaticleIndex[0].resetSystem()
+                    break
+                case SkillType.GeneralSkills:
+                    if (0 <= Msg.skill.specialEffectId && Msg.skill.specialEffectId < 3) {
+                        // const praticleObj = this.battleUI.battleIndexManager.enemyPaticleIndex[Msg.skill.specialEffectId + 1]
+                        // praticleObj.resetSystem()
+                    }
+                    break
+                case SkillType.UniqueSkill:
+                    //预留
+                    break
+            }
+        }
 
     }
 
@@ -158,10 +191,16 @@ export class Engine extends Component {
         this.battleUI.addBattleInfo(Msg.toString())
 
         this.battleUI.setMyBlood(this.getPercentage(this.userList[0].blood, this.userList[0].originBlood))
-        this.battleUI.setEnemyBlood(this.getPercentage(this.userList[1].blood, this.userList[1].originBlood))
+        // this.battleUI.setEnemyBlood(this.getPercentage(this.userList[1].blood, this.userList[1].originBlood))
 
         this.battleUI.setMyEnergy(this.getPercentage(this.userList[0].banzaiTurn - this.userList[0].banzaiCoolDown, this.userList[0].banzaiTurn))
-        this.battleUI.setEnemyEnergy(this.getPercentage(this.userList[1].banzaiTurn - this.userList[1].banzaiCoolDown, this.userList[1].banzaiTurn))
+        // this.battleUI.setEnemyEnergy(this.getPercentage(this.userList[1].banzaiTurn - this.userList[1].banzaiCoolDown, this.userList[1].banzaiTurn))
+
+        if(Msg.to==this.userList[0]){
+            this.battleUI.battleIndexManager.myAnimationIndex.play("Attacked")
+        }else{
+            this.battleUI.battleIndexManager.enemyAnimationIndex.play("Attacked")
+        }
     }
 
     private battleCallBack() {
@@ -175,19 +214,20 @@ export class Engine extends Component {
         console.log(hitMsg.toString())
         this.updateUIFromHitMsg(hitMsg)
 
-        //响应攻击，扣血
-        const rspMsg = this.responce(hitMsg)
-        console.log(rspMsg.toString())
-        this.updateUIFromRspMsg(rspMsg)
+        setTimeout(() => {        //响应攻击，扣血
+            const rspMsg = this.responce(hitMsg)
+            console.log(rspMsg.toString())
+            this.updateUIFromRspMsg(rspMsg)
 
-        console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
-        if (this.userList[0].blood < 0) this.die(this.userList[0])
-        if (this.userList[1].blood < 0) this.die(this.userList[1])
+            console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
+            if (this.userList[0].blood < 0) this.gameOver(this.userList[1], this.userList[0])
+            if (this.userList[1].blood < 0) this.gameOver(this.userList[1], this.userList[0])
 
-        //增加轮数
-        this.turn++
-        //切换主场
-        this.thisTurnIndex = this.thisTurnIndex === 1 ? 0 : 1
+            //增加轮数
+            this.turn++
+            //切换主场
+            this.thisTurnIndex = this.thisTurnIndex === 1 ? 0 : 1
+        },this.battleInterval/2*1000)
     }
 }
 

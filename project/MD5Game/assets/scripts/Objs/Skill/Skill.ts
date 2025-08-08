@@ -13,8 +13,7 @@ export class Skill extends Component {
     // 技能伤害
     skillHurt:number
 
-    @property
-    SpecialEffect = null
+    specialEffectId = NaN
 
     /**
      * @param Cmap  角色阵营

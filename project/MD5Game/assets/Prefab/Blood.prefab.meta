@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "4962119a-a140-4e35-b27c-3d050b0dcfed",
+  "uuid": "6a2415f2-2f81-422a-bd26-209a049b2805",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "SpriteSplash"
+    "syncNodeName": "Blood"
   }
 }
