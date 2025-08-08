@@ -51,7 +51,7 @@ export class User {
 
         this.blood = parseInt(this._userNameMD5.slice(0, 3), 16) % 1000 + 1000
         this.originBlood = this.blood
-        this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)
+        this.normalAttackHurt = parseInt(this._userNameMD5.slice(4, 5), 16)*100//后门，为了死的快点
         this.toEnemyHurt = parseInt(this._userNameMD5.slice(5, 6), 16) * 4
         this.criticalStrikeProbability = parseInt(this._userNameMD5.slice(6, 7), 16) / 16
         // this.criticalStrikeHurt = parseInt(this._userNameMD5.slice(7,9), 16) * 4

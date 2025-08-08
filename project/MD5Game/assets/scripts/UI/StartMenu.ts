@@ -12,6 +12,7 @@ export class StartMenu extends Component {
     @property(Node)
     loginNode: Node = null
     onGameStartButtonClick() {
+        debugger
         if (!this.wxManager.login) {
             this.showLoginTitle()
             return

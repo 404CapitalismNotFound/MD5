@@ -1,4 +1,4 @@
-import { _decorator, Component, log, Node } from 'cc';
+import { _decorator, Component, director, log, Node } from 'cc';
 import { GameManager } from '../GameManager';
 const { ccclass, property } = _decorator;
 
@@ -10,7 +10,10 @@ export class WXManager extends Component {
     faceIcon: string
     nickName: string
     protected onLoad(): void {
-
+        director.addPersistRootNode(this.node)
+    }
+    protected onDestroy(): void {
+        console.error("就是这样！")
     }
     protected start(): void {
         const wxLoginButton: any = {
@@ -39,7 +42,7 @@ export class WXManager extends Component {
                 this.faceIcon = res.userInfo.avatarUrl
                 this.nickName = res.userInfo.nickName
                 this.login = true
-                loginButton.destroy();
+                // loginButton.destroy();
             } else {
                 this.gameManager.showLoginTitle()
             }

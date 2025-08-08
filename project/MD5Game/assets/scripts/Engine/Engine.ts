@@ -8,9 +8,10 @@ import { Battle } from '../UI/Battle';
 @ccclass('Engine')
 export class Engine extends Component {
     @property//单位：秒
-    battleInterval: number = 5//默认值，战斗间隔
+    battleInterval: number = 0.5//默认值，战斗间隔
     battleTimerId: number
     battleUI: Battle = null
+    win:boolean = false
     private userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
     private thisTurnIndex: number = NaN//主动攻击方
@@ -142,6 +143,11 @@ export class Engine extends Component {
     private gameOver(win: User, lost: User) {
         this.stopBattle()
         this.battleUI.addBattleInfo(`${win.userName}获胜！！！`)
+        if (win==this.userList[0]) {
+            this.win=true
+        }else{
+            this.win=false
+        }
         this.battleUI.showGameOverLayer()
     }
 
@@ -221,7 +227,7 @@ export class Engine extends Component {
 
             console.log(`end turn:${this.turn} user1:${this.userList[0].blood} user2:${this.userList[1].blood}`)
             if (this.userList[0].blood < 0) this.gameOver(this.userList[1], this.userList[0])
-            if (this.userList[1].blood < 0) this.gameOver(this.userList[1], this.userList[0])
+            if (this.userList[1].blood < 0) this.gameOver(this.userList[0], this.userList[1])
 
             //增加轮数
             this.turn++
