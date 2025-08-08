@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "minigame-api-typings": "^3.8.11",
     "miniprogram-api-typings": "^4.1.0"
   }
 }
