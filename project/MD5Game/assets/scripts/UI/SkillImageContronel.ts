@@ -8,8 +8,8 @@ export class SkillImageContronel extends Component {
     Value:Sprite[] = []
 
 
-    @property([Sprite])
-    ImageMap:Sprite[] = [];
+    @property([Node])
+    ImageMap:Node[] = [];
 
     start() {
         console.log("ewqewrdsfadsafdsa")
@@ -22,8 +22,8 @@ export class SkillImageContronel extends Component {
     select(Name:string){
         console.log("正在选择技能图片")
         var a = this.ImageMap[3]
-        a.node.active = true
-        a.node.setSiblingIndex(this.node.parent.children.length - 1)
+        a.active = true
+        a.setSiblingIndex(this.node.parent.children.length - 1)
         
     }
 }
