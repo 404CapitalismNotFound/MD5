@@ -21,7 +21,7 @@ export class User {
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
     faction: string//阵营
-    skillList: SkillList//技能表
+    public skillList: SkillList//技能表
 
     private _userNameMD5: string
 

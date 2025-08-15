@@ -1,4 +1,4 @@
-import { _decorator, Component, director, find, Node } from 'cc';
+import { _decorator, Component, director, find, Node, Prefab } from 'cc';
 // import { AudioMgr } from "./AudioPlayer";
 import { Engine } from './Engine/Engine';
 import { User } from './Objs/User/User';

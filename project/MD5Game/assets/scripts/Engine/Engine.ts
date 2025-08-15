@@ -4,6 +4,7 @@ import { User } from '../Objs/User/User';
 import { SkillType } from '../Objs/Skill/SkillType';
 import { HitMessage, ResponceMessage } from "./Message"
 import { Battle } from '../UI/Battle';
+import { TextSchema } from 'XrFrame/xrFrameSystem';
 
 @ccclass('Engine')
 export class Engine extends Component {
@@ -19,6 +20,10 @@ export class Engine extends Component {
 
     // 单例实例
     private static _instance: Engine = null;
+
+    getThisUser():User {
+        return this.thisUser
+    }
 
     constructor() {
         super()//初始化父类

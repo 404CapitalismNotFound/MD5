@@ -9,7 +9,7 @@ export class Skill extends Component {
     // 技能类型（普工，技能，大招）
     skillType:SkillType
     // 技能名称
-    skillName:string
+    public skillName:string
     // 技能伤害
     skillHurt:number
 

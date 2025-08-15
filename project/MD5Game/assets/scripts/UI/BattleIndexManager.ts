@@ -1,4 +1,5 @@
-import { _decorator, Animation, Component, Label, Node, ParticleSystem, ParticleSystem2D, ProgressBar, RichText, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Animation, Component, Label, Node, ParticleSystem, ParticleSystem2D, Prefab, ProgressBar, RichText, Script, Sprite, SpriteFrame } from 'cc';
+import { SkillImageContronel } from './SkillImageContronel';
 const { ccclass, property } = _decorator;
 
 
@@ -10,7 +11,10 @@ class StatueIndex {
     blood: ProgressBar = null
     blue: ProgressBar = null
     energy: ProgressBar = null
+    
+
     normalSkills: SpriteFrame[] = []
+
     constructor(StatueNode: Node) {
         this.faceIcon = StatueNode.getChildByName("FaceIconMask").getChildByName("FaceIcon").getComponent(Sprite).spriteFrame
 
@@ -54,6 +58,7 @@ class StatueIndex {
 
 @ccclass('BattleIndexManager')
 export class BattleIndexManager extends Component {
+
     @property(Node)
     private myStatueNode: Node = null
     // @property(Node)
@@ -64,6 +69,11 @@ export class BattleIndexManager extends Component {
     battleInfo: RichText = null
     @property([ParticleSystem2D])
     myPaticleIndex = []
+
+    @property([Node])
+    SkillPanel:Node[] = [];
+
+
     // @property([ParticleSystem2D])
     // enemyPaticleIndex = []
     @property(Animation)
@@ -76,6 +86,9 @@ export class BattleIndexManager extends Component {
     onLoad() {
         this.myStatueBarIndex = new StatueIndex(this.myStatueNode)
         // this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
+        for (const e of this.SkillPanel) {
+            e.getComponent(SkillImageContronel).select("战术核弹")
+        }
     }
 }
 

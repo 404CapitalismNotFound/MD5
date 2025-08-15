@@ -15,6 +15,8 @@ export class Battle extends Component {
     @property(Sprite)
     avatar:Sprite =null
 
+    
+
     protected onLoad(): void {
         this.gameManager = find("Manager").getComponent(GameManager)
         if (!this.gameManager) {
