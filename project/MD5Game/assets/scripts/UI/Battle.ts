@@ -6,6 +6,7 @@ const { ccclass, property } = _decorator;
 @ccclass('Battle')
 export class Battle extends Component {
     battleInfoString:string = ""
+
     @property(BattleIndexManager)
     battleIndexManager:BattleIndexManager =null
     gameManager: GameManager = null
@@ -94,18 +95,18 @@ export class Battle extends Component {
     }
 
     setUiInit(faceUrl:string,name:string){
-    this.nameLabel.getComponent(Label).string = name
-    let spire = this.avatar.getComponent(Sprite);
-    assetManager.loadRemote<ImageAsset>(faceUrl + "?aaa=aa.jpg", { ext: '.jpg' }, (err, imageAsset) => {
-      if (err) {
-        return console.error(err.message);
-      }
+        this.nameLabel.getComponent(Label).string = name
+        let spire = this.avatar.getComponent(Sprite);
+        assetManager.loadRemote<ImageAsset>(faceUrl + "?aaa=aa.jpg", { ext: '.jpg' }, (err, imageAsset) => {
+            if (err) {
+                return console.error(err.message);
+            }
 
-      let sp = new SpriteFrame();
-      let texture = new Texture2D();
-      texture.image = imageAsset;
-      sp.texture = texture
-      spire.spriteFrame = sp;
-    })
-}
+            let sp = new SpriteFrame();
+            let texture = new Texture2D();
+            texture.image = imageAsset;
+            sp.texture = texture
+            spire.spriteFrame = sp;
+        })
+    }
 }
