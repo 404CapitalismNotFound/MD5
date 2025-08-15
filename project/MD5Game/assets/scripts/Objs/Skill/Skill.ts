@@ -39,7 +39,7 @@ export class Skill extends Component {
                     this.skillName = "气象攻击";
                     break;
                 case Faction.Yuri:
-                    this.skillName = "心灵震爆";
+                    this.skillName = "基因震爆";
                     break;
                 case Faction.FenFeng:
                     this.skillName = "顶点风暴";
@@ -93,7 +93,7 @@ export class Skill extends Component {
                 case Faction.Yuri:
                     switch(num){
                         case 1:
-                            this.skillName = "基因震爆"
+                            this.skillName = "剧毒方尖碑"
                             break;
                         case 2:
                             this.skillName = "剧毒空袭"
