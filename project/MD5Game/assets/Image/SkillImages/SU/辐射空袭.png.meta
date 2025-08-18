@@ -2,7 +2,7 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "e180cf39-e393-4a8d-9899-066bb0a9e6bb",
+  "uuid": "61a5233a-0540-42a0-afd1-5f90291f37f1",
   "files": [
     ".json",
     ".png"
@@ -10,14 +10,14 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@6c48a",
-      "displayName": "圣骑士增员",
+      "uuid": "61a5233a-0540-42a0-afd1-5f90291f37f1@6c48a",
+      "displayName": "辐射空袭",
       "id": "6c48a",
       "name": "texture",
       "userData": {
         "wrapModeS": "clamp-to-edge",
         "wrapModeT": "clamp-to-edge",
-        "imageUuidOrDatabaseUri": "e180cf39-e393-4a8d-9899-066bb0a9e6bb",
+        "imageUuidOrDatabaseUri": "61a5233a-0540-42a0-afd1-5f90291f37f1",
         "isUuid": true,
         "visible": false,
         "minfilter": "linear",
@@ -34,8 +34,8 @@
     },
     "f9941": {
       "importer": "sprite-frame",
-      "uuid": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@f9941",
-      "displayName": "圣骑士增员",
+      "uuid": "61a5233a-0540-42a0-afd1-5f90291f37f1@f9941",
+      "displayName": "辐射空袭",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {
@@ -113,7 +113,7 @@
           ]
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@6c48a",
+        "imageUuidOrDatabaseUri": "61a5233a-0540-42a0-afd1-5f90291f37f1@6c48a",
         "atlasUuid": "",
         "trimType": "auto"
       },
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@6c48a"
+    "redirect": "61a5233a-0540-42a0-afd1-5f90291f37f1@6c48a"
   }
 }

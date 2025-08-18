@@ -33,16 +33,16 @@ export class Skill extends Component {
         }else if(num === 5){
             switch(Cmap){
                 case Faction.Su :
-                    this.skillName = "核弹攻击";
+                    this.skillName = "战术核弹";
                     break;
                 case Faction.Meng:
-                    this.skillName = "气象攻击";
+                    this.skillName = "闪电风暴";
                     break;
                 case Faction.Yuri:
                     this.skillName = "基因震爆";
                     break;
                 case Faction.FenFeng:
-                    this.skillName = "顶点风暴";
+                    this.skillName = "顶点暴风";
                     break;
                 default :
                     this.skillName = "核弹攻击";
@@ -85,7 +85,7 @@ export class Skill extends Component {
                             this.skillName = "墨丘利卫星打击"
                             break;
                         default :
-                            this.skillName = "激光锁定"
+                            this.skillName = "目标锁定"
                             break;
                     };
                     break;
@@ -93,7 +93,7 @@ export class Skill extends Component {
                 case Faction.Yuri:
                     switch(num){
                         case 1:
-                            this.skillName = "剧毒方尖碑"
+                            this.skillName = "方尖碑"
                             break;
                         case 2:
                             this.skillName = "剧毒空袭"
@@ -102,13 +102,14 @@ export class Skill extends Component {
                             this.skillName = "动能屏障"
                             break;
                         case 4:
-                            this.skillName = "治疗药剂"
+                            this.skillName = "治疗剂"
                             break;
                         default :
-                            this.skillName = "心灵控制"
+                            this.skillName = "心灵支配"
                             break;
                     };
                     break;
+
                 case Faction.FenFeng:
                     switch(num){
                         case 1:
@@ -118,13 +119,13 @@ export class Skill extends Component {
                             this.skillName = "等离子切割"
                             break;
                         case 3:
-                            this.skillName = "先锋炮艇"
+                            this.skillName = "先锋炮艇机"
                             break;
                         case 4:
                             this.skillName = "黄金之风"
                             break;
                         default :
-                            this.skillName = "信号截断"
+                            this.skillName = "信号干扰"
                             break;
                     };
                     break;

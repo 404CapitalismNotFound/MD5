@@ -25,26 +25,26 @@
         "__id__": 8
       },
       {
-        "__id__": 162
+        "__id__": 168
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 168
-      },
-      {
-        "__id__": 170
-      },
-      {
-        "__id__": 172
-      },
-      {
         "__id__": 174
+      },
+      {
+        "__id__": 176
+      },
+      {
+        "__id__": 178
+      },
+      {
+        "__id__": 180
       }
     ],
     "_prefab": {
-      "__id__": 176
+      "__id__": 182
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -291,22 +291,25 @@
       },
       {
         "__id__": 147
+      },
+      {
+        "__id__": 153
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 155
+        "__id__": 161
       },
       {
-        "__id__": 157
+        "__id__": 163
       },
       {
-        "__id__": 159
+        "__id__": 165
       }
     ],
     "_prefab": {
-      "__id__": 161
+      "__id__": 167
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -339,7 +342,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "四联辐射空袭",
+    "_name": "辐射空袭",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -402,7 +405,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
-      "height": 49
+      "height": 48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -883,7 +886,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "精英预备队",
+    "_name": "钢铁长城",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -946,7 +949,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
-      "height": 49
+      "height": 48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -957,7 +960,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "beE0Gw/5lIsIgENlFEa3oG"
+    "fileId": "141DehuhVHYqe89uJEWrvb"
   },
   {
     "__type__": "cc.Sprite",
@@ -1002,7 +1005,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "cfAbIxKOBJhbBTD4K2ExUb"
+    "fileId": "18yaeqZ4FNQZITIpU6m91k"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1012,7 +1015,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "08+vQhVcNIbqsr6FsGXLXF",
+    "fileId": "e9/CsdQsdHiJwhnfHT9lz+",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
@@ -1155,7 +1158,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "冰锥",
+    "_name": "核能奔涌",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1218,7 +1221,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
-      "height": 49
+      "height": 48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1229,7 +1232,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "529HZXU3xIkbEMruzMni51"
+    "fileId": "d6X88hLFROYLtsxBUqIem0"
   },
   {
     "__type__": "cc.Sprite",
@@ -1254,7 +1257,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "b920a447-6af6-45da-afa6-c40274310f86@f9941",
+      "__uuid__": "d08cbf30-6211-4133-a3a4-500a8710a718@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1274,7 +1277,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "fdg7kcGOZIs52QrV2aEG2F"
+    "fileId": "892btRKRZCZ6ycdMUKXTPT"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1284,14 +1287,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "e8XTKxEZRM7ry8dqxAihbZ",
+    "fileId": "39qS9tL89IPqGKwXeLxLXT",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "圣骑士增员",
+    "_name": "冰锥",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1365,7 +1368,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "d6zq3rxgtBgb+KcIIXhI9E"
+    "fileId": "529HZXU3xIkbEMruzMni51"
   },
   {
     "__type__": "cc.Sprite",
@@ -1390,7 +1393,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@f9941",
+      "__uuid__": "b920a447-6af6-45da-afa6-c40274310f86@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1410,7 +1413,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "35bv9ezq9G14/IH+yIAIDa"
+    "fileId": "fdg7kcGOZIs52QrV2aEG2F"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1420,14 +1423,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "3flr6llSlLGqvO5Upf3vsB",
+    "fileId": "e8XTKxEZRM7ry8dqxAihbZ",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "墨丘利打击",
+    "_name": "圣骑支援",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1490,7 +1493,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
-      "height": 49
+      "height": 48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1501,7 +1504,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "3aVUXKN/NP+7kP2kbLinbX"
+    "fileId": "d6zq3rxgtBgb+KcIIXhI9E"
   },
   {
     "__type__": "cc.Sprite",
@@ -1526,7 +1529,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "193968b8-749c-4b4f-9ade-f2a14287b550@f9941",
+      "__uuid__": "e180cf39-e393-4a8d-9899-066bb0a9e6bb@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1546,7 +1549,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "daIlamF9hBTK2P+1zrH64p"
+    "fileId": "35bv9ezq9G14/IH+yIAIDa"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1556,14 +1559,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d6CS6G949LVbrvqK7p63k5",
+    "fileId": "3flr6llSlLGqvO5Upf3vsB",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "狮心王",
+    "_name": "墨丘利打击",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1637,7 +1640,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "a4ejHxCiNIQ6ZywW9lpb7c"
+    "fileId": "3aVUXKN/NP+7kP2kbLinbX"
   },
   {
     "__type__": "cc.Sprite",
@@ -1662,7 +1665,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "be78c98a-0672-4b3d-b340-d607c71ea036@f9941",
+      "__uuid__": "193968b8-749c-4b4f-9ade-f2a14287b550@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1682,7 +1685,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "5eX1/aWS9JpZHaCvSCaMDk"
+    "fileId": "daIlamF9hBTK2P+1zrH64p"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1692,14 +1695,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "cbGTuL8fdKKpVd4ZVGgPBN",
+    "fileId": "d6CS6G949LVbrvqK7p63k5",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "目标锁定",
+    "_name": "狮心王轰炸",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1762,7 +1765,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 60,
-      "height": 49
+      "height": 48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1773,7 +1776,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "a1nvkASpJKiaML8LpA9h9e"
+    "fileId": "552Q6iBKpD27DGIZ9zA8wL"
   },
   {
     "__type__": "cc.Sprite",
@@ -1798,7 +1801,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "f0712701-9973-47ae-bba2-b7f9b54a46cd@f9941",
+      "__uuid__": "be78c98a-0672-4b3d-b340-d607c71ea036@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1818,7 +1821,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "faFFAQZ5pIk750nfWrKnm7"
+    "fileId": "94N4DRZXlEYqP/HiRHsqGA"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1828,14 +1831,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "ffJ81GNAdFO4fMRQ6F8Hwr",
+    "fileId": "623nfXTcJCq4f7U12JyvLv",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "闪电风暴",
+    "_name": "目标锁定",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -1909,7 +1912,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "14rAafFxNO9p7F2ORIuYBy"
+    "fileId": "a1nvkASpJKiaML8LpA9h9e"
   },
   {
     "__type__": "cc.Sprite",
@@ -1934,7 +1937,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "d9381999-942f-41ef-a841-89c14241c060@f9941",
+      "__uuid__": "f0712701-9973-47ae-bba2-b7f9b54a46cd@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1954,7 +1957,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "7ftCkKKv5DZY/g9LbYp9MR"
+    "fileId": "faFFAQZ5pIk750nfWrKnm7"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1964,14 +1967,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "0dI6QU/XhE0Lb+UwF4PXX4",
+    "fileId": "ffJ81GNAdFO4fMRQ6F8Hwr",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "剧毒空袭",
+    "_name": "闪电风暴",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2045,7 +2048,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "53URR33Z1K8LBgZo+UBaVE"
+    "fileId": "14rAafFxNO9p7F2ORIuYBy"
   },
   {
     "__type__": "cc.Sprite",
@@ -2070,7 +2073,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "0cba4be0-7530-4961-877f-c566630fc299@f9941",
+      "__uuid__": "d9381999-942f-41ef-a841-89c14241c060@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2090,7 +2093,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "4dXm3JzjpPpYZC+I9GE0H0"
+    "fileId": "7ftCkKKv5DZY/g9LbYp9MR"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2100,14 +2103,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "82T+0Tb3NJFqjvms5tq++w",
+    "fileId": "0dI6QU/XhE0Lb+UwF4PXX4",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "动能屏障",
+    "_name": "剧毒空袭",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2181,7 +2184,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "cfeKwzxRRG0I7jYm39pcrM"
+    "fileId": "53URR33Z1K8LBgZo+UBaVE"
   },
   {
     "__type__": "cc.Sprite",
@@ -2206,7 +2209,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "0d4fabd1-8779-47df-ba2c-a26e3be4a33e@f9941",
+      "__uuid__": "0cba4be0-7530-4961-877f-c566630fc299@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2226,7 +2229,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "b5gIQvFzVM+a4y7TY1113y"
+    "fileId": "4dXm3JzjpPpYZC+I9GE0H0"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2236,14 +2239,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "50w4gnOAhKXo9y2PD5K7Ka",
+    "fileId": "82T+0Tb3NJFqjvms5tq++w",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "基因震爆",
+    "_name": "动能屏障",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2317,7 +2320,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "bfw9wXxmZL84i6PidwpNpa"
+    "fileId": "cfeKwzxRRG0I7jYm39pcrM"
   },
   {
     "__type__": "cc.Sprite",
@@ -2342,7 +2345,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "ff3bc8ea-18e8-45bf-9858-dd7ba5cc9c3b@f9941",
+      "__uuid__": "0d4fabd1-8779-47df-ba2c-a26e3be4a33e@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2362,7 +2365,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "9cd53SZUtDvY2yOsGzshT4"
+    "fileId": "b5gIQvFzVM+a4y7TY1113y"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2372,14 +2375,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "90IYxue9FDr5oCbiXJA2xD",
+    "fileId": "50w4gnOAhKXo9y2PD5K7Ka",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "心灵支配",
+    "_name": "基因震爆",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2453,7 +2456,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "42lzCEmzhGaIe7meFvwwbi"
+    "fileId": "bfw9wXxmZL84i6PidwpNpa"
   },
   {
     "__type__": "cc.Sprite",
@@ -2478,7 +2481,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "8756f059-7b0c-4c9b-a504-45d18c2bc9e1@f9941",
+      "__uuid__": "ff3bc8ea-18e8-45bf-9858-dd7ba5cc9c3b@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2498,7 +2501,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "e89UpL3wJGFrKuhGXIqAeb"
+    "fileId": "9cd53SZUtDvY2yOsGzshT4"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2508,14 +2511,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "f5O+I8+n9Kk6iJLUiI7hZv",
+    "fileId": "90IYxue9FDr5oCbiXJA2xD",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "治疗剂",
+    "_name": "心灵支配",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2589,7 +2592,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "33QHrMfkJKSqwCri7KJhMK"
+    "fileId": "42lzCEmzhGaIe7meFvwwbi"
   },
   {
     "__type__": "cc.Sprite",
@@ -2614,7 +2617,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "16e801f8-8c15-48a8-aaf2-7871d28b7920@f9941",
+      "__uuid__": "8756f059-7b0c-4c9b-a504-45d18c2bc9e1@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2634,7 +2637,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "bfi1M0oCRKI5cGZiNfEkzt"
+    "fileId": "e89UpL3wJGFrKuhGXIqAeb"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2644,14 +2647,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c4I+ytS6RGiZNsB9HlS8/8",
+    "fileId": "f5O+I8+n9Kk6iJLUiI7hZv",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "方尖碑",
+    "_name": "治疗剂",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2725,7 +2728,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "9eD/EQP6VBhbS9zB+D5EVJ"
+    "fileId": "33QHrMfkJKSqwCri7KJhMK"
   },
   {
     "__type__": "cc.Sprite",
@@ -2750,7 +2753,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "b5212b1a-5125-4423-a3e0-51437e6d7c85@f9941",
+      "__uuid__": "16e801f8-8c15-48a8-aaf2-7871d28b7920@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2770,7 +2773,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "81hVG8bGpDYYWbWqZMI7Sq"
+    "fileId": "bfi1M0oCRKI5cGZiNfEkzt"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2780,14 +2783,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "403hSiMMhMXbmL9cmmQkvi",
+    "fileId": "c4I+ytS6RGiZNsB9HlS8/8",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "信号干扰",
+    "_name": "方尖碑",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2861,7 +2864,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "ceMVjpJR5Goae9y52XAYOh"
+    "fileId": "9eD/EQP6VBhbS9zB+D5EVJ"
   },
   {
     "__type__": "cc.Sprite",
@@ -2886,7 +2889,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "2f925ce6-5346-4439-b008-24b2c9360a13@f9941",
+      "__uuid__": "b5212b1a-5125-4423-a3e0-51437e6d7c85@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2906,7 +2909,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "d8u6Uf6pZIXoWwnf6A82xC"
+    "fileId": "81hVG8bGpDYYWbWqZMI7Sq"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2916,14 +2919,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "30aIXraUVJ3Jw9Jt3ekx2a",
+    "fileId": "403hSiMMhMXbmL9cmmQkvi",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "先锋炮艇机",
+    "_name": "信号干扰",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -2997,7 +3000,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "28bcZUpXxL9oOrJWasuhe0"
+    "fileId": "ceMVjpJR5Goae9y52XAYOh"
   },
   {
     "__type__": "cc.Sprite",
@@ -3022,7 +3025,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "31d876ed-86ea-458d-ae63-881ffd04eb32@f9941",
+      "__uuid__": "2f925ce6-5346-4439-b008-24b2c9360a13@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3042,7 +3045,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "77ZIc7d2NK56PLlo0u+XxY"
+    "fileId": "d8u6Uf6pZIXoWwnf6A82xC"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3052,14 +3055,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a7r7Ti+PFGWIqnkUp4WQQR",
+    "fileId": "30aIXraUVJ3Jw9Jt3ekx2a",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "顶点暴风",
+    "_name": "先锋炮艇机",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -3133,7 +3136,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "632GbBKDNNLL0HegfBBHJr"
+    "fileId": "28bcZUpXxL9oOrJWasuhe0"
   },
   {
     "__type__": "cc.Sprite",
@@ -3158,12 +3161,12 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "9b7be5b7-bee2-4bac-a596-da4230317b58@f9941",
+      "__uuid__": "31d876ed-86ea-458d-ae63-881ffd04eb32@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -3178,7 +3181,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "daUaj/3iZO7rLm5BN8i1Bw"
+    "fileId": "77ZIc7d2NK56PLlo0u+XxY"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3188,14 +3191,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "5684hJVU5MLr1f7YXb9h/O",
+    "fileId": "a7r7Ti+PFGWIqnkUp4WQQR",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "离子切割机",
+    "_name": "顶点暴风",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -3269,7 +3272,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "c72mSy19JE+64czGysR44+"
+    "fileId": "632GbBKDNNLL0HegfBBHJr"
   },
   {
     "__type__": "cc.Sprite",
@@ -3294,12 +3297,12 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "e3b85927-e1cd-49ab-8d6e-ffc6c442cced@f9941",
+      "__uuid__": "9b7be5b7-bee2-4bac-a596-da4230317b58@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -3314,7 +3317,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "5cdOq+1jVLUbBSKZ+XEfVV"
+    "fileId": "daUaj/3iZO7rLm5BN8i1Bw"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3324,14 +3327,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "18g97tvZ9EsrCd/0qyqg1h",
+    "fileId": "5684hJVU5MLr1f7YXb9h/O",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
-    "_name": "造物惩击",
+    "_name": "离子切割机",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -3405,7 +3408,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "c7gw36L4tEDYgoK0NR6FS8"
+    "fileId": "c72mSy19JE+64czGysR44+"
   },
   {
     "__type__": "cc.Sprite",
@@ -3418,6 +3421,142 @@
     "_enabled": true,
     "__prefab": {
       "__id__": 145
+    },
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_spriteFrame": {
+      "__uuid__": "e3b85927-e1cd-49ab-8d6e-ffc6c442cced@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "_type": 0,
+    "_fillType": 0,
+    "_sizeMode": 1,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "5cdOq+1jVLUbBSKZ+XEfVV"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "18g97tvZ9EsrCd/0qyqg1h",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "造物惩击",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 8
+    },
+    "_children": [],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 148
+      },
+      {
+        "__id__": 150
+      }
+    ],
+    "_prefab": {
+      "__id__": 152
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1.3,
+      "y": 1.3,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 147
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 149
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 60,
+      "height": 49
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "c7gw36L4tEDYgoK0NR6FS8"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 147
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 151
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -3477,17 +3616,17 @@
     "_active": false,
     "_components": [
       {
-        "__id__": 148
+        "__id__": 154
       },
       {
-        "__id__": 150
+        "__id__": 156
       },
       {
-        "__id__": 152
+        "__id__": 158
       }
     ],
     "_prefab": {
-      "__id__": 154
+      "__id__": 160
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3524,11 +3663,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 147
+      "__id__": 153
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 149
+      "__id__": 155
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3552,11 +3691,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 147
+      "__id__": 153
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 151
+      "__id__": 157
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -3597,11 +3736,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 147
+      "__id__": 153
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 153
+      "__id__": 159
     },
     "Value": [],
     "ImageMap": null,
@@ -3634,7 +3773,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 156
+      "__id__": 162
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3662,7 +3801,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 158
+      "__id__": 164
     },
     "_type": 1,
     "_inverted": false,
@@ -3684,7 +3823,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 160
+      "__id__": 166
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -3745,14 +3884,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 163
+        "__id__": 169
       },
       {
-        "__id__": 165
+        "__id__": 171
       }
     ],
     "_prefab": {
-      "__id__": 167
+      "__id__": 173
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -3789,11 +3928,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 162
+      "__id__": 168
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 164
+      "__id__": 170
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3817,11 +3956,11 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 162
+      "__id__": 168
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 166
+      "__id__": 172
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -3945,7 +4084,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 169
+      "__id__": 175
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3973,7 +4112,7 @@
     },
     "_enabled": false,
     "__prefab": {
-      "__id__": 171
+      "__id__": 177
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -4018,7 +4157,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 173
+      "__id__": 179
     },
     "_alignFlags": 0,
     "_target": null,
@@ -4054,7 +4193,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 175
+      "__id__": 181
     },
     "Value": [],
     "ImageMap": [
@@ -4064,9 +4203,7 @@
       {
         "__id__": 15
       },
-      {
-        "__id__": 33
-      },
+      null,
       {
         "__id__": 27
       },
@@ -4077,9 +4214,6 @@
         "__id__": 21
       },
       {
-        "__id__": 45
-      },
-      {
         "__id__": 51
       },
       {
@@ -4088,9 +4222,7 @@
       {
         "__id__": 63
       },
-      {
-        "__id__": 69
-      },
+      null,
       {
         "__id__": 75
       },
@@ -4129,6 +4261,9 @@
       },
       {
         "__id__": 147
+      },
+      {
+        "__id__": 153
       }
     ],
     "_id": ""
