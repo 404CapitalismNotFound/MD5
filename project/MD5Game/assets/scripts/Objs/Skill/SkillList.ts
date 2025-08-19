@@ -13,7 +13,10 @@ import { SkillType } from './SkillType';
  */
 export class SkillList extends Component {
 
+
+    // 普通攻击
     public Attack: Skill
+    // 普通小技能
     public GeneralSkills: Array<Skill>
     // 大招双倍技能伤害
     public UniqueSkill: Skill

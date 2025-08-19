@@ -4,7 +4,6 @@ import { User } from '../Objs/User/User';
 import { SkillType } from '../Objs/Skill/SkillType';
 import { HitMessage, ResponceMessage } from "./Message"
 import { Battle } from '../UI/Battle';
-import { TextSchema } from 'XrFrame/xrFrameSystem';
 
 @ccclass('Engine')
 export class Engine extends Component {
@@ -12,7 +11,7 @@ export class Engine extends Component {
     battleInterval: number = 5//默认值，战斗间隔
     battleTimerId: number
     battleUI: Battle = null
-    private userList: User[] = []//索引是我自己，1是敌人
+    readonly userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
     private thisTurnIndex: number = NaN//主动攻击方
     private thisUser: User = null //主攻方对象
@@ -32,6 +31,7 @@ export class Engine extends Component {
             return Engine._instance;
         }
         Engine._instance = this;
+        console.log("Engine初始化")
     }
 
     // 初始化战斗数据
@@ -52,10 +52,6 @@ export class Engine extends Component {
         }
         // 重置回合数
         this.turn = 1;
-        this.initUI()
-    }
-
-    initUI() {
         this.battleUI.setMyName(this.userList[0].userName)
         // this.battleUI.setEnemyName(this.userList[1].userName)
     }

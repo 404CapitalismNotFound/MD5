@@ -9,6 +9,12 @@ export class WXManager extends Component {
     login: boolean = false
     faceIcon: string
     nickName: string
+
+    // constructor(){
+    //     super()
+    //     console.log("WXManager初始化")
+    // }
+
     protected onLoad(): void {
 
     }

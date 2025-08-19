@@ -20,10 +20,13 @@ export class User {
     dodgeProbability: number//闪避概率
     reflectProbability: number//反弹概率
     reflectRatio: number//反弹比例
+
     faction: string//阵营
     public skillList: SkillList//技能表
 
     private _userNameMD5: string
+
+    private CombatPower:number
 
     //初始化函数调用一次即可，直接写入构造函数
     constructor(userName: string, UserFaction: Faction = Faction.Su) {
@@ -62,6 +65,11 @@ export class User {
         this.priority = parseInt(this._userNameMD5.slice(17, 19), 16)
 
         this.skillList = new SkillList(UserFaction, this.toEnemyHurt, this.normalAttackHurt);
+
+        /**
+         * 战斗力 = 血量/（1-减伤比例）+ 普攻伤害 + 技能伤害 
+         */
+        this.CombatPower = this.originBlood/(1-this.reflectProbability) + this.normalAttackHurt + this.toEnemyHurt*(1-this.skillRatio)
     }
 
 

@@ -1,5 +1,7 @@
-import { _decorator, Animation, Component, Label, Node, ParticleSystem, ParticleSystem2D, Prefab, ProgressBar, RichText, Script, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Animation, Component, director, find, Label, Node, ParticleSystem, ParticleSystem2D, Prefab, ProgressBar, RichText, Script, Sprite, SpriteFrame } from 'cc';
 import { SkillImageContronel } from './SkillImageContronel';
+import { Engine } from '../Engine/Engine';
+import { GameManager } from '../GameManager';
 const { ccclass, property } = _decorator;
 
 
@@ -82,13 +84,17 @@ export class BattleIndexManager extends Component {
     enemyAnimationIndex = null
     myStatueBarIndex: StatueIndex = null
     emeyStatueBarIndex: StatueIndex = null
+    
+    engine:Engine = null
 
     onLoad() {
+        this.engine = GameManager.engine
+        // this.engine = find("Manager").getComponent(GameManager).engine
         this.myStatueBarIndex = new StatueIndex(this.myStatueNode)
         // this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
-        for (const e of this.SkillPanel) {
-            e.getComponent(SkillImageContronel).select("战术核弹")
+        for (const e of this.SkillPanel){
+            console.log(this.engine)
+            e.getComponent(SkillImageContronel).select(this.engine.userList[0])
         }
     }
 }
-

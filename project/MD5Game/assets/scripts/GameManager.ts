@@ -1,4 +1,4 @@
-import { _decorator, Component, director, find, Node, Prefab } from 'cc';
+import { _decorator, Component, director, find, Game, Node, Prefab } from 'cc';
 // import { AudioMgr } from "./AudioPlayer";
 import { Engine } from './Engine/Engine';
 import { User } from './Objs/User/User';
@@ -16,11 +16,24 @@ export class GameManager extends Component {
     wxManager:WXManager = null
     battleUI:Battle=null
 
-    engine = new Engine()
+    public static engine = null
 
     protected onLoad(): void {
         //注册为常驻节点
         director.addPersistRootNode(this.node)
+        // GameManager._Engine = this.engine
+        console.log("GameManager的onLaad")
+    }
+
+    constructor(){
+        super()
+        if(GameManager.engine != null) {
+            GameManager.engine = new Engine()
+        }else{
+            GameManager.engine = GameManager.engine
+        }
+
+        console.log("GameManager初始化")
     }
 
     showLoginTitle(){
@@ -29,8 +42,8 @@ export class GameManager extends Component {
 
     changeSceneToBattle(){
         director.loadScene("Battle",()=>{
-            this.engine.initBattle(new User(!this.wxManager.nickName?"q":this.wxManager.nickName),new User(!RandomName.getName()?"w":RandomName.getName()),find("Canvas").getComponent(Battle))
-            this.engine.startBattle()
+            GameManager.engine.initBattle(new User(!this.wxManager.nickName?"q":this.wxManager.nickName),new User(!RandomName.getName()?"w":RandomName.getName()),find("Canvas").getComponent(Battle))
+            GameManager.engine.startBattle()
             this.battleUI = find("Canvas").getComponent(Battle)
             this.battleUI.setUiInit(this.wxManager.faceIcon,this.wxManager.nickName)
         })
