@@ -4,8 +4,8 @@ const { ccclass, property } = _decorator;
 @ccclass('SkillImageContronel')
 export class SkillImageContronel extends Component {
 
-    @property([Sprite])
-    Value:Sprite[] = []
+    @property([Node])
+    Value:Node[] = []
 
 
     @property([Node])
@@ -23,9 +23,11 @@ export class SkillImageContronel extends Component {
         console.log("正在选择技能图片")
         var a = this.ImageMap[3]
         a.active = true
-        a.setSiblingIndex(this.node.parent.children.length - 1)
+        const b = a.getComponent(Sprite)
+        console.log(b.spriteFrame.name)
+        
+        // a.setSiblingIndex(this.node.parent.children.length - 1)
         
     }
 }
-
 
