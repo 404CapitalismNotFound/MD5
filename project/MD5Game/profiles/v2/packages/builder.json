@@ -1,0 +1,146 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 1
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": false
+    },
+    "buildPath": "project://build",
+    "outputName": "wechatgame-001",
+    "mainBundleCompressionType": "subpackage",
+    "platform": "wechatgame",
+    "startScene": "77a83860-0492-4b22-9b55-a979cb74b5be",
+    "md5Cache": false,
+    "skipCompressTexture": false,
+    "experimentalEraseModules": false,
+    "name": "MD5Game",
+    "server": "",
+    "engineModulesConfigKey": "defaultConfig",
+    "debug": false,
+    "buildMode": "normal",
+    "mangleProperties": false,
+    "sourceMaps": false,
+    "overwriteProjectSettings": {
+      "macroConfig": {
+        "cleanupImageCache": "on"
+      },
+      "includeModules": {
+        "physics": "inherit-project-setting",
+        "physics-2d": "inherit-project-setting",
+        "gfx-webgl2": "off"
+      }
+    },
+    "nativeCodeBundleMode": "wasm",
+    "startSceneAssetBundle": false,
+    "bundleConfigs": [],
+    "inlineEnum": false,
+    "useBuiltinServer": false,
+    "md5CacheOptions": {
+      "excludes": [],
+      "includes": [],
+      "replaceOnly": [],
+      "handleTemplateMd5Link": true
+    },
+    "mainBundleIsRemote": false,
+    "useSplashScreen": true,
+    "bundleCommonChunk": false,
+    "packAutoAtlas": true,
+    "taskName": "wechatgame",
+    "scenes": [
+      {
+        "url": "db://assets/Scenes/Battle.scene",
+        "uuid": "fb969c2a-bd5c-4191-83da-7125bcd616c3"
+      },
+      {
+        "url": "db://assets/Scenes/RankList.scene",
+        "uuid": "e52faade-4676-4cfd-aaaf-13b5155ba39a"
+      },
+      {
+        "url": "db://assets/Scenes/StartMenu.scene",
+        "uuid": "77a83860-0492-4b22-9b55-a979cb74b5be"
+      }
+    ],
+    "wasmCompressionMode": false
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1754544666042": {
+        "type": "build",
+        "id": "1754544666042",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2025-8-8 17:08:24 build success in 12 s!",
+        "detailMessage": "// ---- build task wechatgame：onAfterBuild ----\r",
+        "options": {
+          "name": "MD5Game",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "on"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": false,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "subpackage",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "77a83860-0492-4b22-9b55-a979cb74b5be",
+          "outputName": "wechatgame-001",
+          "taskName": "wechatgame",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/Battle.scene",
+              "uuid": "fb969c2a-bd5c-4191-83da-7125bcd616c3"
+            },
+            {
+              "url": "db://assets/Scenes/RankList.scene",
+              "uuid": "e52faade-4676-4cfd-aaaf-13b5155ba39a"
+            },
+            {
+              "url": "db://assets/Scenes/StartMenu.scene",
+              "uuid": "77a83860-0492-4b22-9b55-a979cb74b5be"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/wechatgame2025-8-8 11-46.log"
+        },
+        "time": "2025-8-8 17:08:11",
+        "dirty": false
+      }
+    }
+  }
+}
