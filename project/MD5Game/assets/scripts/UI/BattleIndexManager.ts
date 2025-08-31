@@ -93,7 +93,7 @@ export class BattleIndexManager extends Component {
         this.myStatueBarIndex = new StatueIndex(this.myStatueNode)
         // this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
         for (const e of this.SkillPanel){
-            console.log(this.engine)
+            // console.log(this.engine)
             e.getComponent(SkillImageContronel).select(this.engine.userList[0])
         }
     }

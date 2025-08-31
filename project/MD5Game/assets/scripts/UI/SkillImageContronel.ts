@@ -24,56 +24,33 @@ export class SkillImageContronel extends Component {
     }
 
     select(user: User) {
-        if (!(user instanceof User)) {
-            console.log("user 不是 User 的实例");
-            return;
-        }
-        console.log("正在选择技能图片")
-        
-        let min_index: number
-        let max_index: number
-        console.log("正在选择技能图片")
-        switch (user.faction) {
-            case Faction.Su:
-                min_index = 0
-                max_index = 5
-                break;
-            case Faction.Meng:
-                min_index = 6
-                max_index = 11
-                break;
-            case Faction.Yuri:
-                min_index = 12
-                max_index = 17
-                break;
-            case Faction.FenFeng:
-                min_index = 18
-                max_index = 23
-                break;
-            default:
-                console.log("未正确识别阵营")
-                break;
-        }
-        
-        let SkillName = null
-        console.log("大招：")
-        console.log(user.skillList.UniqueSkill.skillName)
-        for(let i = 0; i < 3 ;i++) {
-            console.log(user.skillList.GeneralSkills[i].skillName)
-        }
-        console.log
-        for (var i = 0; i < 4; i++) {
-            for (var j = min_index; j < max_index; j++) {
-                var a = this.ImageMap[i]
-                const b = a.getComponent(Sprite)
-                if (i == 0 && b.spriteFrame.name == user.skillList.UniqueSkill.skillName) {
-                    a.active = true
-                    continue
-                }else if (b.spriteFrame.name == SkillName) {
-                    a.active = true
-                }
+        console.log(user.faction)
+        console.log(Faction.Su)
+        if(user !== null) {
+            var min_index = 0;
+            var max_index = 0;
+            switch(user.faction){
+                case Faction.Su:
+                    min_index = 0;
+                    max_index = 6;
+                    break;
+                case Faction.Meng:
+                    min_index = 7;
+                    max_index = 12;
+                    break;
+                case Faction.Yuri:
+                    min_index = 13;
+                    max_index = 18;
+                    break;
+                case Faction.FenFeng:
+                    min_index = 19;
+                    max_index = 24;
+                    break;
+                default:
+                    console.log("没有正确识别阵营")
             }
-        }
+            
+        }   
     }
 }
 

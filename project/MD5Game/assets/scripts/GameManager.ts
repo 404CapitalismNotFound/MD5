@@ -27,11 +27,10 @@ export class GameManager extends Component {
 
     constructor(){
         super()
-        if(GameManager.engine != null) {
+        if(GameManager.engine === null) {
             GameManager.engine = new Engine()
-        }else{
-            GameManager.engine = GameManager.engine
         }
+        
 
         console.log("GameManager初始化")
     }
