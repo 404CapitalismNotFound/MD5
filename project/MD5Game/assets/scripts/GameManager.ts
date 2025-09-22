@@ -16,11 +16,19 @@ export class GameManager extends Component {
     wxManager:WXManager = null
     battleUI:Battle=null
 
-    engine = new Engine()
+    public static engine = null;
+
+    constructor(){
+        super();
+        if(GameManager.engine === null) {
+            GameManager.engine = new Engine;
+        }
+    }
 
     protected onLoad(): void {
         //注册为常驻节点
-        director.addPersistRootNode(this.node)
+        director.addPersistRootNode(this.node);
+        director.addPersistRootNode(GameManager.engine);
     }
 
     showLoginTitle(){
@@ -29,8 +37,8 @@ export class GameManager extends Component {
 
     changeSceneToBattle(){
         director.loadScene("Battle",()=>{
-            this.engine.initBattle(new User(!this.wxManager.nickName?"q":this.wxManager.nickName),new User(!RandomName.getName()?"w":RandomName.getName()),find("Canvas").getComponent(Battle))
-            this.engine.startBattle()
+            GameManager.engine.initBattle(new User(!this.wxManager.nickName?"q":this.wxManager.nickName),new User(!RandomName.getName()?"w":RandomName.getName()),find("Canvas").getComponent(Battle))
+            GameManager.engine.startBattle()
             this.battleUI = find("Canvas").getComponent(Battle)
             this.battleUI.setUiInit(this.wxManager.faceIcon,this.wxManager.nickName)
         })
