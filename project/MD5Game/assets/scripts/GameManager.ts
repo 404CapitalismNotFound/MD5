@@ -20,9 +20,7 @@ export class GameManager extends Component {
 
     constructor(){
         super();
-        if(GameManager.engine === null) {
-            GameManager.engine = new Engine;
-        }
+        GameManager.engine = new Engine();
     }
 
     protected onLoad(): void {
@@ -37,10 +35,15 @@ export class GameManager extends Component {
 
     changeSceneToBattle(){
         director.loadScene("Battle",()=>{
-            GameManager.engine.initBattle(new User(!this.wxManager.nickName?"q":this.wxManager.nickName),new User(!RandomName.getName()?"w":RandomName.getName()),find("Canvas").getComponent(Battle))
+            // 初始化两个玩家，一个根据玩家名进行设置，另一个则随机用户名
+            GameManager.engine.initBattle(new User( !this.wxManager.nickName?"q":this.wxManager.nickName), new User(!RandomName.getName()?"w":RandomName.getName()), find("Canvas").getComponent(Battle))
+            let PlayerName:string = this.wxManager.nickName;
             GameManager.engine.startBattle()
             this.battleUI = find("Canvas").getComponent(Battle)
-            this.battleUI.setUiInit(this.wxManager.faceIcon,this.wxManager.nickName)
+            // this.battleUI.setUiInit(this.wxManager.faceIcon, this.wxManager.nickName)
+            console.log("**********此处为GameManager中的changeSceneToBattle")
+            console.log(PlayerName)
+            this.battleUI.setUiInit(this.wxManager.faceIcon, PlayerName)
         })
     }
 

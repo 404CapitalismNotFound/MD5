@@ -19,7 +19,7 @@ export class Engine extends Component {
     private anotherUser: User = null //主攻方对象
 
     // 单例实例
-    private static _instance: Engine = null;
+    // public static _instance: Engine = null;
 
     getThisUser():User {
         return this.thisUser
@@ -28,10 +28,10 @@ export class Engine extends Component {
     constructor() {
         super()//初始化父类
         // 确保只有一个实例
-        if (Engine._instance) {
-            return Engine._instance;
-        }
-        Engine._instance = this;
+        // if (Engine._instance) {
+        //     return Engine._instance;
+        // }
+        // Engine._instance = this;
     }
 
     // 初始化战斗数据
@@ -235,5 +235,3 @@ export class Engine extends Component {
         },this.battleInterval/2*1000)
     }
 }
-
-

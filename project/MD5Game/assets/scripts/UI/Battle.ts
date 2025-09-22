@@ -96,14 +96,14 @@ export class Battle extends Component {
         this.battleIndexManager.gameOverLayer.active = true
     }
 
-    setUiInit(faceUrl:string,name:string){
+    setUiInit(faceUrl:string, name:string){
         this.nameLabel.getComponent(Label).string = name
         let spire = this.avatar.getComponent(Sprite);
         assetManager.loadRemote<ImageAsset>(faceUrl + "?aaa=aa.jpg", { ext: '.jpg' }, (err, imageAsset) => {
             if (err) {
                 return console.error(err.message);
             }
-
+            
             let sp = new SpriteFrame();
             let texture = new Texture2D();
             texture.image = imageAsset;
