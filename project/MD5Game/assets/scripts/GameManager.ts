@@ -16,17 +16,18 @@ export class GameManager extends Component {
     wxManager:WXManager = null
     battleUI:Battle=null
 
-    public static engine = null;
-
-    constructor(){
-        super();
-        GameManager.engine = new Engine();
-    }
+    public static engine:Engine = new Engine();
+    public static _instrenst:GameManager = null;
 
     protected onLoad(): void {
         //注册为常驻节点
         director.addPersistRootNode(this.node);
-        director.addPersistRootNode(GameManager.engine);
+        // 将engine注册为常驻节点
+        if(!GameManager.engine){
+            GameManager.engine = new Engine();
+        }
+        director.addPersistRootNode(GameManager.engine.node);
+        GameManager._instrenst = this
     }
 
     showLoginTitle(){

@@ -12,7 +12,7 @@ export class Engine extends Component {
     battleInterval: number = 5//默认值，战斗间隔
     battleTimerId: number
     battleUI: Battle = null
-    private userList: User[] = []//索引是我自己，1是敌人
+    public userList: User[] = []//索引是我自己，1是敌人
     private turn: number = 1
     private thisTurnIndex: number = NaN//主动攻击方
     private thisUser: User = null //主攻方对象
@@ -23,6 +23,14 @@ export class Engine extends Component {
 
     getThisUser():User {
         return this.thisUser
+    }
+    /**
+     * 
+     * @param index 玩家在数组中的索引值
+     * @returns 返回指定的玩家
+     */
+    getUser(index:number):User {
+        return this.userList[index];
     }
 
     constructor() {

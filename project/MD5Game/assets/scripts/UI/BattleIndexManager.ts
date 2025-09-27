@@ -1,5 +1,7 @@
-import { _decorator, Animation, Component, Label, Node, ParticleSystem, ParticleSystem2D, Prefab, ProgressBar, RichText, Script, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Animation, Component, director, Label, Node, ParticleSystem, ParticleSystem2D, Prefab, ProgressBar, RichText, Script, Sprite, SpriteFrame } from 'cc';
 import { SkillImageContronel } from './SkillImageContronel';
+import { GameManager } from '../GameManager';
+import { Engine } from '../Engine/Engine';
 const { ccclass, property } = _decorator;
 
 
@@ -40,10 +42,9 @@ class StatueIndex {
             });
             return;
         }
-        // else console.log(23333)
-
 
         const skills = StatueNode.getChildByName("Skills")
+        // const skills1 = director.;
         if (skills) {
             for (let i = 0; i < skills.children.length; i++) {
                 const skillNode = skills.children[i]
@@ -69,9 +70,16 @@ export class BattleIndexManager extends Component {
     battleInfo: RichText = null
     @property([ParticleSystem2D])
     myPaticleIndex = []
-
     @property([Node])
     SkillPanel:Node[] = [];
+    @property([Node])
+    Skill1:Node[] = []
+    // @property([Node])
+    // Skill2:Node[] = []
+    // @property([Node])
+    // Skill3:Node[] = []
+    // @property([Node])
+    // Skill4:Node[] = []
 
 
     // @property([ParticleSystem2D])
@@ -84,11 +92,8 @@ export class BattleIndexManager extends Component {
     emeyStatueBarIndex: StatueIndex = null
 
     onLoad() {
-        this.myStatueBarIndex = new StatueIndex(this.myStatueNode)
-        // this.emeyStatueBarIndex = new StatueIndex(this.emeyStatueNode)
-        for (const e of this.SkillPanel) {
-            e.getComponent(SkillImageContronel).select("战术核弹")
-        }
+        console.log("玩家技能名")
+        console.log(GameManager.engine.userList[0].skillList.GeneralSkills[0].skillName)
+        // this.Skill1[3].active = true
     }
 }
-
